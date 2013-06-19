@@ -1,0 +1,28 @@
+/*
+ * Settings
+ */
+@import url(//fonts.googleapis.com/css?family=Lato:300,400,700,400italic|Merriweather:400,700);
+
+$base-font-size:			15px!default;
+$base-line-height:		23px!default;
+
+$brand-face:					"Merriweather",sans-serif!default;
+$default-face:				"Lato",sans-serif!default;
+
+$bgrnd-color:					#F9F9F9!default;
+$default-font-color:	#333333!default;
+
+$base-spacing-unit:		$base-line-height!default;
+$half-spacing-unit:		$base-spacing-unit / 2!default;
+$line-height-ratio:		$base-line-height / $base-font-size;
+
+// Colors
+$tan: #f9ebdc;
+$teal: #09b7aa;
+$orange: #fca659;
+$white: #fff;
+$almostWhite: #f6f6f6;
+$dark: #444;
+$black: #111;
+
+// Effects
