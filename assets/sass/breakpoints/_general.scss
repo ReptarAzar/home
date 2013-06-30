@@ -1,14 +1,23 @@
 /*
  * Header
  */
+
  .index-header-wrapper {
+ 	overflow:hidden;
  	.page-head{
  		background-color:transparent;
+ 	}
+ 	.page-head .menu-btn .burger-bar{
+ 		background-color: #f5f5f5;
  	}
  }
  .header-wrapper {
  	.page-head{
- 		background-color:rgba(50, 50, 50, 0.85);
+ 		// background-color:rgba(50, 50, 50, 0.85);
+ 	}
+ 	.page-head .menu-btn .burger-bar{
+ 		background-color: #444;
+ 		text-shadow:rgba(0,0,0,0) 0 0 0;
  	}
  }
 .page-head{
@@ -120,9 +129,11 @@
 				&.page-links {
 					padding-top: 10px;
 					a{
+						text-shadow:rgba(0,0,0,0.50) 0 3px 0;
 						padding:0 5px;
 						color: $tan;
 						@include font-size(24px);
+
 					}
 				}
 				&.social-links {
@@ -156,7 +167,7 @@
 	right:auto;
 }
 
-.index-item{
+.mantra{
 	width:100%;
 	position:relative;
 	padding:20px;
@@ -178,17 +189,17 @@
 
 
 .index-wrap{
-	overflow-y:scroll;
+	height:	1000px;
 
 	.perception{
-		height:1000px;
+		height:100%;
 		background-color:$teal;
 		// text-transform: uppercase;
 		p{
 			padding:0;
 			left: 25%;
 			position: absolute;
-			top:255px;
+			top:265px;
 			z-index: 1;
 		}
 		.perception-svg{
@@ -200,7 +211,7 @@
 		}
 	}
 	.dahl{
-		height:1000px;
+		height:100%;
 		background-color:$orange;
 		p {
 			padding:0;
@@ -214,13 +225,13 @@
 		}
 	}
 	.delightful{
-		height:600px;
+		height:100%;
 		background-color:$tan;
 		p {
 			z-index: 2;
 			padding:0;
 			color:$black;
-			// text-transform: uppercase;
+			text-shadow: rgba(0,0,0,0) 0 3px 0;
 			&.make {
 				padding-top:200px;
 			}
@@ -228,6 +239,7 @@
 				padding-top:140px;
 				font-size: 13px;
 				text-transform: none;
+
 			}
 		}
 		.delightful-svg {
@@ -239,29 +251,22 @@
 		}
 	}
 	.dent{
-		height:1000px;
+		height:100%;
 		background-color:$dark;
 	}
 	.do-well-good{
-		height:1000px;
+		height:100%;
 		background-color:$almostWhite;
 		min-width: 630px;
 		width:100%;
 		margin:0 auto;
 
-		p {
-			color:$black;
-			// text-transform: uppercase;
-			font-size: 16px;
-			text-align: center;
-			padding-top:400px;
-		}
 		.circles{
-			position: absolute;
-			left: 28%;
-			padding-top: 245px;
+			position: relative;
+			padding-top: 150px;
 
 			.good-circle, .well-circle{
+				position: absolute;
 				width: 340px;
 				height: 340px;
 				border-radius: 340px;
@@ -271,18 +276,30 @@
 				float: left;
 			}
 			.well-circle{
-				position: relative;
-				left: 5%;
+				left: 1px;
 			}		
 			.good-circle{
-				position: relative;
-				left: -5%;
+				left: 250px;
+			}
+			p {
+				color:$black;
+				position: absolute;
+				left:169px;
+				width: 200px;
+				top:-96px;
+				font-size: 16px;
+				text-align: center;
+				padding-top:400px;
 			}
 		}
 	}
 }
 
-
+.refresh {
+	position: absolute;
+	right: 50px;
+	bottom: 0;
+}
 
 
 /*

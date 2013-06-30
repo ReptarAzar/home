@@ -1,7 +1,7 @@
 ---
 title: "An example Markdown post"
 date: 2013-06-11 00:00
-published: true
+published: false
 tags: 
 - Example
 - Markdown

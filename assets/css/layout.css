@@ -30,11 +30,16 @@
 /*
  * Header
  */
-.index-header-wrapper .page-head {
-  background-color: transparent; }
+.index-header-wrapper {
+  overflow: hidden; }
+  .index-header-wrapper .page-head {
+    background-color: transparent; }
+  .index-header-wrapper .page-head .menu-btn .burger-bar {
+    background-color: #f5f5f5; }
 
-.header-wrapper .page-head {
-  background-color: rgba(50, 50, 50, 0.85); }
+.header-wrapper .page-head .menu-btn .burger-bar {
+  background-color: #444;
+  text-shadow: rgba(0, 0, 0, 0) 0 0 0; }
 
 .page-head {
   position: fixed;
@@ -124,6 +129,7 @@
     .page-head nav ul li.page-links {
       padding-top: 10px; }
       .page-head nav ul li.page-links a {
+        text-shadow: rgba(0, 0, 0, 0.5) 0 3px 0;
         padding: 0 5px;
         color: #f9ebdc;
         font-size: 24px;
@@ -149,14 +155,14 @@
   top: .8em;
   right: auto; }
 
-.index-item {
+.mantra {
   width: 100%;
   position: relative;
   padding: 20px;
   margin: 0;
   top: 0;
   left: 0; }
-  .index-item p {
+  .mantra p {
     font-size: 24px;
     font-weight: 300;
     min-width: 250px;
@@ -168,15 +174,15 @@
     text-shadow: rgba(0, 0, 0, 0.2) 0 3px 0; }
 
 .index-wrap {
-  overflow-y: scroll; }
+  height: 1000px; }
   .index-wrap .perception {
-    height: 1000px;
+    height: 100%;
     background-color: #09b7aa; }
     .index-wrap .perception p {
       padding: 0;
       left: 25%;
       position: absolute;
-      top: 255px;
+      top: 265px;
       z-index: 1; }
     .index-wrap .perception .perception-svg {
       display: block;
@@ -185,7 +191,7 @@
       left: 25%;
       z-index: 0; }
   .index-wrap .dahl {
-    height: 1000px;
+    height: 100%;
     background-color: #fca659; }
     .index-wrap .dahl p {
       padding: 0;
@@ -196,12 +202,13 @@
         color: white;
         text-transform: none; }
   .index-wrap .delightful {
-    height: 600px;
+    height: 100%;
     background-color: #f9ebdc; }
     .index-wrap .delightful p {
       z-index: 2;
       padding: 0;
-      color: #111111; }
+      color: #111111;
+      text-shadow: rgba(0, 0, 0, 0) 0 3px 0; }
       .index-wrap .delightful p.make {
         padding-top: 200px; }
       .index-wrap .delightful p.playful {
@@ -215,24 +222,19 @@
       right: 15%;
       z-index: 0; }
   .index-wrap .dent {
-    height: 1000px;
+    height: 100%;
     background-color: #444444; }
   .index-wrap .do-well-good {
-    height: 1000px;
+    height: 100%;
     background-color: #f6f6f6;
     min-width: 630px;
     width: 100%;
     margin: 0 auto; }
-    .index-wrap .do-well-good p {
-      color: #111111;
-      font-size: 16px;
-      text-align: center;
-      padding-top: 400px; }
     .index-wrap .do-well-good .circles {
-      position: absolute;
-      left: 28%;
-      padding-top: 245px; }
+      position: relative;
+      padding-top: 150px; }
       .index-wrap .do-well-good .circles .good-circle, .index-wrap .do-well-good .circles .well-circle {
+        position: absolute;
         width: 340px;
         height: 340px;
         border-radius: 340px;
@@ -241,11 +243,23 @@
         background-color: rgba(68, 68, 68, 0.1);
         float: left; }
       .index-wrap .do-well-good .circles .well-circle {
-        position: relative;
-        left: 5%; }
+        left: 1px; }
       .index-wrap .do-well-good .circles .good-circle {
-        position: relative;
-        left: -5%; }
+        left: 250px; }
+      .index-wrap .do-well-good .circles p {
+        color: #111111;
+        position: absolute;
+        left: 169px;
+        width: 200px;
+        top: -96px;
+        font-size: 16px;
+        text-align: center;
+        padding-top: 400px; }
+
+.refresh {
+  position: absolute;
+  right: 50px;
+  bottom: 0; }
 
 /*
  * Content
