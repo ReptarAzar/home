@@ -156,9 +156,10 @@
   right: auto; }
 
 .mantra {
+  overflow: hidden;
   width: 100%;
   position: relative;
-  padding: 20px;
+  padding: 0;
   margin: 0;
   top: 0;
   left: 0; }
@@ -174,7 +175,9 @@
     text-shadow: rgba(0, 0, 0, 0.2) 0 3px 0; }
 
 .index-wrap {
-  height: 1000px; }
+  position: absolute;
+  height: 100%;
+  width: 100%; }
   .index-wrap .perception {
     height: 100%;
     background-color: #09b7aa; }
@@ -182,12 +185,12 @@
       padding: 0;
       left: 25%;
       position: absolute;
-      top: 265px;
+      top: 340px;
       z-index: 1; }
     .index-wrap .perception .perception-svg {
       display: block;
       position: absolute;
-      top: 16%;
+      top: 240px;
       left: 25%;
       z-index: 0; }
   .index-wrap .dahl {
@@ -227,12 +230,11 @@
   .index-wrap .do-well-good {
     height: 100%;
     background-color: #f6f6f6;
-    min-width: 630px;
-    width: 100%;
-    margin: 0 auto; }
+    width: 100%; }
     .index-wrap .do-well-good .circles {
-      position: relative;
-      padding-top: 150px; }
+      position: absolute;
+      left: 50%;
+      top: 15%; }
       .index-wrap .do-well-good .circles .good-circle, .index-wrap .do-well-good .circles .well-circle {
         position: absolute;
         width: 340px;
@@ -243,15 +245,15 @@
         background-color: rgba(68, 68, 68, 0.1);
         float: left; }
       .index-wrap .do-well-good .circles .well-circle {
-        left: 1px; }
+        left: -250px; }
       .index-wrap .do-well-good .circles .good-circle {
-        left: 250px; }
+        left: 20px; }
       .index-wrap .do-well-good .circles p {
         color: #111111;
         position: absolute;
-        left: 169px;
+        left: -66px;
         width: 200px;
-        top: -96px;
+        top: -244px;
         font-size: 16px;
         text-align: center;
         padding-top: 400px; }

@@ -168,9 +168,10 @@
 }
 
 .mantra{
+	overflow: hidden;
 	width:100%;
 	position:relative;
-	padding:20px;
+	padding:0;
 	margin:0;
 	top:0;
 	left:0;
@@ -189,7 +190,9 @@
 
 
 .index-wrap{
-	height:	1000px;
+	position: absolute;
+	height:	100%;
+	width: 100%;
 
 	.perception{
 		height:100%;
@@ -199,13 +202,13 @@
 			padding:0;
 			left: 25%;
 			position: absolute;
-			top:265px;
+			top:340px;
 			z-index: 1;
 		}
 		.perception-svg{
 			display:block; 
 			position: absolute;
-			top: 16%;
+			top: 240px;
 			left: 25%;
 			z-index: 0;
 		}
@@ -257,13 +260,12 @@
 	.do-well-good{
 		height:100%;
 		background-color:$almostWhite;
-		min-width: 630px;
 		width:100%;
-		margin:0 auto;
 
 		.circles{
-			position: relative;
-			padding-top: 150px;
+			position: absolute;
+			left: 50%;
+			top: 15%;
 
 			.good-circle, .well-circle{
 				position: absolute;
@@ -276,17 +278,17 @@
 				float: left;
 			}
 			.well-circle{
-				left: 1px;
+				left: -250px;
 			}		
 			.good-circle{
-				left: 250px;
+				left: 20px;
 			}
 			p {
 				color:$black;
 				position: absolute;
-				left:169px;
+				left:-66px;
 				width: 200px;
-				top:-96px;
+				top:-244px;
 				font-size: 16px;
 				text-align: center;
 				padding-top:400px;
