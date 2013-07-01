@@ -317,6 +317,12 @@ article{
 			clear:both;
 			line-height: 2em;
 			padding-top:1em;
+			span {
+				color: #ccc;
+				font-size: 12px;
+				font-style: italic;
+				float: right;
+			}
 		}
 		dl {
 			width: 33.3333%;
@@ -325,6 +331,20 @@ article{
 			&:last-child {
 			padding-bottom:3em;		
 			}
+			a{	
+				font-size: .85em;
+				margin: 0;
+				padding: 0.2em 0 0;
+				line-height: .5em;
+				&:link,&:visited{
+					color:$black;
+				}
+				&:hover{
+					text-decoration: none;
+					color:$orange;
+				}	
+			}
+			
 		}
 
 		dt {
@@ -335,7 +355,15 @@ article{
 			border-bottom: #ccc double 4px;
 		}
 		dd {
-			line-height: 2em;
+			line-height: 1em;
+			padding: .5em 0 .125em;
+			p {
+				font-size: .5em;
+				color: #999;
+				padding: .5em 0 0;
+				margin: 0 0 5px;
+				line-height: 1.2em;
+			}
 		}
 	}
 }
@@ -419,6 +447,7 @@ h3{
  */
 .page-foot{
 	text-align:left;
+	clear: both;
 
 	>span{
 		float:right;

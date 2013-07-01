@@ -273,12 +273,27 @@ article {
     clear: both;
     line-height: 2em;
     padding-top: 1em; }
+    article.resources h3 span {
+      color: #ccc;
+      font-size: 12px;
+      font-style: italic;
+      float: right; }
   article.resources dl {
     width: 33.3333%;
     float: left;
     padding-right: 2%; }
     article.resources dl:last-child {
       padding-bottom: 3em; }
+    article.resources dl a {
+      font-size: .85em;
+      margin: 0;
+      padding: 0.2em 0 0;
+      line-height: .5em; }
+      article.resources dl a:link, article.resources dl a:visited {
+        color: #111111; }
+      article.resources dl a:hover {
+        text-decoration: none;
+        color: #fca659; }
   article.resources dt {
     line-height: 2.25em;
     font-weight: 1.25em;
@@ -286,7 +301,14 @@ article {
     color: #09b7aa;
     border-bottom: #ccc double 4px; }
   article.resources dd {
-    line-height: 2em; }
+    line-height: 1em;
+    padding: .5em 0 .125em; }
+    article.resources dd p {
+      font-size: .5em;
+      color: #999;
+      padding: .5em 0 0;
+      margin: 0 0 5px;
+      line-height: 1.2em; }
 
 p {
   font-size: 18px;
@@ -372,7 +394,8 @@ h3 {
  * Footer
  */
 .page-foot {
-  text-align: left; }
+  text-align: left;
+  clear: both; }
   .page-foot > span {
     float: right;
     text-align: left;
