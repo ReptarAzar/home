@@ -311,6 +311,33 @@ article{
 	hr{
 		width:50%;
 	}
+	&.resources{
+		h3 {
+			border-bottom: #ccc solid 1px;
+			clear:both;
+			line-height: 2em;
+			padding-top:1em;
+		}
+		dl {
+			width: 33.3333%;
+			float: left;
+			padding-right:2%;
+			&:last-child {
+			padding-bottom:3em;		
+			}
+		}
+
+		dt {
+			line-height: 2.25em;
+			font-weight: 1.25em;
+			font-weight: bold;
+			color:$teal;
+			border-bottom: #ccc double 4px;
+		}
+		dd {
+			line-height: 2em;
+		}
+	}
 }
 
 p{
