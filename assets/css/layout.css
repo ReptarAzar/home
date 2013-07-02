@@ -233,7 +233,7 @@
     width: 100%; }
     .index-wrap .do-well-good .circles {
       position: absolute;
-      left: 50%;
+      left: 40%;
       top: 15%; }
       .index-wrap .do-well-good .circles .good-circle, .index-wrap .do-well-good .circles .well-circle {
         position: absolute;
@@ -270,6 +270,9 @@ article {
   margin-top: 3em; }
   article hr {
     width: 50%; }
+  article.about p {
+    margin: 0.6em 0 0;
+    padding: 0; }
   article.resources h3 {
     border-bottom: #ccc solid 1px;
     clear: both;
@@ -342,7 +345,7 @@ blockquote {
   color: #fff;
   text-decoration: none;
   padding: 0 .8em;
-  background-color: #46b0db;
+  background-color: #09b7aa;
   display: table;
   margin: 1.5em 0 0 0;
   width: auto;
@@ -388,8 +391,8 @@ h3 {
   text-align: center; }
   .paging .more:hover {
     background-color: transparent;
-    border: 1px dotted #46b0db;
-    color: #46b0db;
+    border: 1px dotted #09b7aa;
+    color: #09b7aa;
     text-decoration: none; }
 
 /*
