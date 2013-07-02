@@ -1,0 +1,217 @@
+<!doctype html>
+<!-- design & development by
+
+ .d8888b.  888              d8b                      d8888                           
+d88P  Y88b 888              Y8P                     d88888                           
+888    888 888                                     d88P888                           
+888        88888b.  888d888 888 .d8888b           d88P 888 88888888  8888b.  888d888 
+888        888 "88b 888P"   888 88K              d88P  888    d88P      "88b 888P"   
+888    888 888  888 888     888 "Y8888b.        d88P   888   d88P   .d888888 888     
+Y88b  d88P 888  888 888     888      X88       d8888888888  d88P    888  888 888     
+ "Y8888P"  888  888 888     888  88888P'      d88P     888 88888888 "Y888888 888    -->
+
+<html lang="en">
+    <head>
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="alternate" type="application/rss+xml" href="rss.html" title="RSS Feed">
+        <title>ChristopherAzar.com</title>
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link rel="stylesheet" href="assets/css/layout.min.css" media="(min-width:1em)">
+        <script src="assets/js/modernizr.min.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="index-header-wrapper">
+                <header class="page-head">
+	<nav>
+		<p class="logo">&amp;</p>
+		
+		<div class="menu">
+			<button class="menu-btn">
+				<span class="burger-bar"></span>
+				<span class="burger-bar"></span>
+				<span class="burger-bar"></span>
+			</button>
+
+			<div class="menu-content">
+				<ul>
+					<li class="post-links">
+						<p class="latest">the latest</p>
+						<p><a href="article/about-the-redesign.html">About the redesign</a></p>
+						<p><a href="article/awesome-example.html">Some great blog post</a></p>
+					</li>
+					<li class="page-links">
+						<a href="work.html">Work</a>
+						<span class="divider">.</span>
+						<a href="about.html">About</a>
+						<span class="divider">.</span>
+						<a href="blog.html">Blog</a>
+						<span class="divider">.</span>
+						<!-- <a href="contact.html">Contact</a>
+						<span class="divider">.</span> -->
+						<a href="resources.html">Resources</a>
+					</li>
+					<li class="social-links">
+						<p>
+							<a href="https://twitter.com/reptarazar" target="_blank">twitter</a> 
+							<a href="http://www.flickr.com/photos/reptarazar/" target="_blank">flickr</a> 
+							<a href="https://foursquare.com/reptarazar" target="_blank">foursquare</a>
+						</p>
+					</li>
+
+				</ul>
+			</div>	
+		</div>
+	</nav>
+</header>
+            </div>
+                 
+<style type="text/css">
+
+.jsclass body .mantra{ 
+	display: none;
+}
+
+.refresh {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+</style>
+
+
+<script type="text/javascript">
+
+/***********************************************
+* Random Content (from DIVs) script- by JavaScript Kit (www.javascriptkit.com)
+* This notice must stay intact for usage
+* Visit JavaScript Kit at http://www.javascriptkit.com/ for this script and 100s more
+***********************************************/
+
+if (document.getElementById)
+document.documentElement.className = 'jsclass'; //hide mantra for DOM capable browsers
+
+
+var mantradisplay={
+	divholders:new Object(),
+	masterclass: "mantra",
+
+	init:function(){
+		if (!document.getElementById)
+			return
+		var alldivs=document.getElementsByTagName("div")
+		var mantrasearch=new RegExp(this.masterclass+"\\s+(group\\d+)", "i") //check for CSS class="mantra groupX" (x=integer)
+		for (var i=0; i<alldivs.length; i++){
+			if (mantrasearch.test(alldivs[i].className)){
+				if (typeof this.divholders[RegExp.$1]=="undefined") //if array to hold this group of divs doesn't exist yet
+					this.divholders[RegExp.$1]=new Array() //create array first
+					this.divholders[RegExp.$1].push(alldivs[i]) //add this div to the array
+			}
+		}
+	this.showone()
+	},
+
+	showone:function(){
+		for (group in this.divholders){ //loop thru each array within object
+			var chosenOne=Math.floor(Math.random()*this.divholders[group].length) //randomly pick one entry from array
+			this.divholders[group][chosenOne].style.display="block" //display mantra corresponding to the chosen entry
+		}
+	}
+}
+
+</script>
+
+<div class="index-wrap">
+	<div class="perception mantra group1">
+		<div class="perception-svg">
+			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			width="559.221px" height="182.876px" viewBox="0 0 559.221 182.876" enable-background="new 0 0 559.221 182.876"
+			xml:space="preserve">
+			<g>
+			<path opacity="0.2" fill="#070508" d="M558.776,36.376c-1-4.5-13.5-6.5-35.5-16.5s-50-17-84.5-19.5s-87,8-100,15.5s-18,15-23,13.29
+			c-5-1.72-5.33-3.29-11-6.79s-49-1.5-58.08,1c-4.24,1.95-6.42,9.5-10.42,4s-39-19.5-39-19.5c-84.5-20-150,4.5-159.5,8.5
+			s-35.5,11-35.5,11c-2.53,0.69-3.5,27,0,33s9,4.5,20.5,10.5c6.5,2,13.5,29.5,13.5,29.5c1.5,2,5,25,29,55c53.5,47.29,125,21.46,146,6
+			s40-84,35.42-87.5c-4.57-3.5-3.92-16.5-3.92-16.5c9-18.5,53.5-16,66-5.5s-2.5,22-2.5,22s12.5,46,17,57.5s18.5,51.5,88.5,51.5
+			s81.5-20,103-62c18.667-45.833,20-47.833,33-49c9-1.5,11-12,11-12S559.776,40.876,558.776,36.376z M226.776,101.376
+			c-8,38.5-29,63-79,64.5s-69.5-20-83.5-38s-20-75.5-7.5-93.5s45-17,45-17c86-6.2,111.5,20,111.5,20
+			C215.916,39.546,234.776,62.876,226.776,101.376z M494.266,128.287c-18.49,27.59-33.87,39.939-84.431,38.42
+			c-50.55-1.521-71.779-26.29-79.869-65.219c-8.091-38.921,10.979-62.512,13.649-64.711c0,0,25.78-26.49,112.74-20.221
+			c0,0,25.92,0.32,45.5,17.19C514.496,51.947,512.766,100.697,494.266,128.287z"/>
+			<path fill="#444444" d="M526.506,92.867c8.463-18.824,11.716-20.133,21.27-20.99c9-1.5,11-12,11-12s1-19,0-23.5
+			s-13.5-6.5-35.5-16.5s-50-17-84.5-19.5s-87,8-100,15.5s-18,15-23,13.29c-5-1.72-5.33-3.29-11-6.79s-49-1.5-58.08,1
+			c-4.24,1.95-6.42,9.5-10.42,4s-39-19.5-39-19.5c-84.5-20-150,4.5-159.5,8.5s-35.5,11-35.5,11c-2.53,0.69-3.5,27,0,33
+			s9,4.5,20.5,10.5c3.75,1.154,7.666,10.795,10.309,18.746l17.941,0.004c-2.73-20.931-1.23-45.198,5.75-55.25c12.5-18,45-17,45-17 c86-6.2,111.5,20,111.5,20c2.46,2.022,19.001,22.415,14.776,56.332l16.224,0.668c2.385-9.834,3.818-19.432,2.42-20.5
+	               c-4.57-3.5-3.92-16.5-3.92-16.5c9-18.5,53.5-16,66-5.5s-2.5,22-2.5,22s2.223,8.182,5.133,18.507l16.972-1.327
+	               c-3.107-32.682,12.813-52.285,15.235-54.279c0,0,25.78-26.49,112.74-20.221c0,0,25.92,0.32,45.5,17.19
+	               c7.899,11.376,9.34,36.762,5.428,59.38L526.506,92.867z"/>
+	       <g>
+	               <path fill="#F6F6F6" d="M550,56c0,1.657-1.343,3-3,3h-18c-1.657,0-3-1.343-3-3v-5c0-1.657,1.343-3,3-3h18c1.657,0,3,1.343,3,3V56z
+	                       "/>
+	       </g>
+	       <g>
+	               <path fill="#F6F6F6" d="M34,50c0,1.657-1.343,3-3,3H13c-1.657,0-3-1.343-3-3v-5c0-1.657,1.343-3,3-3h18c1.657,0,3,1.343,3,3V50z"
+	                       />
+	       </g>
+	</g>
+	</svg>
+</div>
+		<p>Perception is<br />malleable.</p>
+	</div>
+
+	<div class="dahl mantra group1">
+		<p class="inspiration">inspiration</p>
+		<p class="quote">"And above all, watch with glittering eyes the whole world around you because the greatest secrets are always hidden in the most unlikely places. Those who don't believe in magic will never find it."</p>
+		<p class="byline">—Roald Dahl</p>
+	</div>
+
+	<div class="delightful mantra group1">
+		<p class="make">Make it<br />delightful.</p>
+		<p class="playful">It’s the way of<br />&nbsp;&nbsp;&nbsp;our darn Little Tinker<br />to be playful ¶</p>
+		<!-- <img class="delightful" src="assets/img/tinker.png"> -->
+	</div>
+
+	<div class="dent mantra group1">
+		<p>Put a dent<br />in the universe</p>
+	</div>
+	<div class="do-well-good mantra group1">
+		<div class="circles">
+			<span class="well-circle"></span>
+			<span class="good-circle"></span>
+			<p>Do well, do good.</p>
+		</div>
+		
+	</div>
+</div>	
+<span class="refresh" onClick="window.location.reload()">refresh</span>
+<script type="text/javascript"> 
+mantradisplay.init()
+</script>
+
+            <!-- <footer class="page-foot">
+	<a href="work.html"><span>Work</span></a>
+	<a href="about.html"><span>About</span></a>
+	<a href="blog.html"><span>Blog</span></a>
+	<a href="contact.html"><span>Contact</span></a>
+	<a href="resources.html"><span>Resources</span></a>
+	<a href="rss.html"><span>RSS</span></a>
+	<span>Azar &copy; 2013</span>
+</footer>
+ -->
+        </div>
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7996925-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </body>
+</html>

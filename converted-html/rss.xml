@@ -1,0 +1,32 @@
+
+
+<rss version="2.0">
+	<channel>
+		<generator>Mixture</generator>
+		<title>ChristopherAzar.com</title>
+		<link>http://christopherazar.com</link>
+		<description>Designer, Maker</description>
+		<language>en</language>
+		<webMaster>christopherazar@gmail.com</webMaster>
+		<copyright>2013</copyright>
+		<pubDate>Thu, 06 Jun 2013 12:17:05 GMT</pubDate>
+		<lastBuildDate>Thu, 06 Jun 2013 12:17:05 GMT</lastBuildDate>
+		
+			<item>
+	<title>About the redesign</title>
+	<link>http://christopherazar.com/article/about-the-redesign</link>
+	<guid>/article/about-the-redesign</guid>
+	
+	<pubDate>Sat, 13 Jul 2013 00:00:00 GMT</pubDate>
+	<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. &amp;#8220;Lorem ipsum dolor sit amet&amp;#8221; Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim...</description>
+</item><item>
+	<title>Eros, ananke, play (it ain39t all bad)</title>
+	<link>http://christopherazar.com/article/awesome-example</link>
+	<guid>/article/awesome-example</guid>
+	
+	<pubDate>Sun, 30 Jun 2013 00:00:00 GMT</pubDate>
+	<description>In addressing the purpose of life, Sigmund Freud famously said &quot;Work and love, love and work - that&apos;s all there is.&quot; With all respect to Freud, I disagree. He left out play.1 Love and nessesity. &amp;#8220;Two-fold foundation of society: the compulsion to work, which was created by external necessity, and...</description>
+</item>
+		
+	</channel>
+</rss>
