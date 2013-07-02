@@ -37,6 +37,8 @@
   .index-header-wrapper .page-head .menu-btn .burger-bar {
     background-color: #f5f5f5; }
 
+.header-wrapper .page-head {
+  background-color: rgba(249, 249, 249, 0.8); }
 .header-wrapper .page-head .menu-btn .burger-bar {
   background-color: #444;
   text-shadow: rgba(0, 0, 0, 0) 0 0 0; }
