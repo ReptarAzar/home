@@ -52,7 +52,7 @@ a{
 	margin:0 auto;
 
 	a{
-		color:#46b0db;
+		color:$teal;
 	}
 }
 
@@ -74,7 +74,7 @@ article{
 
 article:last-of-type{
 	hr{
-		display:none;
+		// display:none;
 	}
 }
 
@@ -114,7 +114,7 @@ blockquote{
 	color:#fff;
 	text-decoration:none;
 	padding:0 .8em;
-	background-color:#46b0db;
+	background-color:$teal;
 	display:table;
 	margin:2em auto 0 auto;
 	width:80%;
@@ -161,8 +161,8 @@ blockquote{
 
 	&:hover{
 		background-color:transparent;
-		border:1px dotted #46b0db;
-		color:#46b0db;
+		border:1px dotted #09b7aa;
+		color:#09b7aa;
 		text-decoration: none;
 	}
 }
@@ -183,6 +183,14 @@ h3{
 	margin-top:2em;
 }
 
+h4{
+	
+	@include font-size(16px);
+	font-family:$brand-face;
+	margin:1.5em 0 0;
+	padding:0;
+}
+
 .date{
 	margin:0 0 1em 0;
 	@include font-size(12px);
@@ -190,7 +198,7 @@ h3{
 	span{
 		color:#999;
 		font-style:italic;
-		border-bottom:1px solid #e9e9e9;
+		// border-bottom:1px solid #e9e9e9;
 	}
 }
 

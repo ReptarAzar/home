@@ -264,7 +264,7 @@
 
 		.circles{
 			position: absolute;
-			left: 50%;
+			left: 40%;
 			top: 15%;
 
 			.good-circle, .well-circle{
@@ -313,6 +313,14 @@ article{
 	hr{
 		width:50%;
 	}
+	&.about {
+		p {
+			margin: 0.6em 0 0;
+			padding: 0;
+		}
+	}
+
+// Resources page	
 	&.resources{
 		h3 {
 			border-bottom: #ccc solid 1px;
@@ -396,7 +404,7 @@ blockquote{
 	color:#fff;
 	text-decoration:none;
 	padding:0 .8em;
-	background-color:#46b0db;
+	background-color:$teal;
 	display:table;
 	margin:1.5em 0 0 0;
 	width:auto;
@@ -436,8 +444,8 @@ h3{
 
 	&:hover{
 		background-color:transparent;
-		border:1px dotted #46b0db;
-		color:#46b0db;
+		border:1px dotted #09b7aa;
+		color:#09b7aa;
 		text-decoration: none;
 	}
 }
