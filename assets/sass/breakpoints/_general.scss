@@ -342,6 +342,8 @@ article{
 				font-size: 12px;
 				font-style: italic;
 				float: right;
+				line-height: 1.25em;
+				padding-top: 1.55em;
 			}
 		}
 		dl {
@@ -368,7 +370,7 @@ article{
 		}
 
 		dt {
-			line-height: 2.25em;
+			padding: 6px 0; 
 			font-weight: 1.25em;
 			font-weight: bold;
 			color:$teal;

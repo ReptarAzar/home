@@ -292,7 +292,9 @@ article {
       color: #ccc;
       font-size: 12px;
       font-style: italic;
-      float: right; }
+      float: right;
+      line-height: 1.25em;
+      padding-top: 1.55em; }
   article.resources dl {
     width: 33.3333%;
     float: left;
@@ -310,7 +312,7 @@ article {
         text-decoration: none;
         color: #fca659; }
   article.resources dt {
-    line-height: 2.25em;
+    padding: 6px 0;
     font-weight: 1.25em;
     font-weight: bold;
     color: #09b7aa;
