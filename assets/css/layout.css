@@ -357,7 +357,9 @@ blockquote {
   color: #fff;
   text-decoration: none;
   padding: 0 .8em;
-  background-color: #09b7aa;
+  border: 1px solid #09b7aa;
+  color: #09b7aa;
+  background-color: transparent;
   display: table;
   margin: 1.5em 0 0 0;
   width: auto;
