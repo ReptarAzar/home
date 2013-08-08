@@ -1,266 +1,266 @@
 {
   "article": {
     "index": {
-      "mixture_month_year": {
-        "06/2013": [
-          "/article/things",
+      "year": {
+        "2013": [
+          "/article/haml-example",
           "/article/markdown-example",
-          "/article/awesome-example",
           "/article/nomenclatures",
-          "/article/haml-example"
-        ],
-        "07/2013": [
-          "/article/liquid-example",
-          "/article/about-the-redesign"
-        ]
-      },
-      "slug": {
-        "/article/markdown-example": [
-          "/article/markdown-example"
-        ],
-        "/article/liquid-example": [
-          "/article/liquid-example"
-        ],
-        "/article/things": [
-          "/article/things"
-        ],
-        "/article/about-the-redesign": [
-          "/article/about-the-redesign"
-        ],
-        "/article/awesome-example": [
-          "/article/awesome-example"
-        ],
-        "/article/nomenclatures": [
-          "/article/nomenclatures"
-        ],
-        "/article/haml-example": [
-          "/article/haml-example"
-        ]
-      },
-      "tags": {
-        "Technology": [
-          "/article/nomenclatures"
-        ],
-        "Example": [
-          "/article/markdown-example",
-          "/article/haml-example"
-        ],
-        "Design": [
-          "/article/things",
-          "/article/liquid-example",
-          "/article/about-the-redesign",
-          "/article/awesome-example"
-        ],
-        "Markdown": [
-          "/article/markdown-example"
-        ],
-        "Rationale": [
-          "/article/liquid-example",
-          "/article/about-the-redesign",
-          "/article/awesome-example"
-        ],
-        "Essay": [
-          "/article/things",
-          "/article/nomenclatures"
-        ],
-        "Haml": [
-          "/article/haml-example"
-        ]
-      },
-      "title": {
-        "About the redesign": [
-          "/article/about-the-redesign"
-        ],
-        "Nomenclature in technology and innovation": [
-          "/article/nomenclatures"
-        ],
-        "Things": [
-          "/article/things"
-        ],
-        "An example Markdown post": [
-          "/article/markdown-example"
-        ],
-        "An example HAML post": [
-          "/article/haml-example"
-        ],
-        "Eros, ananke, play (it ain39t all bad)": [
-          "/article/awesome-example"
-        ],
-        "Liquid Example": [
-          "/article/liquid-example"
-        ]
-      },
-      "ticks": {
-        "1370995200.0": [
-          "/article/haml-example"
-        ],
-        "1372550400.0": [
           "/article/things",
           "/article/awesome-example",
-          "/article/nomenclatures"
-        ],
-        "1370908800.0": [
-          "/article/markdown-example"
-        ],
-        "1373673600.0": [
-          "/article/liquid-example",
-          "/article/about-the-redesign"
+          "/article/about-the-redesign",
+          "/article/liquid-example"
         ]
       },
       "month": {
         "07": [
-          "/article/liquid-example",
-          "/article/about-the-redesign"
+          "/article/about-the-redesign",
+          "/article/liquid-example"
         ],
         "06": [
-          "/article/things",
+          "/article/haml-example",
           "/article/markdown-example",
-          "/article/awesome-example",
           "/article/nomenclatures",
+          "/article/things",
+          "/article/awesome-example"
+        ]
+      },
+      "mixture_month_year": {
+        "07/2013": [
+          "/article/about-the-redesign",
+          "/article/liquid-example"
+        ],
+        "06/2013": [
+          "/article/haml-example",
+          "/article/markdown-example",
+          "/article/nomenclatures",
+          "/article/things",
+          "/article/awesome-example"
+        ]
+      },
+      "tags": {
+        "rationale": [
+          "/article/awesome-example",
+          "/article/about-the-redesign",
+          "/article/liquid-example"
+        ],
+        "essay": [
+          "/article/nomenclatures",
+          "/article/things"
+        ],
+        "markdown": [
+          "/article/markdown-example"
+        ],
+        "example": [
+          "/article/haml-example",
+          "/article/markdown-example"
+        ],
+        "design": [
+          "/article/things",
+          "/article/awesome-example",
+          "/article/about-the-redesign",
+          "/article/liquid-example"
+        ],
+        "technology": [
+          "/article/nomenclatures"
+        ],
+        "haml": [
           "/article/haml-example"
+        ]
+      },
+      "title": {
+        "an example haml post": [
+          "/article/haml-example"
+        ],
+        "nomenclature in technology and innovation": [
+          "/article/nomenclatures"
+        ],
+        "things": [
+          "/article/things"
+        ],
+        "about the redesign": [
+          "/article/about-the-redesign"
+        ],
+        "an example markdown post": [
+          "/article/markdown-example"
+        ],
+        "liquid example": [
+          "/article/liquid-example"
+        ],
+        "eros, ananke, play (it ain39t all bad)": [
+          "/article/awesome-example"
+        ]
+      },
+      "ticks": {
+        "1373673600.0": [
+          "/article/about-the-redesign",
+          "/article/liquid-example"
+        ],
+        "1372550400.0": [
+          "/article/nomenclatures",
+          "/article/things",
+          "/article/awesome-example"
+        ],
+        "1370995200.0": [
+          "/article/haml-example"
+        ],
+        "1370908800.0": [
+          "/article/markdown-example"
+        ]
+      },
+      "slug": {
+        "/article/haml-example": [
+          "/article/haml-example"
+        ],
+        "/article/markdown-example": [
+          "/article/markdown-example"
+        ],
+        "/article/things": [
+          "/article/things"
+        ],
+        "/article/nomenclatures": [
+          "/article/nomenclatures"
+        ],
+        "/article/awesome-example": [
+          "/article/awesome-example"
+        ],
+        "/article/about-the-redesign": [
+          "/article/about-the-redesign"
+        ],
+        "/article/liquid-example": [
+          "/article/liquid-example"
         ]
       },
       "mixture_date": {
-        "2013-06-12T00:00:00Z": [
-          "/article/haml-example"
-        ],
-        "2013-06-11T00:00:00Z": [
-          "/article/markdown-example"
-        ],
-        "2013-07-13T00:00:00Z": [
-          "/article/liquid-example",
-          "/article/about-the-redesign"
-        ],
-        "2013-06-30T00:00:00Z": [
-          "/article/things",
-          "/article/awesome-example",
-          "/article/nomenclatures"
-        ]
-      },
-      "year": {
-        "2013": [
-          "/article/things",
-          "/article/liquid-example",
-          "/article/markdown-example",
+        "2013-07-13t00:00:00z": [
           "/article/about-the-redesign",
-          "/article/awesome-example",
+          "/article/liquid-example"
+        ],
+        "2013-06-30t00:00:00z": [
           "/article/nomenclatures",
+          "/article/things",
+          "/article/awesome-example"
+        ],
+        "2013-06-12t00:00:00z": [
           "/article/haml-example"
+        ],
+        "2013-06-11t00:00:00z": [
+          "/article/markdown-example"
         ]
       }
     },
     "collection": {
-      "/article/things": {
-        "mixture_month_year": "06/2013",
-        "body": "\n<blockquote><p>&#8220;It is not until we've lost everything that we're free to do anything. –Fight Club&#8220;</p></blockquote>\n\n\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
-        "slug": "/article/things",
-        "ticks": 1372550400.0,
-        "title": "Things",
-        "tags": [
-          "Design",
-          "Essay"
-        ],
-        "mixture_date": "2013-06-30T00:00:00Z",
-        "month": "06",
-        "date": "Sun Jun 30 00:00:00 UTC 2013",
-        "year": "2013",
-        "published": true
-      },
-      "/article/liquid-example": {
-        "mixture_month_year": "07/2013",
-        "body": "\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n<blockquote><p>&#8220;Lorem ipsum dolor sit amet&#8221;</p></blockquote>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
-        "slug": "/article/liquid-example",
-        "ticks": 1373673600.0,
-        "title": "Liquid Example",
-        "tags": [
-          "Design",
-          "Rationale"
-        ],
-        "mixture_date": "2013-07-13T00:00:00Z",
-        "month": "07",
-        "date": "Sat Jul 13 00:00:00 UTC 2013",
-        "year": "2013",
-        "published": false
-      },
-      "/article/markdown-example": {
-        "mixture_month_year": "06/2013",
-        "body": "\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n\n<blockquote>\n  <p>&#8220;Lorem ipsum dolor sit amet&#8221;</p>\n</blockquote>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n\n<ol>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ol>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n\n<p><a href=\"http://docs.mixture.io\">http://docs.mixture.io</a></p>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<ul>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ul>\n",
-        "slug": "/article/markdown-example",
-        "ticks": 1370908800.0,
-        "title": "An example Markdown post",
-        "tags": [
-          "Example",
-          "Markdown"
-        ],
-        "mixture_date": "2013-06-11T00:00:00Z",
-        "month": "06",
-        "date": "Tue Jun 11 00:00:00 UTC 2013",
-        "year": "2013",
-        "published": false
-      },
-      "/article/about-the-redesign": {
-        "mixture_month_year": "07/2013",
-        "body": "\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n<blockquote><p>&#8220;Lorem ipsum dolor sit amet&#8221;</p></blockquote>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
-        "slug": "/article/about-the-redesign",
-        "ticks": 1373673600.0,
-        "title": "About the redesign",
-        "tags": [
-          "Design",
-          "Rationale"
-        ],
-        "mixture_date": "2013-07-13T00:00:00Z",
-        "month": "07",
-        "date": "Sat Jul 13 00:00:00 UTC 2013",
-        "year": "2013",
-        "published": true
-      },
-      "/article/awesome-example": {
-        "mixture_month_year": "06/2013",
-        "body": "\n\n<p>\n\tIn addressing the purpose of life, Sigmund Freud famously said \"Work and love, love and work - that's all there is.\" With all respect to Freud, I disagree. He left out play.<super><a href=\"http://www.psychologytoday.com/blog/the-good-life/201004/parsing-positive-psychology-work-love-and-play\" target=\"_blank\">1</a></super></p>\n<blockquote>Love and nessesity. <p>&#8220;Two-fold foundation of society: the compulsion to work, which was created by external necessity, and the power of love...&#8221; 'Civilization and Its Discontents' (1930) (S.E. XXI.101)</p></blockquote>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
-        "slug": "/article/awesome-example",
-        "ticks": 1372550400.0,
-        "title": "Eros, ananke, play (it ain39t all bad)",
-        "tags": [
-          "Design",
-          "Rationale"
-        ],
-        "mixture_date": "2013-06-30T00:00:00Z",
-        "month": "06",
-        "date": "Sun Jun 30 00:00:00 UTC 2013",
-        "year": "2013",
-        "published": true
-      },
-      "/article/nomenclatures": {
-        "mixture_month_year": "06/2013",
-        "body": "\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
-        "slug": "/article/nomenclatures",
-        "ticks": 1372550400.0,
-        "title": "Nomenclature in technology and innovation",
-        "tags": [
-          "Technology",
-          "Essay"
-        ],
-        "mixture_date": "2013-06-30T00:00:00Z",
-        "month": "06",
-        "date": "Sun Jun 30 00:00:00 UTC 2013",
-        "year": "2013",
-        "published": true
-      },
       "/article/haml-example": {
+        "year": "2013",
+        "month": "06",
         "mixture_month_year": "06/2013",
+        "date": "Wed Jun 12 00:00:00 UTC 2013",
         "body": "<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.\n</p>\n<blockquote>\n  <p>\n    &#8220;Lorem ipsum dolor sit amet&#8221;\n  </p>\n</blockquote>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.\n</p>\n<ol>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n</ol>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy\n</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;</pre>\n<p>\n  <a href='http://docs.mixture.io'>\n    http://docs.mixture.io\n  </a>\n</p>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy\n</p>\n<ul>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n</ul>\n",
-        "slug": "/article/haml-example",
-        "ticks": 1370995200.0,
-        "title": "An example HAML post",
         "tags": [
           "Example",
           "Haml"
         ],
-        "mixture_date": "2013-06-12T00:00:00Z",
-        "month": "06",
-        "date": "Wed Jun 12 00:00:00 UTC 2013",
+        "ticks": 1370995200.0,
+        "published": false,
+        "title": "An example HAML post",
+        "slug": "/article/haml-example",
+        "mixture_date": "2013-06-12T00:00:00Z"
+      },
+      "/article/markdown-example": {
         "year": "2013",
-        "published": false
+        "month": "06",
+        "mixture_month_year": "06/2013",
+        "date": "Tue Jun 11 00:00:00 UTC 2013",
+        "body": "\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n\n<blockquote>\n  <p>&#8220;Lorem ipsum dolor sit amet&#8221;</p>\n</blockquote>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n\n<ol>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ol>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n\n<p><a href=\"http://docs.mixture.io\">http://docs.mixture.io</a></p>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<ul>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ul>\n",
+        "tags": [
+          "Example",
+          "Markdown"
+        ],
+        "ticks": 1370908800.0,
+        "published": false,
+        "title": "An example Markdown post",
+        "slug": "/article/markdown-example",
+        "mixture_date": "2013-06-11T00:00:00Z"
+      },
+      "/article/nomenclatures": {
+        "year": "2013",
+        "month": "06",
+        "mixture_month_year": "06/2013",
+        "date": "Sun Jun 30 00:00:00 UTC 2013",
+        "body": "\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
+        "tags": [
+          "Technology",
+          "Essay"
+        ],
+        "ticks": 1372550400.0,
+        "published": true,
+        "title": "Nomenclature in technology and innovation",
+        "slug": "/article/nomenclatures",
+        "mixture_date": "2013-06-30T00:00:00Z"
+      },
+      "/article/things": {
+        "year": "2013",
+        "month": "06",
+        "mixture_month_year": "06/2013",
+        "date": "Sun Jun 30 00:00:00 UTC 2013",
+        "body": "\n<blockquote><p>&#8220;It is not until we've lost everything that we're free to do anything. –Fight Club&#8220;</p></blockquote>\n\n\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
+        "tags": [
+          "Design",
+          "Essay"
+        ],
+        "ticks": 1372550400.0,
+        "published": true,
+        "title": "Things",
+        "slug": "/article/things",
+        "mixture_date": "2013-06-30T00:00:00Z"
+      },
+      "/article/awesome-example": {
+        "year": "2013",
+        "month": "06",
+        "mixture_month_year": "06/2013",
+        "date": "Sun Jun 30 00:00:00 UTC 2013",
+        "body": "\n\n<p>\n\tIn addressing the purpose of life, Sigmund Freud famously said \"Work and love, love and work - that's all there is.\" With all respect to Freud, I disagree. He left out play.<super><a href=\"http://www.psychologytoday.com/blog/the-good-life/201004/parsing-positive-psychology-work-love-and-play\" target=\"_blank\">1</a></super></p>\n<blockquote>Love and nessesity. <p>&#8220;Two-fold foundation of society: the compulsion to work, which was created by external necessity, and the power of love...&#8221; 'Civilization and Its Discontents' (1930) (S.E. XXI.101)</p></blockquote>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
+        "tags": [
+          "Design",
+          "Rationale"
+        ],
+        "ticks": 1372550400.0,
+        "published": true,
+        "title": "Eros, ananke, play (it ain39t all bad)",
+        "slug": "/article/awesome-example",
+        "mixture_date": "2013-06-30T00:00:00Z"
+      },
+      "/article/about-the-redesign": {
+        "year": "2013",
+        "month": "07",
+        "mixture_month_year": "07/2013",
+        "date": "Sat Jul 13 00:00:00 UTC 2013",
+        "body": "\n<h1>Why?</h1>\n\n<h2>why redesign your site so many times?</h2>\n<blockquote>\n  <p>&#8220;Art is never finished, only abandoned. #mdash;Leonardo da Vinci&#8221;</p>\n</blockquote>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n\n<ol>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ol>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n\n<p><a href=\"http://docs.mixture.io\">http://docs.mixture.io</a></p>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<ul>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ul>\n",
+        "tags": [
+          "Design",
+          "Rationale"
+        ],
+        "ticks": 1373673600.0,
+        "published": true,
+        "title": "About the redesign",
+        "slug": "/article/about-the-redesign",
+        "mixture_date": "2013-07-13T00:00:00Z"
+      },
+      "/article/liquid-example": {
+        "year": "2013",
+        "month": "07",
+        "mixture_month_year": "07/2013",
+        "date": "Sat Jul 13 00:00:00 UTC 2013",
+        "body": "\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n<blockquote><p>&#8220;Lorem ipsum dolor sit amet&#8221;</p></blockquote>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
+        "tags": [
+          "Design",
+          "Rationale"
+        ],
+        "ticks": 1373673600.0,
+        "published": false,
+        "title": "Liquid Example",
+        "slug": "/article/liquid-example",
+        "mixture_date": "2013-07-13T00:00:00Z"
       }
     }
   }

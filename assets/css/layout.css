@@ -234,6 +234,15 @@
       top: 14%;
       right: 15%;
       z-index: 0; }
+  .index-wrap .dinosaur .dale {
+    font-family: "Merriweather";
+    width: 240px;
+    color: #222;
+    font-size: 12px;
+    line-height: 16px;
+    text-shadow: none;
+    text-align: justify;
+    text-justify: inter-word; }
   .index-wrap .dent {
     height: 100%;
     background-color: #444444; }
