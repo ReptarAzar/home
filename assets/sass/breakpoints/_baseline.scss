@@ -120,8 +120,9 @@ blockquote{
 	text-align:center;
 
 	&:hover{
-		background-color:#999;
+		background-color:$teal;
 		text-decoration: none;
+		color: $white;
 	}
 }
 

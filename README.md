@@ -1,2 +1,1 @@
-# Personal Site
 ## ChristopherAzar.com
