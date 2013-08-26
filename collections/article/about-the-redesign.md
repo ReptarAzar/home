@@ -1,7 +1,7 @@
 ---
-title: "About the redesign"
+title: "the redesign"
 date: 2013-07-13 00:00
-published: true
+published: false
 tags:
 - Design
 - Rationale
