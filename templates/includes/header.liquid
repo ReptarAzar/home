@@ -1,20 +1,19 @@
 <header class="page-head">
 	<nav>
-		<p class="logo">&amp;</p>
-		
+		<p class="logo"><a href="/" title="home">&amp;</a></p>
+
 		<div class="menu">
-			<button class="menu-btn">
+			<button class="menu-btn" onclick="toggle_visibility('menu')">
 				<span class="burger-bar"></span>
 				<span class="burger-bar"></span>
 				<span class="burger-bar"></span>
 			</button>
 
-			<div class="menu-content">
+			<div class="menu-content" id="menu">
 				<ul>
 					<li class="post-links">
 						<p class="latest">the latest</p>
-						<p><a href="/article/about-the-redesign">About the redesign</a></p>
-						<p><a href="/article/awesome-example">Some great blog post</a></p>
+						<p><a href="/article/getting-started">Getting started (again)</a></p>
 					</li>
 					<li class="page-links">
 						<a href="/work">Work</a>
@@ -29,14 +28,24 @@
 					</li>
 					<li class="social-links">
 						<p>
-							<a href="https://twitter.com/reptarazar" target="_blank">twitter</a> 
-							<a href="http://www.flickr.com/photos/reptarazar/" target="_blank">flickr</a> 
+							<a href="https://twitter.com/reptarazar" target="_blank">twitter</a>
+							<a href="http://www.flickr.com/photos/reptarazar/" target="_blank">flickr</a>
 							<a href="https://foursquare.com/reptarazar" target="_blank">foursquare</a>
 						</p>
 					</li>
 
 				</ul>
-			</div>	
+			</div>
 		</div>
 	</nav>
 </header>
+
+<script type="text/javascript">
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.opacity == 1)
+          e.style.opacity = 0;
+       else
+          e.style.opacity = 1;
+    }
+</script>

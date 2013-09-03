@@ -177,14 +177,14 @@ blockquote{
 }
 
 h3{
-	
+
 	@include font-size(18px);
 	font-family:$brand-face;
 	margin-top:2em;
 }
 
 h4{
-	
+
 	@include font-size(16px);
 	font-family:$brand-face;
 	margin:1.5em 0 0;
@@ -275,7 +275,7 @@ pre{
 
 
 
-/* 
+/*
  * Disqus
  */
 #disqus_thread{

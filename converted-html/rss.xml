@@ -1,0 +1,30 @@
+
+
+<rss version="2.0">
+	<channel>
+		<generator>Mixture</generator>
+		<title>ChristopherAzar.com</title>
+		<link>http://christopherazar.com</link>
+		<description>Designer, Maker</description>
+		<language>en</language>
+		<webMaster>christopherazar@gmail.com</webMaster>
+		<copyright>2013</copyright>
+		<pubDate>Thu, 06 Jun 2013 12:17:05 GMT</pubDate>
+		<lastBuildDate>Thu, 06 Jun 2013 12:17:05 GMT</lastBuildDate>
+		
+			<item>
+	<title>the redesign</title>
+	<link>http://christopherazar.com/article/about-the-redesign</link>
+	<guid>/article/about-the-redesign</guid>
+	
+	<pubDate>Sat, 13 Jul 2013 00:00:00 GMT</pubDate>
+	<description>
+
+  &quot;Art is never finished, only abandoned.&quot; —Leonardo da Vinci
+
+
+</description>
+</item>
+		
+	</channel>
+</rss>
