@@ -37,6 +37,6 @@ A few reminders to self when I need to <i>get going</i>: [j.f.d.i.](http://justi
 
 <hr class="hr"/>
 ####Footnotes
-<span id="1">1</span> — Beatty, Millard F. (2006). [Principles of engineering mechanics Volume 2 of Principles of Engineering Mechanics: Dynamics-The Analysis of Motion,.](http://books.google.com/books?id=wr2QOBqOBakC&lpg=PP1&pg=PA24&hl=en#v=onepage&q&f=false) Springer. p. 24. ISBN [0-387-23704-6](http://www.amazon.com/Principles-Engineering-Mechanics-Dynamics-Mathematical/dp/0387237046).
+<span id="1">1</span> &mdash; Beatty, Millard F. (2006). [Principles of engineering mechanics Volume 2 of Principles of Engineering Mechanics: Dynamics-The Analysis of Motion,.](http://books.google.com/books?id=wr2QOBqOBakC&lpg=PP1&pg=PA24&hl=en#v=onepage&q&f=false) Springer. p. 24. ISBN [0-387-23704-6](http://www.amazon.com/Principles-Engineering-Mechanics-Dynamics-Mathematical/dp/0387237046).
 
-<span id="2">2</span> — [Newton's first law of motion.](http://en.wikipedia.org/wiki/Newton's_laws_of_motion#Newton.27s_first_law) on wikipedia (yeah, I know.)
+<span id="2">2</span> &mdash; [Newton's first law of motion.](http://en.wikipedia.org/wiki/Newton's_laws_of_motion#Newton.27s_first_law) on wikipedia (yeah, I know.)

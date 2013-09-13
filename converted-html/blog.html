@@ -27,21 +27,20 @@ Y88b  d88P 888  888 888     888      X88       d8888888888  d88P    888  888 888
             <div class="header-wrapper">
                 <header class="page-head">
 	<nav>
-		<p class="logo">&amp;</p>
+		<p class="logo"><a href="index.html" title="home">&amp;</a></p>
 
 		<div class="menu">
-			<button class="menu-btn">
+			<button class="menu-btn" onclick="toggle_visibility('menu')">
 				<span class="burger-bar"></span>
 				<span class="burger-bar"></span>
 				<span class="burger-bar"></span>
 			</button>
 
-			<div class="menu-content">
+			<div class="menu-content" id="menu">
 				<ul>
 					<li class="post-links">
 						<p class="latest">the latest</p>
-						<p><a href="article/about-the-redesign.html">About the redesign</a></p>
-						<p><a href="/article/awesome-example">Some great blog post</a></p>
+						<p><a href="article/getting-started.html">Getting started (again)</a></p>
 					</li>
 					<li class="page-links">
 						<a href="work.html">Work</a>
@@ -67,6 +66,16 @@ Y88b  d88P 888  888 888     888      X88       d8888888888  d88P    888  888 888
 		</div>
 	</nav>
 </header>
+
+<script type="text/javascript">
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.opacity == 1)
+          e.style.opacity = 0;
+       else
+          e.style.opacity = 1;
+    }
+</script>
             </div>
             <div class="content">
                  
@@ -74,18 +83,13 @@ Y88b  d88P 888  888 888     888      X88       d8888888888  d88P    888  888 888
 		
 			
 			<article>
-	<h2><a href="article/about-the-redesign.html">the redesign</a></h2>
+	<h2><a href="article/getting-started.html">Getting started</a></h2>
 	
-	<div class="date"><span>July 13, 2013</span> <!-- Tags:
+	<div class="date"><span>September 01, 2013</span> <!-- Tags:
 <span><a href="/tag/design">Design</a>, </span><span><a href="/tag/rationale">Rationale</a></span> --></div>
 	
 	
-	<p>
-
-  "Art is never finished, only abandoned." —Leonardo da Vinci
-
-
-</p>
+	<p>It's been said a hundred times in a hundred ways by every blog everywhere, but I'll repeat it again: getting started is the hardest part. &copy; Bill Waterson &middot; The full strip &middot; En Español This difficulty getting moving is universal and old as fuck. Three centuries ago Sir Isaac... <a href="article/getting-started.html" class="more">Read the post in full</a></p>
 	<hr>
 </article>
 			<div class="paging">

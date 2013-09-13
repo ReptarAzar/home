@@ -54,12 +54,19 @@
 		float: right;
 		position: absolute;
 		top: 0;
-		right:20px;
+		right:10px;
 		border  : none;
-		padding: 5px 0;
-		margin: 10px 0;
+		padding: 8px 11px 11px;
+		margin: 6px 0;
 		z-index: 2;
 		background: transparent no-repeat 0 0;
+		transition: all 0.2s ease-in-out;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		&:hover {
+			background-color: rgba(0,0,0,0.05);
+		}
 		.burger-bar{
 			display: block;
 			width: 20px;
@@ -81,11 +88,16 @@
 		right: 0;
 		width: 100%;
 	}
-	// .menu:hover > .menu-content{
-	//     transition: opacity 0.2s ease-in-out;
-	//     opacity: 1;
-	//     visibility:visible;
-	// }
+
+	.menu[on~="click|toggle"] .menu-content {
+    display:none;
+    opacity:0;
+}
+	.menu:hover > .menu-content{
+	    // transition: opacity 0.2s ease-in-out;
+	    // opacity: 1;
+	    display: block;
+	}
 
 	nav{
 		.menu-content{
@@ -96,9 +108,10 @@
 			width: 100%;
 			background-color: #232323;
 			padding:40px 20px 60px;
-			transition: opacity 0.2s ease-in-out;
-			-webkit-transition: opacity 0.2s ease-in-out;
-			opacity: 0;
+			transition: all 0.2s ease-in-out;
+			-webkit-transition: all 0.2s ease-in-out;
+			display:none;
+			// opacity:0;
 
 		}
 		ul{
@@ -486,6 +499,8 @@ h3{
 .page-foot{
 	text-align:left;
 	clear: both;
+	padding-left:10px;
+	padding-right:10px;
 
 	>span{
 		float:right;

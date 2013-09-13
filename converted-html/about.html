@@ -27,21 +27,20 @@ Y88b  d88P 888  888 888     888      X88       d8888888888  d88P    888  888 888
             <div class="header-wrapper">
                 <header class="page-head">
 	<nav>
-		<p class="logo">&amp;</p>
+		<p class="logo"><a href="index.html" title="home">&amp;</a></p>
 
 		<div class="menu">
-			<button class="menu-btn">
+			<button class="menu-btn" onclick="toggle_visibility('menu')">
 				<span class="burger-bar"></span>
 				<span class="burger-bar"></span>
 				<span class="burger-bar"></span>
 			</button>
 
-			<div class="menu-content">
+			<div class="menu-content" id="menu">
 				<ul>
 					<li class="post-links">
 						<p class="latest">the latest</p>
-						<p><a href="article/about-the-redesign.html">About the redesign</a></p>
-						<p><a href="/article/awesome-example">Some great blog post</a></p>
+						<p><a href="article/getting-started.html">Getting started (again)</a></p>
 					</li>
 					<li class="page-links">
 						<a href="work.html">Work</a>
@@ -67,14 +66,24 @@ Y88b  d88P 888  888 888     888      X88       d8888888888  d88P    888  888 888
 		</div>
 	</nav>
 </header>
+
+<script type="text/javascript">
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.opacity == 1)
+          e.style.opacity = 0;
+       else
+          e.style.opacity = 1;
+    }
+</script>
             </div>
             <div class="content">
-                 
+                
 	<article class="about">
-		<img src="http://distilleryimage8.s3.amazonaws.com/8ef1f4a4decd11e2a73822000aaa08a0_7.jpg" />
-		<caption>Photo by: <a href="https://twitter.com/chrisdroukas" target="_blank">Chris Droukas</a></caption>
-		<h3>An entertaining profile written by Samantha Okazaki.</h3>
-		<h4>My self-summary</h4>		
+		<img src="assets/img/natitude.jpg" />
+		<caption>Photo by: <a href="http://instagram.com/p/bC38tWQKyk/" target="_blank">Chris Droukas</a></caption>
+		<!-- <h3>An entertaining profile written by Samantha Okazaki.</h3>
+		<h4>My self-summary</h4>
 			<p>I'm kind of a geek? But in a good way...if that's even possible.</p>
 			<p>I'm into girls with nice teeth, drunken dance-offs, the Washington Post, and dressing up as Abe Lincoln. Yeah you read that right.</p>
 		<h4>What I’m doing with my life</h4>
@@ -93,16 +102,21 @@ Y88b  d88P 888  888 888     888      X88       d8888888888  d88P    888  888 888
 		<h4>I spend a lot of time thinking about</h4>
 			<p>Quantum physics.</p>
 		<h4>On a typical Friday night I am</h4>
-			<p>Who wants a typical Friday night?</p>	
-		<hr class="hr"/>
-		<h3>Yet another bio</h3>
-			<p>DC Based interaction designer. Currently working on the future of news at <a href="http://wapolabs.com" target="_blank">WaPo Labs</a>. He was the 2012 Recipient of the Society for News Design, Edmund C. Arnold Award for design excellence. In a previous life he co-founded <em>Little Tinker</em> a company dedicated building delightful experiences with technology that connected the physical and digital world in play.</p>		
+			<p>Who wants a typical Friday night?</p>
+		<hr class="hr"/> -->
+		<h3>A quick bio</h3>
+			<p>DC Based interaction designer. Currently working on the future of news at <a href="http://wapolabs.com" target="_blank">WaPo Labs</a>. He was the 2012 Recipient of the Society for News Design, Edmund C. Arnold Award for design excellence. In a previous life he co-founded <i>Little Tinker</i>, a company dedicated building delightful experiences and connected physical objects to the digital world.</p>
 		<h3>FAQ</h3>
-			<p><b>Q:</b> Are you availible for freelance work?</p>
+			<p><b>Q:</b> Are you available for freelance work?</p>
 			<p><b>A:</b> Nope.</p>
 		<hr class="hr"/>
 		<h3>About the site</h3>
 			<p>Hand coded in Washington, DC using <a href="https://github.com/Shopify/liquid" target="_blank">liquid</a>, <a href="http://sass-lang.com/" target="_blank">SASS</a>, and <a href="http://mixture.io">mixture</a>. The (open source) fonts are <a href="http://www.google.com/fonts/specimen/Lato" target="_blank">Lato</a> and <a href="http://www.google.com/fonts/specimen/Merriweather" target="_blank">Merriweather</a> and are served by <a href="http://www.google.com/fonts" target="_blank">Google Fonts</a>. </p>
+		<h3>Previous versions of this site</h3>
+			<p>v1.0 (Lost) &mdash; Circa 2006</p>
+			<p><a href="http://cazar.mysite.syr.edu/personal_site/index.htm">v2.0</a> &mdash; Circa 2009</p>
+			<p><a href="http://christopherazar.com/gamma">v3.0</a> &mdash; Circa 2010</p>
+
 
 	</article>
 

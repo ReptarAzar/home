@@ -7,7 +7,7 @@ tags:
 - Rationale
 ---
 
-> "Art is never finished, only abandoned." —Leonardo da Vinci
+> "Art is never finished, only abandoned." &mdash;Leonardo da Vinci
 
 
 

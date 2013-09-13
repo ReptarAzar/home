@@ -73,12 +73,18 @@
     float: right;
     position: absolute;
     top: 0;
-    right: 20px;
+    right: 10px;
     border: none;
-    padding: 5px 0;
-    margin: 10px 0;
+    padding: 8px 11px 11px;
+    margin: 6px 0;
     z-index: 2;
-    background: transparent no-repeat 0 0; }
+    background: transparent no-repeat 0 0;
+    transition: all 0.2s ease-in-out;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; }
+    .page-head .menu-btn:hover {
+      background-color: rgba(0, 0, 0, 0.05); }
     .page-head .menu-btn .burger-bar {
       display: block;
       width: 20px;
@@ -97,6 +103,11 @@
     position: absolute;
     right: 0;
     width: 100%; }
+  .page-head .menu[on~="click|toggle"] .menu-content {
+    display: none;
+    opacity: 0; }
+  .page-head .menu:hover > .menu-content {
+    display: block; }
   .page-head nav .menu-content {
     position: absolute;
     z-index: 1;
@@ -105,9 +116,9 @@
     width: 100%;
     background-color: #232323;
     padding: 40px 20px 60px;
-    transition: opacity 0.2s ease-in-out;
-    -webkit-transition: opacity 0.2s ease-in-out;
-    opacity: 0; }
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    display: none; }
   .page-head nav ul {
     list-style: none;
     text-align: center;
@@ -421,7 +432,9 @@ h3 {
  */
 .page-foot {
   text-align: left;
-  clear: both; }
+  clear: both;
+  padding-left: 10px;
+  padding-right: 10px; }
   .page-foot > span {
     float: right;
     text-align: left;
