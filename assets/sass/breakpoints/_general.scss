@@ -89,16 +89,14 @@
 		width: 100%;
 	}
 
-	.menu[on~="click|toggle"] .menu-content {
-    display:none;
-    opacity:0;
-}
-	.menu:hover > .menu-content{
-	    // transition: opacity 0.2s ease-in-out;
-	    // opacity: 1;
-	    display: block;
+	// Screens larger than 800px
+	@media screen and (min-width: 800px) {
+		.menu:hover > .menu-content{
+		    // transition: opacity 0.2s ease-in-out;
+		    // opacity: 1;
+		    display: block;
+		}
 	}
-
 	nav{
 		.menu-content{
 			position: absolute;
