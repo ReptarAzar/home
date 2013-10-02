@@ -1,7 +1,7 @@
 ---
 title: "Wanderlust"
 date: 2013-09-07 00:00
-published: false
+published: true
 tags:
 - film
 - GoPro
