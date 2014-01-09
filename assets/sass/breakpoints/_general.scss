@@ -64,10 +64,18 @@
 		-webkit-border-radius: 3px;
 		-moz-border-radius: 3px;
 		border-radius: 3px;
+		outline: none;
 		&:hover {
 			background-color: rgba(0,0,0,0.05);
+			transition: all 0.2s ease-in-out;
+			-webkit-transition: all 0.2s ease-in-out;
+			.burger-bar {
+				background-color: #555;
+
+			}
 		}
 		.burger-bar{
+			z-index: 6;
 			display: block;
 			width: 20px;
 			height: 3px;
@@ -79,6 +87,8 @@
 			-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
 			-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
 			box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+			transition: all 0.2s ease-in-out;
+			-webkit-transition: all 0.2s ease-in-out;
 		}
 	}
 	.menu{
@@ -90,13 +100,12 @@
 	}
 
 	// Screens larger than 800px
-	@media screen and (min-width: 800px) {
-		.menu:hover > .menu-content{
-		    // transition: opacity 0.2s ease-in-out;
-		    // opacity: 1;
-		    display: block;
-		}
-	}
+	// @media screen and (min-width: 800px) {
+	// 	.menu:hover > .menu-content{
+	// 	    transition: opacity 0.2s ease-in-out;
+	// 	    opacity: 1;
+	// 	}
+	// }
 	nav{
 		.menu-content{
 			position: absolute;
@@ -106,12 +115,10 @@
 			width: 100%;
 			background-color: #232323;
 			padding:40px 20px 60px;
-			transition: all 0.2s ease-in-out;
-			-webkit-transition: all 0.2s ease-in-out;
-			display:none;
-			// opacity:0;
 
 		}
+
+
 		ul{
 			list-style: none;
 			text-align: center;
@@ -182,6 +189,15 @@
 	margin:0;
 	top:0;
 	left:0;
+	@media all and (max-width: 760px){
+		&>* {
+			transform:scale(.7,.7);
+			-ms-transform:scale(.7,.7); /* IE 9 */
+			-webkit-transform:scale(.7,.7); /* Safari and Chrome */
+			// top:-10px;
+			// position: relative;
+		}
+	}
 	p{
 		font-size: 24px;
 		font-weight: 300;
@@ -200,24 +216,35 @@
 	position: absolute;
 	height:	100%;
 	width: 100%;
+	overflow: hidden;
 
 	.perception{
 		height:100%;
 		background-color:$teal;
 		// text-transform: uppercase;
 		p{
-			padding:0;
+			width: 100%;
+			padding: 0;
 			left: 25%;
-			position: absolute;
-			top:340px;
+			position: relative;
+			top: 150px;
 			z-index: 1;
+			@media all and (max-width: 760px){
+				width: 100%;
+				left: 0;
+				top: 50px;
+			}
 		}
 		.perception-svg{
 			display:block;
-			position: absolute;
+			position: relative;
 			top: 240px;
 			left: 25%;
 			z-index: 0;
+			@media all and (max-width: 760px){
+				left: 0;
+				top: 150px;
+			}
 		}
 	}
 	.dahl{
@@ -227,17 +254,192 @@
 			padding:0;
 			color:$orange;
 			text-transform: none;
-			&.inspiration {
-				padding-top:200px;
-				color:$white;
-				text-transform: none;
+		}
+		.inspiration {
+			display: block;
+			padding-top:200px;
+			@media all and (max-width: 760px){
+				padding-top:100px;
 			}
+			color:$white;
+			text-transform: none;
+		}
+		.byline {
+			display: block;
+			text-transform: none;
 		}
 	}
+
+	$shape-size: 200px;
+
+	.dahl2 {
+	  background-color: $orange;
+	  height:100%;
+	  font-family: 'Palatino', Georgia, serif;
+	  font-style: italic;
+	  line-height: 1.5em;
+	  padding-top: 50px;
+		  blockquote {
+		  	border:none;
+		  }
+	  }
+
+
+	.all-shapes {
+	  position:relative;
+	  display:block;
+	  margin: 50px auto;
+	  max-width: 600px;
+	  height: ($shape-size);
+
+	  blockquote {
+	    display:block;
+	    position: relative;
+	    z-index: 100;
+	    color: $orange;
+	    padding: 30px 20px;
+
+	    @media all and (max-width: 720px) {
+	        color: #111;
+	    }
+
+	    span {
+	      color:#f00;
+	      display:block;
+
+	      &.hint {
+	        opacity:0;
+	        display:block;
+	        width:165px;
+	        background-color:$white;
+	        font-family: helvetica, sans-serif;
+	        font-style:normal;
+	        color:$orange;
+	        font-size:12px;
+
+	        @media all and (max-width: 720px) {
+	            visibility: hidden;
+	        }
+
+
+	        animation:flash ease 2s 4s 2 alternate;
+	        -webkit-animation:flash ease 2s 4s 2 alternate; // Safari
+	        -moz-animation:flash ease 2s 4s 2 alternate; // Zilla
+	        -o-animation:flash ease 2s 4s 2 alternate; // Opera
+
+	          @keyframes flash {
+	            0% {opacity:0;}
+	            100% {opacity:1;}
+	          }
+
+	          @-webkit-keyframes flash {
+	            0% {opacity:0;}
+	            100% {opacity:1;}
+	          }
+
+	          @-moz-keyframes flash {
+	            0% {opacity:0;}
+	            100% {opacity:1;}
+	          }
+	        }
+	      }
+
+	    &::selection {
+	      background-color: transparent; /* Safari */
+	      color: #f00;
+	    }
+	    &::-moz-selection {
+	        background-color: transparent; /* Firefox */
+	        color: #f00;
+	      }
+
+	    }
+
+	  .shape {
+	    display:block;
+	    width: 200px;
+	    float:left;
+	    .square {
+	        width: $shape-size;
+	        height:$shape-size;
+	        position: absolute;
+	        display:block;
+	        &.white {
+	          z-index: 0;
+	          background-color: #fff;
+	          left:0;
+	          top:0;
+	          }
+	        &.orange {
+	          z-index: 1;
+	          background-color: $orange;
+	          left:10px;
+	          top:10px;
+	          }
+
+	        } /*.square*/
+
+	        .triangle {
+	          position: absolute;
+	          display:block;
+	          width: 0;
+	          height: 0;
+
+	          &.white {
+	            z-index:2;
+	            left:($shape-size + 10);
+	            top:0;
+	            border-left: ($shape-size * 2 / 3) solid transparent;
+	            border-right: ($shape-size * 2 / 3) solid transparent;
+	            border-bottom: ($shape-size * 2 / 2) solid $white;
+	          }
+	          &.orange {
+	            z-index: 3;
+	            // 20 is the shape spacing (make varible?)
+	            left:($shape-size + 20);
+	            top:10px;
+	            border-left: ($shape-size * 2 / 3) solid transparent;
+	            border-right: ($shape-size * 2 / 3) solid transparent;
+	            border-bottom: ($shape-size * 2 / 2) solid $orange;
+	          }
+	        } /*.triangle*/
+
+	        .circle {
+	          position: absolute;
+	          display:block;
+	          width: $shape-size;
+	          height: $shape-size;
+	          border-radius: $shape-size;
+
+	          &.white {
+	            z-index:4;
+	            /* x2 below moves the circle to the right plus the margins*/
+	            left:($shape-size * 2 + 60);
+	            top:0;
+	            border-radius: $shape-size;
+	            background-color: $white;
+
+	          }
+	          &.orange {
+	            z-index: 5;
+	            left:($shape-size * 2 + 70);
+	            top:10px;
+
+	            border-radius: $shape-size;
+	            background-color: $orange;
+
+	          }
+	        } /*.circle*/
+
+	  } /*.shape*/
+	} /*.all-shapes*/
+
+
+
 	.delightful{
 		height:100%;
 
-		background:$tan url(../../assets/img/tinker.png) 80% 50px no-repeat;
+		background:$tan url(../../assets/img/tinker.png) 50% 30px no-repeat;
 		background-size: 480px 480px;
 		img {
 			position: absolute;
@@ -296,6 +498,9 @@
 			position: absolute;
 			left: 40%;
 			top: 15%;
+			@media all and (max-width: 400px){
+				top: 15%;
+			}
 
 			.good-circle, .well-circle{
 				position: absolute;

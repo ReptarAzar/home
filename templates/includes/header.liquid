@@ -3,7 +3,7 @@
 		<p class="logo"><a href="/" title="home">&amp;</a></p>
 
 		<div class="menu">
-			<button class="menu-btn" onclick="toggle_visibility('menu')">
+			<button class="menu-btn">
 				<span class="burger-bar"></span>
 				<span class="burger-bar"></span>
 				<span class="burger-bar"></span>
@@ -40,13 +40,5 @@
 		</div>
 	</nav>
 </header>
-
-<script type="text/javascript">
-    function toggle_visibility(id) {
-       var e = document.getElementById(id);
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'block';
-    }
-</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
+        type="text/javascript"></script>
