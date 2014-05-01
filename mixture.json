@@ -15,16 +15,9 @@
   "publishedId": "4750",
   "remoteDebugPort": 0,
   "routes": [
-    {
-      "redirect": null,
-      "route": "page-:page",
-      "template": "index"
-    },
-    {
-      "redirect": null,
-      "route": "tag/:tag",
-      "template": "index"
-    }
+   { "route": "blog/page-:page", "template": "blog", "redirect": null },
+   { "route": "blog/date/:month/:year", "template": "blog", "redirect": null },
+   { "route": "portfolio/category/:category", "template": "portfolio", "redirect": null }
   ],
   "serverHostname": null,
   "serverPort": null,

@@ -1,4 +1,6 @@
 <header class="page-head">
+	<script type="text/javascript">document.getElementById("menu").style.display = 'none';</script>
+
 	<nav>
 		<p class="logo"><a href="/" title="home">&amp;</a></p>
 
@@ -13,11 +15,11 @@
 				<ul>
 					<li class="post-links">
 						<p class="latest">The latest </p>
-						<p><a href="/article/getting-started">Getting started (again)</a></p>
-						<p><a href="/article/wanderlust">Wanderlust</a></p>
+						<p><a href="/blog/getting-started">Getting started (again)</a></p>
+						<p><a href="/blog/wanderlust">Wanderlust</a></p>
 					</li>
 					<li class="page-links">
-						<a href="/work">Work</a>
+						<a href="/portfolio">Work</a>
 						<span class="divider">.</span>
 						<a href="/about">About</a>
 						<span class="divider">.</span>
@@ -42,3 +44,12 @@
 </header>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
         type="text/javascript"></script>
+
+<script type="text/javascript">
+var menu = $('.menu-content');
+  $(menu).hide();
+
+$( ".menu" ).click(function() {
+  $( ".menu-content" ).slideToggle( 150 );
+});
+</script>

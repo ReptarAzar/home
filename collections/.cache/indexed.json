@@ -1,320 +1,573 @@
 {
   "portfolio": {
     "index": {
-      "title": {
-        "the redesign": [
-          "/portfolio/about-the-redesign"
-        ],
-        "nomenclature in technology and innovation": [
-          "/portfolio/nomenclatures"
-        ],
-        "liquid example": [
-          "/portfolio/liquid-example"
-        ],
-        "things": [
-          "/portfolio/things"
-        ],
-        "an example haml post": [
-          "/portfolio/haml-example"
-        ],
-        "an example markdown post": [
-          "/portfolio/markdown-example"
-        ],
-        "eros, ananke, play (it ain39t all bad)": [
-          "/portfolio/awesome-example"
-        ]
-      },
       "ticks": {
-        "1373673600.0": [
-          "/portfolio/liquid-example",
-          "/portfolio/about-the-redesign"
+        "1398909117.0": [
+          "/portfolio/shed",
+          "/portfolio/wolf",
+          "/portfolio/sky",
+          "/portfolio/summer",
+          "/portfolio/splash",
+          "/portfolio/sunset"
         ],
-        "1372550400.0": [
-          "/portfolio/things",
-          "/portfolio/nomenclatures",
-          "/portfolio/awesome-example"
-        ],
-        "1370908800.0": [
-          "/portfolio/markdown-example"
-        ],
-        "1370995200.0": [
-          "/portfolio/haml-example"
+        "1398909116.0": [
+          "/portfolio/graffiti",
+          "/portfolio/patch",
+          "/portfolio/bench"
         ]
       },
-      "year": {
-        "2013": [
-          "/portfolio/markdown-example",
-          "/portfolio/things",
-          "/portfolio/nomenclatures",
-          "/portfolio/liquid-example",
-          "/portfolio/about-the-redesign",
-          "/portfolio/awesome-example",
-          "/portfolio/haml-example"
+      "title": {
+        "patch": [
+          "/portfolio/patch"
+        ],
+        "shed": [
+          "/portfolio/shed"
+        ],
+        "bench": [
+          "/portfolio/bench"
+        ],
+        "sky": [
+          "/portfolio/sky"
+        ],
+        "sunset": [
+          "/portfolio/sunset"
+        ],
+        "splash": [
+          "/portfolio/splash"
+        ],
+        "summer": [
+          "/portfolio/summer"
+        ],
+        "wolf": [
+          "/portfolio/wolf"
+        ],
+        "graffiti": [
+          "/portfolio/graffiti"
         ]
       },
       "month": {
-        "07": [
-          "/portfolio/liquid-example",
-          "/portfolio/about-the-redesign"
-        ],
-        "06": [
-          "/portfolio/markdown-example",
-          "/portfolio/things",
-          "/portfolio/nomenclatures",
-          "/portfolio/awesome-example",
-          "/portfolio/haml-example"
+        "05": [
+          "/portfolio/graffiti",
+          "/portfolio/shed",
+          "/portfolio/wolf",
+          "/portfolio/sky",
+          "/portfolio/patch",
+          "/portfolio/summer",
+          "/portfolio/splash",
+          "/portfolio/sunset",
+          "/portfolio/bench"
         ]
       },
-      "mixture_date": {
-        "2013-07-13t00:00:00z": [
-          "/portfolio/liquid-example",
-          "/portfolio/about-the-redesign"
+      "transliterated-title": {
+        "patch": [
+          "/portfolio/patch"
         ],
-        "2013-06-30t00:00:00z": [
-          "/portfolio/things",
-          "/portfolio/nomenclatures",
-          "/portfolio/awesome-example"
+        "shed": [
+          "/portfolio/shed"
         ],
-        "2013-06-11t00:00:00z": [
-          "/portfolio/markdown-example"
+        "bench": [
+          "/portfolio/bench"
         ],
-        "2013-06-12t00:00:00z": [
-          "/portfolio/haml-example"
+        "sky": [
+          "/portfolio/sky"
+        ],
+        "sunset": [
+          "/portfolio/sunset"
+        ],
+        "splash": [
+          "/portfolio/splash"
+        ],
+        "summer": [
+          "/portfolio/summer"
+        ],
+        "wolf": [
+          "/portfolio/wolf"
+        ],
+        "graffiti": [
+          "/portfolio/graffiti"
         ]
       },
-      "mixture_month_year": {
-        "07/2013": [
-          "/portfolio/liquid-example",
-          "/portfolio/about-the-redesign"
+      "transliterated-category": {
+        "shed": [
+          "/portfolio/shed"
         ],
-        "06/2013": [
-          "/portfolio/markdown-example",
-          "/portfolio/things",
-          "/portfolio/nomenclatures",
-          "/portfolio/awesome-example",
-          "/portfolio/haml-example"
+        "photography": [
+          "/portfolio/graffiti",
+          "/portfolio/shed",
+          "/portfolio/wolf",
+          "/portfolio/sky",
+          "/portfolio/patch",
+          "/portfolio/summer",
+          "/portfolio/splash",
+          "/portfolio/sunset",
+          "/portfolio/bench"
+        ],
+        "bench": [
+          "/portfolio/bench"
+        ],
+        "sky": [
+          "/portfolio/sky"
+        ],
+        "art": [
+          "/portfolio/graffiti",
+          "/portfolio/shed",
+          "/portfolio/wolf",
+          "/portfolio/patch",
+          "/portfolio/summer",
+          "/portfolio/splash",
+          "/portfolio/sunset"
+        ],
+        "sea": [
+          "/portfolio/splash",
+          "/portfolio/sunset"
+        ],
+        "sunset": [
+          "/portfolio/sunset"
+        ],
+        "beach": [
+          "/portfolio/summer",
+          "/portfolio/sunset"
+        ],
+        "graffiti": [
+          "/portfolio/graffiti",
+          "/portfolio/wolf"
+        ]
+      },
+      "category": {
+        "shed": [
+          "/portfolio/shed"
+        ],
+        "photography": [
+          "/portfolio/graffiti",
+          "/portfolio/shed",
+          "/portfolio/wolf",
+          "/portfolio/sky",
+          "/portfolio/patch",
+          "/portfolio/summer",
+          "/portfolio/splash",
+          "/portfolio/sunset",
+          "/portfolio/bench"
+        ],
+        "bench": [
+          "/portfolio/bench"
+        ],
+        "sky": [
+          "/portfolio/sky"
+        ],
+        "art": [
+          "/portfolio/graffiti",
+          "/portfolio/shed",
+          "/portfolio/wolf",
+          "/portfolio/patch",
+          "/portfolio/summer",
+          "/portfolio/splash",
+          "/portfolio/sunset"
+        ],
+        "sea": [
+          "/portfolio/splash",
+          "/portfolio/sunset"
+        ],
+        "sunset": [
+          "/portfolio/sunset"
+        ],
+        "beach": [
+          "/portfolio/summer",
+          "/portfolio/sunset"
+        ],
+        "graffiti": [
+          "/portfolio/graffiti",
+          "/portfolio/wolf"
+        ]
+      },
+      "transliterated-img": {
+        "1jpg": [
+          "/portfolio/graffiti"
+        ],
+        "5jpg": [
+          "/portfolio/sunset"
+        ],
+        "2jpg": [
+          "/portfolio/summer"
+        ],
+        "6jpg": [
+          "/portfolio/sky"
+        ],
+        "8jpg": [
+          "/portfolio/bench"
+        ],
+        "3jpg": [
+          "/portfolio/wolf"
+        ],
+        "7jpg": [
+          "/portfolio/patch"
+        ],
+        "9jpg": [
+          "/portfolio/shed"
+        ],
+        "4jpg": [
+          "/portfolio/splash"
+        ]
+      },
+      "img": {
+        "2.jpg": [
+          "/portfolio/summer"
+        ],
+        "9.jpg": [
+          "/portfolio/shed"
+        ],
+        "5.jpg": [
+          "/portfolio/sunset"
+        ],
+        "8.jpg": [
+          "/portfolio/bench"
+        ],
+        "7.jpg": [
+          "/portfolio/patch"
+        ],
+        "1.jpg": [
+          "/portfolio/graffiti"
+        ],
+        "6.jpg": [
+          "/portfolio/sky"
+        ],
+        "3.jpg": [
+          "/portfolio/wolf"
+        ],
+        "4.jpg": [
+          "/portfolio/splash"
+        ]
+      },
+      "transliterated-slug": {
+        "/portfolio/graffiti": [
+          "/portfolio/graffiti"
+        ],
+        "/portfolio/shed": [
+          "/portfolio/shed"
+        ],
+        "/portfolio/sky": [
+          "/portfolio/sky"
+        ],
+        "/portfolio/wolf": [
+          "/portfolio/wolf"
+        ],
+        "/portfolio/summer": [
+          "/portfolio/summer"
+        ],
+        "/portfolio/patch": [
+          "/portfolio/patch"
+        ],
+        "/portfolio/splash": [
+          "/portfolio/splash"
+        ],
+        "/portfolio/bench": [
+          "/portfolio/bench"
+        ],
+        "/portfolio/sunset": [
+          "/portfolio/sunset"
         ]
       },
       "slug": {
-        "/portfolio/markdown-example": [
-          "/portfolio/markdown-example"
+        "/portfolio/graffiti": [
+          "/portfolio/graffiti"
         ],
-        "/portfolio/things": [
-          "/portfolio/things"
+        "/portfolio/shed": [
+          "/portfolio/shed"
         ],
-        "/portfolio/liquid-example": [
-          "/portfolio/liquid-example"
+        "/portfolio/sky": [
+          "/portfolio/sky"
         ],
-        "/portfolio/nomenclatures": [
-          "/portfolio/nomenclatures"
+        "/portfolio/wolf": [
+          "/portfolio/wolf"
         ],
-        "/portfolio/awesome-example": [
-          "/portfolio/awesome-example"
+        "/portfolio/summer": [
+          "/portfolio/summer"
         ],
-        "/portfolio/about-the-redesign": [
-          "/portfolio/about-the-redesign"
+        "/portfolio/patch": [
+          "/portfolio/patch"
         ],
-        "/portfolio/haml-example": [
-          "/portfolio/haml-example"
+        "/portfolio/splash": [
+          "/portfolio/splash"
+        ],
+        "/portfolio/bench": [
+          "/portfolio/bench"
+        ],
+        "/portfolio/sunset": [
+          "/portfolio/sunset"
         ]
       },
-      "tags": {
-        "design": [
-          "/portfolio/things",
-          "/portfolio/liquid-example",
-          "/portfolio/about-the-redesign",
-          "/portfolio/awesome-example"
+      "mixture_date": {
+        "2014-04-30t21:51:56-04:00": [
+          "/portfolio/graffiti",
+          "/portfolio/patch",
+          "/portfolio/bench"
         ],
-        "technology": [
-          "/portfolio/nomenclatures"
-        ],
-        "markdown": [
-          "/portfolio/markdown-example"
-        ],
-        "rationale": [
-          "/portfolio/liquid-example",
-          "/portfolio/about-the-redesign",
-          "/portfolio/awesome-example"
-        ],
-        "example": [
-          "/portfolio/markdown-example",
-          "/portfolio/haml-example"
-        ],
-        "haml": [
-          "/portfolio/haml-example"
-        ],
-        "essay": [
-          "/portfolio/things",
-          "/portfolio/nomenclatures"
+        "2014-04-30t21:51:57-04:00": [
+          "/portfolio/shed",
+          "/portfolio/wolf",
+          "/portfolio/sky",
+          "/portfolio/summer",
+          "/portfolio/splash",
+          "/portfolio/sunset"
+        ]
+      },
+      "mixture_month_year": {
+        "05/2014": [
+          "/portfolio/graffiti",
+          "/portfolio/shed",
+          "/portfolio/wolf",
+          "/portfolio/sky",
+          "/portfolio/patch",
+          "/portfolio/summer",
+          "/portfolio/splash",
+          "/portfolio/sunset",
+          "/portfolio/bench"
+        ]
+      },
+      "transliterated-special": {
+        "test": [
+          "/portfolio/bench"
+        ]
+      },
+      "special": {
+        "test": [
+          "/portfolio/bench"
+        ]
+      },
+      "year": {
+        "2014": [
+          "/portfolio/graffiti",
+          "/portfolio/shed",
+          "/portfolio/wolf",
+          "/portfolio/sky",
+          "/portfolio/patch",
+          "/portfolio/summer",
+          "/portfolio/splash",
+          "/portfolio/sunset",
+          "/portfolio/bench"
         ]
       }
     },
     "collection": {
-      "/portfolio/markdown-example": {
-        "ticks": 1370908800.0,
-        "title": "An example Markdown post",
-        "body": "\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n\n<blockquote>\n  <p>&#8220;Lorem ipsum dolor sit amet&#8221;</p>\n</blockquote>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n\n<ol>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ol>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n\n<p><a href=\"http://docs.mixture.io\">http://docs.mixture.io</a></p>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<ul>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ul>\n",
-        "year": "2013",
-        "date": "Tue Jun 11 00:00:00 UTC 2013",
-        "month": "06",
-        "mixture_date": "2013-06-11T00:00:00Z",
-        "published": false,
-        "mixture_month_year": "06/2013",
-        "tags": [
-          "Example",
-          "Markdown"
-        ],
-        "slug": "/portfolio/markdown-example"
-      },
-      "/portfolio/things": {
-        "ticks": 1372550400.0,
-        "title": "Things",
-        "body": "\n<blockquote><p>&#8220;It is not until we've lost everything that we're free to do anything. &ndash;Fight Club&#8220;</p></blockquote>\n\n\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
-        "year": "2013",
-        "date": "Sun Jun 30 00:00:00 UTC 2013",
-        "month": "06",
-        "mixture_date": "2013-06-30T00:00:00Z",
+      "/portfolio/graffiti": {
+        "ticks": 1398909116.0,
         "published": true,
-        "mixture_month_year": "06/2013",
-        "tags": [
-          "Design",
-          "Essay"
+        "month": "05",
+        "title": "Graffiti",
+        "img": "1.jpg",
+        "category": [
+          "graffiti",
+          "art",
+          "photography"
         ],
-        "slug": "/portfolio/things"
+        "mixture_date": "2014-04-30T21:51:56-04:00",
+        "slug": "/portfolio/graffiti",
+        "mixture_month_year": "05/2014",
+        "date": "Thu May 01 01:51:56 UTC 2014",
+        "year": "2014",
+        "body": "\n<p><img src=\"/assets/img/portfolio/1.jpg\" alt=\"alt\" /></p>\n\n<p>This is portfolio item number <strong>1</strong></p>\n"
       },
-      "/portfolio/nomenclatures": {
-        "ticks": 1372550400.0,
-        "title": "Nomenclature in technology and innovation",
-        "body": "\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
-        "year": "2013",
-        "date": "Sun Jun 30 00:00:00 UTC 2013",
-        "month": "06",
-        "mixture_date": "2013-06-30T00:00:00Z",
+      "/portfolio/shed": {
+        "ticks": 1398909117.0,
         "published": true,
-        "mixture_month_year": "06/2013",
-        "tags": [
-          "Technology",
-          "Essay"
+        "month": "05",
+        "title": "Shed",
+        "img": "9.jpg",
+        "category": [
+          "shed",
+          "art",
+          "photography"
         ],
-        "slug": "/portfolio/nomenclatures"
+        "mixture_date": "2014-04-30T21:51:57-04:00",
+        "slug": "/portfolio/shed",
+        "mixture_month_year": "05/2014",
+        "date": "Thu May 01 01:51:57 UTC 2014",
+        "year": "2014",
+        "body": "\n<p><img src=\"/assets/img/portfolio/9.jpg\" alt=\"alt\" /></p>\n\n<p>This is portfolio item number <strong>9</strong></p>\n"
       },
-      "/portfolio/liquid-example": {
-        "ticks": 1373673600.0,
-        "title": "Liquid Example",
-        "body": "\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n<blockquote><p>&#8220;Lorem ipsum dolor sit amet&#8221;</p></blockquote>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
-        "year": "2013",
-        "date": "Sat Jul 13 00:00:00 UTC 2013",
-        "month": "07",
-        "mixture_date": "2013-07-13T00:00:00Z",
-        "published": false,
-        "mixture_month_year": "07/2013",
-        "tags": [
-          "Design",
-          "Rationale"
-        ],
-        "slug": "/portfolio/liquid-example"
-      },
-      "/portfolio/about-the-redesign": {
-        "ticks": 1373673600.0,
-        "title": "the redesign",
-        "body": "\n<h1>Why?</h1>\n\n<h2>why redesign your site so many times?</h2>\n<blockquote>\n  <p>&#8220;Art is never finished, only abandoned. #mdash;Leonardo da Vinci&#8221;</p>\n</blockquote>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n\n<ol>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ol>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n\n<p><a href=\"http://docs.mixture.io\">http://docs.mixture.io</a></p>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<ul>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ul>\n",
-        "year": "2013",
-        "date": "Sat Jul 13 00:00:00 UTC 2013",
-        "month": "07",
-        "mixture_date": "2013-07-13T00:00:00Z",
-        "published": false,
-        "mixture_month_year": "07/2013",
-        "tags": [
-          "Design",
-          "Rationale"
-        ],
-        "slug": "/portfolio/about-the-redesign"
-      },
-      "/portfolio/awesome-example": {
-        "ticks": 1372550400.0,
-        "title": "Eros, ananke, play (it ain39t all bad)",
-        "body": "\n\n<p>\n\tIn addressing the purpose of life, Sigmund Freud famously said \"Work and love, love and work - that's all there is.\" With all respect to Freud, I disagree. He left out play.<super><a href=\"http://www.psychologytoday.com/blog/the-good-life/201004/parsing-positive-psychology-work-love-and-play\" target=\"_blank\">1</a></super></p>\n<blockquote>Love and nessesity. <p>&#8220;Two-fold foundation of society: the compulsion to work, which was created by external necessity, and the power of love...&#8221; 'Civilization and Its Discontents' (1930) (S.E. XXI.101)</p></blockquote>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
-        "year": "2013",
-        "date": "Sun Jun 30 00:00:00 UTC 2013",
-        "month": "06",
-        "mixture_date": "2013-06-30T00:00:00Z",
+      "/portfolio/wolf": {
+        "ticks": 1398909117.0,
         "published": true,
-        "mixture_month_year": "06/2013",
-        "tags": [
-          "Design",
-          "Rationale"
+        "month": "05",
+        "title": "Wolf",
+        "img": "3.jpg",
+        "category": [
+          "graffiti",
+          "art",
+          "photography"
         ],
-        "slug": "/portfolio/awesome-example"
+        "mixture_date": "2014-04-30T21:51:57-04:00",
+        "slug": "/portfolio/wolf",
+        "mixture_month_year": "05/2014",
+        "date": "Thu May 01 01:51:57 UTC 2014",
+        "year": "2014",
+        "body": "\n<p><img src=\"/assets/img/portfolio/3.jpg\" alt=\"alt\" /></p>\n\n<p>This is portfolio item number <strong>3</strong></p>\n"
       },
-      "/portfolio/haml-example": {
-        "ticks": 1370995200.0,
-        "title": "An example HAML post",
-        "body": "<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.\n</p>\n<blockquote>\n  <p>\n    &#8220;Lorem ipsum dolor sit amet&#8221;\n  </p>\n</blockquote>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.\n</p>\n<ol>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n</ol>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy\n</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;</pre>\n<p>\n  <a href='http://docs.mixture.io'>\n    http://docs.mixture.io\n  </a>\n</p>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy\n</p>\n<ul>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n</ul>\n",
-        "year": "2013",
-        "date": "Wed Jun 12 00:00:00 UTC 2013",
-        "month": "06",
-        "mixture_date": "2013-06-12T00:00:00Z",
-        "published": false,
-        "mixture_month_year": "06/2013",
-        "tags": [
-          "Example",
-          "Haml"
+      "/portfolio/sky": {
+        "ticks": 1398909117.0,
+        "published": true,
+        "month": "05",
+        "title": "Sky",
+        "img": "6.jpg",
+        "category": [
+          "sky",
+          "photography"
         ],
-        "slug": "/portfolio/haml-example"
+        "mixture_date": "2014-04-30T21:51:57-04:00",
+        "slug": "/portfolio/sky",
+        "mixture_month_year": "05/2014",
+        "date": "Thu May 01 01:51:57 UTC 2014",
+        "year": "2014",
+        "body": "\n<p><img src=\"/assets/img/portfolio/6.jpg\" alt=\"alt\" /></p>\n\n<p>This is portfolio item number <strong>6</strong></p>\n"
+      },
+      "/portfolio/patch": {
+        "ticks": 1398909116.0,
+        "published": true,
+        "month": "05",
+        "title": "Patch",
+        "img": "7.jpg",
+        "category": [
+          "art",
+          "photography"
+        ],
+        "mixture_date": "2014-04-30T21:51:56-04:00",
+        "slug": "/portfolio/patch",
+        "mixture_month_year": "05/2014",
+        "date": "Thu May 01 01:51:56 UTC 2014",
+        "year": "2014",
+        "body": "\n<p><img src=\"/assets/img/portfolio/7.jpg\" alt=\"alt\" /></p>\n\n<p>This is portfolio item number <strong>7</strong></p>\n"
+      },
+      "/portfolio/summer": {
+        "ticks": 1398909117.0,
+        "published": true,
+        "month": "05",
+        "title": "Summer",
+        "img": "2.jpg",
+        "category": [
+          "beach",
+          "art",
+          "photography"
+        ],
+        "mixture_date": "2014-04-30T21:51:57-04:00",
+        "slug": "/portfolio/summer",
+        "mixture_month_year": "05/2014",
+        "date": "Thu May 01 01:51:57 UTC 2014",
+        "year": "2014",
+        "body": "\n<p><img src=\"/assets/img/portfolio/2.jpg\" alt=\"alt\" /></p>\n\n<p>This is portfolio item number <strong>2</strong></p>\n"
+      },
+      "/portfolio/splash": {
+        "ticks": 1398909117.0,
+        "published": true,
+        "month": "05",
+        "title": "Splash",
+        "img": "4.jpg",
+        "category": [
+          "sea",
+          "art",
+          "photography"
+        ],
+        "mixture_date": "2014-04-30T21:51:57-04:00",
+        "slug": "/portfolio/splash",
+        "mixture_month_year": "05/2014",
+        "date": "Thu May 01 01:51:57 UTC 2014",
+        "year": "2014",
+        "body": "\n<p><img src=\"/assets/img/portfolio/4.jpg\" alt=\"alt\" /></p>\n\n<p>This is portfolio item number <strong>4</strong></p>\n"
+      },
+      "/portfolio/sunset": {
+        "ticks": 1398909117.0,
+        "published": true,
+        "month": "05",
+        "title": "Sunset",
+        "img": "5.jpg",
+        "category": [
+          "sunset",
+          "sea",
+          "beach",
+          "art",
+          "photography"
+        ],
+        "mixture_date": "2014-04-30T21:51:57-04:00",
+        "slug": "/portfolio/sunset",
+        "mixture_month_year": "05/2014",
+        "date": "Thu May 01 01:51:57 UTC 2014",
+        "year": "2014",
+        "body": "\n<p><img src=\"/assets/img/portfolio/5.jpg\" alt=\"alt\" /></p>\n\n<p>This is portfolio item number <strong>5</strong></p>\n"
+      },
+      "/portfolio/bench": {
+        "ticks": 1398909116.0,
+        "published": true,
+        "month": "05",
+        "title": "Bench",
+        "img": "8.jpg",
+        "category": [
+          "bench",
+          "photography"
+        ],
+        "mixture_date": "2014-04-30T21:51:56-04:00",
+        "slug": "/portfolio/bench",
+        "mixture_month_year": "05/2014",
+        "date": "Thu May 01 01:51:56 UTC 2014",
+        "year": "2014",
+        "special": [
+          "test"
+        ],
+        "body": "\n<p><img src=\"/assets/img/portfolio/8.jpg\" alt=\"alt\" /></p>\n\n<p>This is portfolio item number <strong>8</strong></p>\n"
       }
     }
   },
   "blog": {
     "index": {
-      "title": {
-        "nomenclature in technology and innovation": [
-          "/blog/nomenclatures"
-        ],
-        "the redesign": [
-          "/blog/about-the-redesign"
-        ],
-        "liquid example": [
-          "/blog/liquid-example"
-        ],
-        "things": [
-          "/blog/things"
-        ],
-        "an example haml post": [
+      "ticks": {
+        "1370995200.0": [
           "/blog/haml-example"
         ],
-        "an example markdown post": [
-          "/blog/markdown-example"
+        "1378512000.0": [
+          "/blog/brooklyn-bash",
+          "/blog/wanderlust"
         ],
-        "eros, ananke, play (it ain39t all bad)": [
-          "/blog/awesome-example"
-        ]
-      },
-      "ticks": {
         "1373673600.0": [
           "/blog/about-the-redesign",
           "/blog/liquid-example"
         ],
+        "1378072200.0": [
+          "/blog/getting-started"
+        ],
         "1372550400.0": [
+          "/blog/nomenclatures",
           "/blog/awesome-example",
-          "/blog/things",
-          "/blog/nomenclatures"
+          "/blog/things"
         ],
         "1370908800.0": [
           "/blog/markdown-example"
-        ],
-        "1370995200.0": [
-          "/blog/haml-example"
         ]
       },
-      "year": {
-        "2013": [
-          "/blog/awesome-example",
-          "/blog/markdown-example",
-          "/blog/things",
-          "/blog/about-the-redesign",
-          "/blog/nomenclatures",
-          "/blog/liquid-example",
+      "title": {
+        "wanderlust": [
+          "/blog/brooklyn-bash",
+          "/blog/wanderlust"
+        ],
+        "the redesign": [
+          "/blog/about-the-redesign"
+        ],
+        "getting started": [
+          "/blog/getting-started"
+        ],
+        "nomenclature in technology and innovation": [
+          "/blog/nomenclatures"
+        ],
+        "an example haml post": [
           "/blog/haml-example"
+        ],
+        "liquid example": [
+          "/blog/liquid-example"
+        ],
+        "eros, ananke, play (it ain't all bad)": [
+          "/blog/awesome-example"
+        ],
+        "things suck": [
+          "/blog/things"
+        ],
+        "an example markdown post": [
+          "/blog/markdown-example"
         ]
       },
       "month": {
@@ -323,575 +576,409 @@
           "/blog/liquid-example"
         ],
         "06": [
-          "/blog/awesome-example",
-          "/blog/markdown-example",
-          "/blog/things",
           "/blog/nomenclatures",
+          "/blog/awesome-example",
+          "/blog/things",
+          "/blog/markdown-example",
           "/blog/haml-example"
+        ],
+        "09": [
+          "/blog/getting-started",
+          "/blog/brooklyn-bash",
+          "/blog/wanderlust"
         ]
       },
-      "mixture_date": {
-        "2013-07-13t00:00:00z": [
-          "/blog/about-the-redesign",
+      "transliterated-title": {
+        "liquid-example": [
           "/blog/liquid-example"
         ],
-        "2013-06-30t00:00:00z": [
-          "/blog/awesome-example",
-          "/blog/things",
-          "/blog/nomenclatures"
+        "things-suck": [
+          "/blog/things"
         ],
-        "2013-06-11t00:00:00z": [
+        "wanderlust": [
+          "/blog/brooklyn-bash",
+          "/blog/wanderlust"
+        ],
+        "the-redesign": [
+          "/blog/about-the-redesign"
+        ],
+        "an-example-haml-post": [
+          "/blog/haml-example"
+        ],
+        "an-example-markdown-post": [
           "/blog/markdown-example"
         ],
-        "2013-06-12t00:00:00z": [
-          "/blog/haml-example"
-        ]
-      },
-      "mixture_month_year": {
-        "07/2013": [
-          "/blog/about-the-redesign",
-          "/blog/liquid-example"
-        ],
-        "06/2013": [
-          "/blog/awesome-example",
-          "/blog/markdown-example",
-          "/blog/things",
-          "/blog/nomenclatures",
-          "/blog/haml-example"
-        ]
-      },
-      "slug": {
-        "/blog/awesome-example": [
+        "eros-ananke-play-it-aint-all-bad": [
           "/blog/awesome-example"
         ],
-        "/blog/markdown-example": [
-          "/blog/markdown-example"
-        ],
-        "/blog/nomenclatures": [
+        "nomenclature-in-technology-and-innovation": [
           "/blog/nomenclatures"
         ],
-        "/blog/about-the-redesign": [
-          "/blog/about-the-redesign"
+        "getting-started": [
+          "/blog/getting-started"
+        ]
+      },
+      "transliterated-slug": {
+        "/blog/markdown-example": [
+          "/blog/markdown-example"
         ],
         "/blog/things": [
           "/blog/things"
         ],
-        "/blog/liquid-example": [
-          "/blog/liquid-example"
+        "/blog/awesome-example": [
+          "/blog/awesome-example"
+        ],
+        "/blog/nomenclatures": [
+          "/blog/nomenclatures"
+        ],
+        "/blog/getting-started": [
+          "/blog/getting-started"
         ],
         "/blog/haml-example": [
           "/blog/haml-example"
+        ],
+        "/blog/liquid-example": [
+          "/blog/liquid-example"
+        ],
+        "/blog/about-the-redesign": [
+          "/blog/about-the-redesign"
+        ],
+        "/blog/brooklyn-bash": [
+          "/blog/brooklyn-bash"
+        ],
+        "/blog/wanderlust": [
+          "/blog/wanderlust"
         ]
       },
       "tags": {
         "design": [
+          "/blog/getting-started",
           "/blog/awesome-example",
           "/blog/things",
           "/blog/about-the-redesign",
           "/blog/liquid-example"
-        ],
-        "technology": [
-          "/blog/nomenclatures"
         ],
         "markdown": [
           "/blog/markdown-example"
         ],
+        "haml": [
+          "/blog/haml-example"
+        ],
+        "gopro": [
+          "/blog/brooklyn-bash",
+          "/blog/wanderlust"
+        ],
+        "film": [
+          "/blog/brooklyn-bash",
+          "/blog/wanderlust"
+        ],
         "rationale": [
+          "/blog/getting-started",
           "/blog/awesome-example",
           "/blog/about-the-redesign",
           "/blog/liquid-example"
         ],
+        "essay": [
+          "/blog/nomenclatures",
+          "/blog/things"
+        ],
+        "technology": [
+          "/blog/nomenclatures"
+        ],
         "example": [
           "/blog/markdown-example",
           "/blog/haml-example"
+        ]
+      },
+      "slug": {
+        "/blog/markdown-example": [
+          "/blog/markdown-example"
         ],
-        "haml": [
+        "/blog/things": [
+          "/blog/things"
+        ],
+        "/blog/awesome-example": [
+          "/blog/awesome-example"
+        ],
+        "/blog/nomenclatures": [
+          "/blog/nomenclatures"
+        ],
+        "/blog/getting-started": [
+          "/blog/getting-started"
+        ],
+        "/blog/haml-example": [
           "/blog/haml-example"
         ],
-        "essay": [
-          "/blog/things",
-          "/blog/nomenclatures"
-        ]
-      }
-    },
-    "collection": {
-      "/blog/awesome-example": {
-        "ticks": 1372550400.0,
-        "title": "Eros, ananke, play (it ain39t all bad)",
-        "body": "\n\n<p>\n\tIn addressing the purpose of life, Sigmund Freud famously said \"Work and love, love and work - that's all there is.\" With all respect to Freud, I disagree. He left out play.<super><a href=\"http://www.psychologytoday.com/blog/the-good-life/201004/parsing-positive-psychology-work-love-and-play\" target=\"_blank\">1</a></super></p>\n<blockquote>Love and nessesity. <p>&#8220;Two-fold foundation of society: the compulsion to work, which was created by external necessity, and the power of love...&#8221; 'Civilization and Its Discontents' (1930) (S.E. XXI.101)</p></blockquote>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
-        "year": "2013",
-        "date": "Sun Jun 30 00:00:00 UTC 2013",
-        "month": "06",
-        "mixture_date": "2013-06-30T00:00:00Z",
-        "published": true,
-        "mixture_month_year": "06/2013",
-        "tags": [
-          "Design",
-          "Rationale"
+        "/blog/liquid-example": [
+          "/blog/liquid-example"
         ],
-        "slug": "/blog/awesome-example"
-      },
-      "/blog/markdown-example": {
-        "ticks": 1370908800.0,
-        "title": "An example Markdown post",
-        "body": "\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n\n<blockquote>\n  <p>&#8220;Lorem ipsum dolor sit amet&#8221;</p>\n</blockquote>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n\n<ol>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ol>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n\n<p><a href=\"http://docs.mixture.io\">http://docs.mixture.io</a></p>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<ul>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ul>\n",
-        "year": "2013",
-        "date": "Tue Jun 11 00:00:00 UTC 2013",
-        "month": "06",
-        "mixture_date": "2013-06-11T00:00:00Z",
-        "published": false,
-        "mixture_month_year": "06/2013",
-        "tags": [
-          "Example",
-          "Markdown"
+        "/blog/about-the-redesign": [
+          "/blog/about-the-redesign"
         ],
-        "slug": "/blog/markdown-example"
-      },
-      "/blog/things": {
-        "ticks": 1372550400.0,
-        "title": "Things",
-        "body": "\n<blockquote><p>&#8220;It is not until we've lost everything that we're free to do anything. &ndash;Fight Club&#8220;</p></blockquote>\n\n\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
-        "year": "2013",
-        "date": "Sun Jun 30 00:00:00 UTC 2013",
-        "month": "06",
-        "mixture_date": "2013-06-30T00:00:00Z",
-        "published": true,
-        "mixture_month_year": "06/2013",
-        "tags": [
-          "Design",
-          "Essay"
+        "/blog/brooklyn-bash": [
+          "/blog/brooklyn-bash"
         ],
-        "slug": "/blog/things"
-      },
-      "/blog/about-the-redesign": {
-        "ticks": 1373673600.0,
-        "title": "the redesign",
-        "body": "\n<h1>Why?</h1>\n\n<h2>why redesign your site so many times?</h2>\n<blockquote>\n  <p>&#8220;Art is never finished, only abandoned. #mdash;Leonardo da Vinci&#8221;</p>\n</blockquote>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n\n<ol>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ol>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n\n<p><a href=\"http://docs.mixture.io\">http://docs.mixture.io</a></p>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<ul>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ul>\n",
-        "year": "2013",
-        "date": "Sat Jul 13 00:00:00 UTC 2013",
-        "month": "07",
-        "mixture_date": "2013-07-13T00:00:00Z",
-        "published": false,
-        "mixture_month_year": "07/2013",
-        "tags": [
-          "Design",
-          "Rationale"
-        ],
-        "slug": "/blog/about-the-redesign"
-      },
-      "/blog/nomenclatures": {
-        "ticks": 1372550400.0,
-        "title": "Nomenclature in technology and innovation",
-        "body": "\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
-        "year": "2013",
-        "date": "Sun Jun 30 00:00:00 UTC 2013",
-        "month": "06",
-        "mixture_date": "2013-06-30T00:00:00Z",
-        "published": true,
-        "mixture_month_year": "06/2013",
-        "tags": [
-          "Technology",
-          "Essay"
-        ],
-        "slug": "/blog/nomenclatures"
-      },
-      "/blog/liquid-example": {
-        "ticks": 1373673600.0,
-        "title": "Liquid Example",
-        "body": "\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n<blockquote><p>&#8220;Lorem ipsum dolor sit amet&#8221;</p></blockquote>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
-        "year": "2013",
-        "date": "Sat Jul 13 00:00:00 UTC 2013",
-        "month": "07",
-        "mixture_date": "2013-07-13T00:00:00Z",
-        "published": false,
-        "mixture_month_year": "07/2013",
-        "tags": [
-          "Design",
-          "Rationale"
-        ],
-        "slug": "/blog/liquid-example"
-      },
-      "/blog/haml-example": {
-        "ticks": 1370995200.0,
-        "title": "An example HAML post",
-        "body": "<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.\n</p>\n<blockquote>\n  <p>\n    &#8220;Lorem ipsum dolor sit amet&#8221;\n  </p>\n</blockquote>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.\n</p>\n<ol>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n</ol>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy\n</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;</pre>\n<p>\n  <a href='http://docs.mixture.io'>\n    http://docs.mixture.io\n  </a>\n</p>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy\n</p>\n<ul>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n</ul>\n",
-        "year": "2013",
-        "date": "Wed Jun 12 00:00:00 UTC 2013",
-        "month": "06",
-        "mixture_date": "2013-06-12T00:00:00Z",
-        "published": false,
-        "mixture_month_year": "06/2013",
-        "tags": [
-          "Example",
-          "Haml"
-        ],
-        "slug": "/blog/haml-example"
-      }
-    }
-  },
-  "article": {
-    "index": {
-      "title": {
-        "nomenclature in technology and innovation": [
-          "/article/nomenclatures"
-        ],
-        "the redesign": [
-          "/article/about-the-redesign"
-        ],
-        "liquid example": [
-          "/article/liquid-example"
-        ],
-        "wanderlust": [
-          "/article/wanderlust",
-          "/article/brooklyn-bash"
-        ],
-        "an example markdown post": [
-          "/article/markdown-example"
-        ],
-        "an example haml post": [
-          "/article/haml-example"
-        ],
-        "things suck": [
-          "/article/things"
-        ],
-        "eros, ananke, play (it ain39t all bad)": [
-          "/article/awesome-example"
-        ],
-        "getting started": [
-          "/article/getting-started"
-        ]
-      },
-      "ticks": {
-        "1372550400.0": [
-          "/article/awesome-example",
-          "/article/nomenclatures",
-          "/article/things"
-        ],
-        "1373673600.0": [
-          "/article/about-the-redesign",
-          "/article/liquid-example"
-        ],
-        "1370908800.0": [
-          "/article/markdown-example"
-        ],
-        "1378072200.0": [
-          "/article/getting-started"
-        ],
-        "1378512000.0": [
-          "/article/wanderlust",
-          "/article/brooklyn-bash"
-        ],
-        "1370995200.0": [
-          "/article/haml-example"
-        ]
-      },
-      "year": {
-        "2013": [
-          "/article/haml-example",
-          "/article/about-the-redesign",
-          "/article/getting-started",
-          "/article/awesome-example",
-          "/article/nomenclatures",
-          "/article/markdown-example",
-          "/article/wanderlust",
-          "/article/things",
-          "/article/liquid-example",
-          "/article/brooklyn-bash"
-        ]
-      },
-      "month": {
-        "09": [
-          "/article/getting-started",
-          "/article/wanderlust",
-          "/article/brooklyn-bash"
-        ],
-        "07": [
-          "/article/about-the-redesign",
-          "/article/liquid-example"
-        ],
-        "06": [
-          "/article/haml-example",
-          "/article/awesome-example",
-          "/article/nomenclatures",
-          "/article/markdown-example",
-          "/article/things"
+        "/blog/wanderlust": [
+          "/blog/wanderlust"
         ]
       },
       "mixture_date": {
-        "2013-07-13t00:00:00z": [
-          "/article/about-the-redesign",
-          "/article/liquid-example"
-        ],
-        "2013-06-30t00:00:00z": [
-          "/article/awesome-example",
-          "/article/nomenclatures",
-          "/article/things"
-        ],
         "2013-09-07t00:00:00z": [
-          "/article/wanderlust",
-          "/article/brooklyn-bash"
-        ],
-        "2013-09-01t21:50:00z": [
-          "/article/getting-started"
-        ],
-        "2013-06-11t00:00:00z": [
-          "/article/markdown-example"
+          "/blog/brooklyn-bash",
+          "/blog/wanderlust"
         ],
         "2013-06-12t00:00:00z": [
-          "/article/haml-example"
+          "/blog/haml-example"
+        ],
+        "2013-09-01t21:50:00z": [
+          "/blog/getting-started"
+        ],
+        "2013-07-13t00:00:00z": [
+          "/blog/about-the-redesign",
+          "/blog/liquid-example"
+        ],
+        "2013-06-11t00:00:00z": [
+          "/blog/markdown-example"
+        ],
+        "2013-06-30t00:00:00z": [
+          "/blog/nomenclatures",
+          "/blog/awesome-example",
+          "/blog/things"
         ]
       },
       "mixture_month_year": {
         "07/2013": [
-          "/article/about-the-redesign",
-          "/article/liquid-example"
-        ],
-        "06/2013": [
-          "/article/haml-example",
-          "/article/awesome-example",
-          "/article/nomenclatures",
-          "/article/markdown-example",
-          "/article/things"
+          "/blog/about-the-redesign",
+          "/blog/liquid-example"
         ],
         "09/2013": [
-          "/article/getting-started",
-          "/article/wanderlust",
-          "/article/brooklyn-bash"
+          "/blog/getting-started",
+          "/blog/brooklyn-bash",
+          "/blog/wanderlust"
+        ],
+        "06/2013": [
+          "/blog/nomenclatures",
+          "/blog/awesome-example",
+          "/blog/things",
+          "/blog/markdown-example",
+          "/blog/haml-example"
         ]
       },
-      "slug": {
-        "/article/getting-started": [
-          "/article/getting-started"
-        ],
-        "/article/about-the-redesign": [
-          "/article/about-the-redesign"
-        ],
-        "/article/haml-example": [
-          "/article/haml-example"
-        ],
-        "/article/awesome-example": [
-          "/article/awesome-example"
-        ],
-        "/article/markdown-example": [
-          "/article/markdown-example"
-        ],
-        "/article/nomenclatures": [
-          "/article/nomenclatures"
-        ],
-        "/article/wanderlust": [
-          "/article/wanderlust"
-        ],
-        "/article/things": [
-          "/article/things"
-        ],
-        "/article/liquid-example": [
-          "/article/liquid-example"
-        ],
-        "/article/brooklyn-bash": [
-          "/article/brooklyn-bash"
-        ]
-      },
-      "tags": {
+      "transliterated-tags": {
         "design": [
-          "/article/about-the-redesign",
-          "/article/getting-started",
-          "/article/awesome-example",
-          "/article/things",
-          "/article/liquid-example"
+          "/blog/getting-started",
+          "/blog/awesome-example",
+          "/blog/things",
+          "/blog/about-the-redesign",
+          "/blog/liquid-example"
         ],
         "markdown": [
-          "/article/markdown-example"
-        ],
-        "technology": [
-          "/article/nomenclatures"
-        ],
-        "gopro": [
-          "/article/wanderlust",
-          "/article/brooklyn-bash"
-        ],
-        "rationale": [
-          "/article/about-the-redesign",
-          "/article/getting-started",
-          "/article/awesome-example",
-          "/article/liquid-example"
-        ],
-        "example": [
-          "/article/haml-example",
-          "/article/markdown-example"
+          "/blog/markdown-example"
         ],
         "haml": [
-          "/article/haml-example"
+          "/blog/haml-example"
+        ],
+        "gopro": [
+          "/blog/brooklyn-bash",
+          "/blog/wanderlust"
         ],
         "film": [
-          "/article/wanderlust",
-          "/article/brooklyn-bash"
+          "/blog/brooklyn-bash",
+          "/blog/wanderlust"
+        ],
+        "rationale": [
+          "/blog/getting-started",
+          "/blog/awesome-example",
+          "/blog/about-the-redesign",
+          "/blog/liquid-example"
         ],
         "essay": [
-          "/article/nomenclatures",
-          "/article/things"
+          "/blog/nomenclatures",
+          "/blog/things"
+        ],
+        "technology": [
+          "/blog/nomenclatures"
+        ],
+        "example": [
+          "/blog/markdown-example",
+          "/blog/haml-example"
+        ]
+      },
+      "year": {
+        "2013": [
+          "/blog/getting-started",
+          "/blog/nomenclatures",
+          "/blog/awesome-example",
+          "/blog/things",
+          "/blog/markdown-example",
+          "/blog/haml-example",
+          "/blog/about-the-redesign",
+          "/blog/liquid-example",
+          "/blog/brooklyn-bash",
+          "/blog/wanderlust"
         ]
       }
     },
     "collection": {
-      "/article/haml-example": {
-        "ticks": 1370995200.0,
-        "title": "An example HAML post",
-        "body": "<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.\n</p>\n<blockquote>\n  <p>\n    &#8220;Lorem ipsum dolor sit amet&#8221;\n  </p>\n</blockquote>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.\n</p>\n<ol>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n</ol>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy\n</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;</pre>\n<p>\n  <a href='http://docs.mixture.io'>\n    http://docs.mixture.io\n  </a>\n</p>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy\n</p>\n<ul>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n</ul>\n",
-        "year": "2013",
-        "date": "Wed Jun 12 00:00:00 UTC 2013",
-        "month": "06",
-        "mixture_date": "2013-06-12T00:00:00Z",
-        "published": false,
-        "mixture_month_year": "06/2013",
-        "tags": [
-          "Example",
-          "Haml"
-        ],
-        "slug": "/article/haml-example"
-      },
-      "/article/about-the-redesign": {
-        "ticks": 1373673600.0,
-        "title": "the redesign",
-        "body": "\n<blockquote>\n  <p>\"Art is never finished, only abandoned.\" &mdash;Leonardo da Vinci</p>\n</blockquote>\n\n",
-        "year": "2013",
-        "date": "Sat Jul 13 00:00:00 UTC 2013",
-        "month": "07",
-        "mixture_date": "2013-07-13T00:00:00Z",
-        "published": false,
-        "mixture_month_year": "07/2013",
-        "tags": [
-          "Design",
-          "Rationale"
-        ],
-        "slug": "/article/about-the-redesign"
-      },
-      "/article/getting-started": {
+      "/blog/getting-started": {
         "ticks": 1378072200.0,
-        "title": "Getting started",
-        "body": "\n<p>It's been said a hundred times in a hundred ways by every blog everywhere, but I'll repeat it again: <i>getting started is the hardest part</i>.</p>\n\n<p><img src=\"/assets/img/panic.jpg\" alt=\"Creativity\" />\n<span class=\"caption\"><small>&copy; Bill Waterson</small> &middot; <small><a href=\"http://web.mit.edu/manoli/mood/www/calvin-full.html\">The full strip</a></small> &middot; <small><a href=\"http://pbs.twimg.com/media/BJBveBbCQAAaiPW.jpg:large\">En Español</a></small></span></p>\n\n<p>This difficulty getting moving is universal and old as fuck. Three centuries ago Sir Isaac Newton described the phenomena in his first law of motion:</p>\n\n<blockquote>\n  <p>In every material universe, the motion of a particle in a preferential reference frame Φ is determined by the action of forces whose total vanished for all times when and only when the velocity of the particle is constant in Φ. That is, a particle initially at rest or in uniform motion in the preferential frame Φ continues in that state unless compelled by forces to change it.<sup><a href=\"#1\">1</a></sup></p>\n</blockquote>\n\n<p>In other words:</p>\n\n<blockquote>\n  <p>An object that is at rest will stay at rest unless an external force acts upon it. <sup><a href=\"#2\">2</a></sup></p>\n</blockquote>\n\n<p>Why write this? Well frankly, getting this blog and (and site redesign) has been wicked hard and needed somewhere to start. Why not explore why getting going has been especially hard to actually <i>do</i> since started working in the 'real world.' The recipe for success was all there. I have more time than I did in college. I'm more skilled and have access to more talent and resources in DC than I ever did in Syracuse. Why so hard?</p>\n\n<p>A few things, it's excuses and distractions. Common excuses include: I'm too tired/old/busy for this. Common distractions include: happy hours/ brunch/ girls/ facebook/ tumblr/ reddit/ ect. Additionally, making money has made it easier to push a personal site and personal work lower and lower in the list of priorities. Despite always having personal projects that were supplemental and nourishing in addition to my professional work, in some ways being financially comfortable removed the necessity for personal work and I became quickly complacent.</p>\n\n<p>For us, the creators and the creatives, how can we introduce/find that \"external force\" that Newton describes? Simply put: actively seek out inspiration. Inspiration (like confidence) can manifest in many ways, but inspiration is often the nudge that gets the process going. Music, art, compatriots/ co-founders/ friends/ collaborators, deadlines are all forcing functions for inspiration. Later on in the strip above, Hobbes suggests that Calvin \"try to not think about the end result too much and just have fun with the process of creating.\" That sounds pretty good too.</p>\n\n<p>A few reminders to self when I need to <i>get going</i>: <a href=\"http://justinjackson.ca/jfdi.html\">j.f.d.i.</a>, buddy up, push through the <a href=\"http://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice.html\">paradox of choice</a>, and get some <a href=\"http://www.goodfuckingdesignadvice.com/advice/45/\">honest ego-busting advice</a>.</p>\n\n<!-- In the words of Woody Allen,\n\n>  -->\n\n<hr class=\"hr\" />\n\n<h4>Footnotes</h4>\n<p><span id=\"1\">1</span> &mdash; Beatty, Millard F. (2006). <a href=\"http://books.google.com/books?id=wr2QOBqOBakC&amp;lpg=PP1&amp;pg=PA24&amp;hl=en#v=onepage&amp;q&amp;f=false\">Principles of engineering mechanics Volume 2 of Principles of Engineering Mechanics: Dynamics-The Analysis of Motion,.</a> Springer. p. 24. ISBN <a href=\"http://www.amazon.com/Principles-Engineering-Mechanics-Dynamics-Mathematical/dp/0387237046\">0-387-23704-6</a>.</p>\n\n<p><span id=\"2\">2</span> &mdash; <a href=\"http://en.wikipedia.org/wiki/Newton's_laws_of_motion#Newton.27s_first_law\">Newton's first law of motion.</a> on wikipedia (yeah, I know.)</p>\n",
-        "year": "2013",
-        "date": "Sun Sep 01 21:50:00 UTC 2013",
-        "month": "09",
-        "mixture_date": "2013-09-01T21:50:00Z",
         "published": true,
+        "month": "09",
+        "title": "Getting started",
+        "tags": [
+          "Design",
+          "Rationale"
+        ],
+        "mixture_date": "2013-09-01T21:50:00Z",
+        "slug": "/blog/getting-started",
         "mixture_month_year": "09/2013",
-        "tags": [
-          "Design",
-          "Rationale"
-        ],
-        "slug": "/article/getting-started"
-      },
-      "/article/awesome-example": {
-        "ticks": 1372550400.0,
-        "title": "Eros, ananke, play (it ain39t all bad)",
-        "body": "\n\n<p>\n\tIn addressing the purpose of life, Sigmund Freud famously said \"Work and love, love and work - that's all there is.\" With all respect to Freud, I disagree. He left out play.<super><a href=\"http://www.psychologytoday.com/blog/the-good-life/201004/parsing-positive-psychology-work-love-and-play\" target=\"_blank\">1</a></super></p>\n<blockquote>Love and nessesity. <p>&#8220;Two-fold foundation of society: the compulsion to work, which was created by external necessity, and the power of love...&#8221; 'Civilization and Its Discontents' (1930) (S.E. XXI.101)</p></blockquote>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
+        "date": "Sun Sep 01 21:50:00 UTC 2013",
         "year": "2013",
-        "date": "Sun Jun 30 00:00:00 UTC 2013",
-        "month": "06",
-        "mixture_date": "2013-06-30T00:00:00Z",
-        "published": false,
-        "mixture_month_year": "06/2013",
-        "tags": [
-          "Design",
-          "Rationale"
-        ],
-        "slug": "/article/awesome-example"
+        "body": "\n<p>It&#8217;s been said a hundred times in a hundred ways by every blog everywhere, but I&#8217;ll repeat it again: <i>getting started is the hardest part</i>.</p>\n\n<p><img src=\"/assets/img/panic.jpg\" alt=\"Creativity\" /><br />\n<span class=\"caption\"><small>&copy; Bill Waterson</small> &middot; <small><a href=\"http://web.mit.edu/manoli/mood/www/calvin-full.html\">The full strip</a></small> &middot; <small><a href=\"http://pbs.twimg.com/media/BJBveBbCQAAaiPW.jpg:large\">En Español</a></small></span></p>\n\n<p>This difficulty getting moving is universal and old as fuck. Three centuries ago Sir Isaac Newton described the phenomena in his first law of motion:</p>\n\n<blockquote>\n  <p>In every material universe, the motion of a particle in a preferential reference frame Φ is determined by the action of forces whose total vanished for all times when and only when the velocity of the particle is constant in Φ. That is, a particle initially at rest or in uniform motion in the preferential frame Φ continues in that state unless compelled by forces to change it.<sup><a href=\"#1\">1</a></sup></p>\n</blockquote>\n\n<p>In other words:</p>\n\n<blockquote>\n  <p>An object that is at rest will stay at rest unless an external force acts upon it. <sup><a href=\"#2\">2</a></sup></p>\n</blockquote>\n\n<p>Why write this? Well frankly, getting this blog and (and site redesign) has been wicked hard and needed somewhere to start. Why not explore why getting going has been especially hard to actually <i>do</i> since started working in the &#8216;real world.&#8217; The recipe for success was all there. I have more time than I did in college. I&#8217;m more skilled and have access to more talent and resources in DC than I ever did in Syracuse. Why so hard?</p>\n\n<p>A few things, it&#8217;s excuses and distractions. Common excuses include: I&#8217;m too tired/old/busy for this. Common distractions include: happy hours/ brunch/ girls/ facebook/ tumblr/ reddit/ ect. Additionally, making money has made it easier to push a personal site and personal work lower and lower in the list of priorities. Despite always having personal projects that were supplemental and nourishing in addition to my professional work, in some ways being financially comfortable removed the necessity for personal work and I became quickly complacent.</p>\n\n<p>For us, the creators and the creatives, how can we introduce/find that &#8220;external force&#8221; that Newton describes? Simply put: actively seek out inspiration. Inspiration (like confidence) can manifest in many ways, but inspiration is often the nudge that gets the process going. Music, art, compatriots/ co-founders/ friends/ collaborators, deadlines are all forcing functions for inspiration. Later on in the strip above, Hobbes suggests that Calvin &#8220;try to not think about the end result too much and just have fun with the process of creating.&#8221; That sounds pretty good too.</p>\n\n<p>A few reminders to self when I need to <i>get going</i>: <a href=\"http://justinjackson.ca/jfdi.html\">j.f.d.i.</a>, buddy up, push through the <a href=\"http://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice.html\">paradox of choice</a>, and get some <a href=\"http://www.goodfuckingdesignadvice.com/advice/45/\">honest ego-busting advice</a>.</p>\n\n<!-- In the words of Woody Allen,\n\n>  -->\n\n<hr class=\"hr\" />\n\n<h4>Footnotes</h4>\n<p><span id=\"1\">1</span> &mdash; Beatty, Millard F. (2006). <a href=\"http://books.google.com/books?id=wr2QOBqOBakC&amp;lpg=PP1&amp;pg=PA24&amp;hl=en#v=onepage&amp;q&amp;f=false\">Principles of engineering mechanics Volume 2 of Principles of Engineering Mechanics: Dynamics-The Analysis of Motion,.</a> Springer. p. 24. ISBN <a href=\"http://www.amazon.com/Principles-Engineering-Mechanics-Dynamics-Mathematical/dp/0387237046\">0-387-23704-6</a>.</p>\n\n<p><span id=\"2\">2</span> &mdash; <a href=\"http://en.wikipedia.org/wiki/Newton's_laws_of_motion#Newton.27s_first_law\">Newton&#8217;s first law of motion.</a> on wikipedia (yeah, I know.)</p>\n"
       },
-      "/article/nomenclatures": {
+      "/blog/nomenclatures": {
         "ticks": 1372550400.0,
+        "published": false,
+        "month": "06",
         "title": "Nomenclature in technology and innovation",
-        "body": "\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
-        "year": "2013",
-        "date": "Sun Jun 30 00:00:00 UTC 2013",
-        "month": "06",
-        "mixture_date": "2013-06-30T00:00:00Z",
-        "published": false,
-        "mixture_month_year": "06/2013",
         "tags": [
           "Technology",
           "Essay"
         ],
-        "slug": "/article/nomenclatures"
-      },
-      "/article/markdown-example": {
-        "ticks": 1370908800.0,
-        "title": "An example Markdown post",
-        "body": "\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n\n<blockquote>\n  <p>&#8220;Lorem ipsum dolor sit amet&#8221;</p>\n</blockquote>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n\n<ol>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ol>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n\n<p><a href=\"http://docs.mixture.io\">http://docs.mixture.io</a></p>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<ul>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ul>\n",
-        "year": "2013",
-        "date": "Tue Jun 11 00:00:00 UTC 2013",
-        "month": "06",
-        "mixture_date": "2013-06-11T00:00:00Z",
-        "published": false,
-        "mixture_month_year": "06/2013",
-        "tags": [
-          "Example",
-          "Markdown"
-        ],
-        "slug": "/article/markdown-example"
-      },
-      "/article/wanderlust": {
-        "ticks": 1378512000.0,
-        "title": "Wanderlust",
-        "body": "\n<p>This is a small series of adventure films that I've shot using a GoPro. These are short (&gt;2min), sloppily edited, and very fun to make. <!-- They also help me to remember and reflect. --></p>\n\n<blockquote>\n  <p>Wanderlust is a strong desire for or impulse to wander or travel and explore the world.</p>\n</blockquote>\n\n<!-- \"The term originates from the German words wandern (to hike) and Lust (desire). The term wandern, frequently misused as a false friend, does in fact not mean 'to wander', but 'to hike.'\" -->\n\n<hr class=\"hr\" />\n\n<h3>Jazz Fest</h3>\n\n<p>A short film from my first taste of New Orleans. Never have I experienced a culture so rich in America.</p>\n\n<div class=\"embed-container\" style=\"margin-top:50px; margin-bottom:50px;\"><iframe src=\"https://player.vimeo.com/video/74780306?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe>\n</div>\n<p>Special thanks to John, Leah, and Jay for making this trip possible.</p>\n\n<p><strong>Music</strong>: \"<a href=\"http://www.youtube.com/watch?v=-Sf8R-90Kdw\">The Survivors</a>\" by Dan Romer, Benh Zeitlin<br />\n<strong>Font</strong>: <a href=\"http://losttype.com/font/?name=carton\">Carton</a> by Nick McCosker</p>\n\n<hr class=\"hr\" />\n\n<h3>Brooklyn bash</h3>\n\n<p>Another short video I shot with my friends in Brooklyn on a GoPro. This one is a bit more Sunlust than Wanderlust.</p>\n\n<blockquote>\n  <p>\"Somehow in the city it's summer in the city. <br />\n&nbsp;&nbsp;Somewhere in the city it's summer in the city.\"</p>\n</blockquote>\n\n<div class=\"embed-container\" style=\"margin-top:50px;\"><iframe src=\"https://player.vimeo.com/video/73988353?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></div>\n<p>Special thanks to <a href=\"http://www.elliesunakawa.com/\">Ellie</a> for offering her beautiful rooftop for the occasion.</p>\n\n<p><strong>Music</strong>: \"<a href=\"http://youtube.com/watch?v=xnQaDvGTq8M\">Summer in the City</a>\" by Freedom Fry<br />\n<strong>Font</strong>: <a href=\"http://losttype.com/font/?name=carton\">Carton</a> by Nick McCosker</p>\n",
-        "year": "2013",
-        "date": "Sat Sep 07 00:00:00 UTC 2013",
-        "month": "09",
-        "mixture_date": "2013-09-07T00:00:00Z",
-        "published": true,
-        "mixture_month_year": "09/2013",
-        "tags": [
-          "film",
-          "GoPro"
-        ],
-        "slug": "/article/wanderlust"
-      },
-      "/article/things": {
-        "ticks": 1372550400.0,
-        "title": "Things Suck",
-        "body": "\n<blockquote><p>&#8220;It is not until we've lost everything that we're free to do anything. &ndash;Fight Club&#8220;</p></blockquote>\n\n<blockquote>\n  <p>Everyone is looking for something at your age: a calling, a significant other, a reason you're here. &mdash;Gram</p>\n</blockquote>\n\n<p>Grammie always is blunt and now is no exception. It's dinner time. I'm sitting next to her at the table and as the mother of 7 kids I can feel her wisdom wash over me.</p>\n",
-        "year": "2013",
-        "date": "Sun Jun 30 00:00:00 UTC 2013",
-        "month": "06",
         "mixture_date": "2013-06-30T00:00:00Z",
-        "published": false,
+        "slug": "/blog/nomenclatures",
         "mixture_month_year": "06/2013",
-        "tags": [
-          "Design",
-          "Essay"
-        ],
-        "slug": "/article/things"
-      },
-      "/article/liquid-example": {
-        "ticks": 1373673600.0,
-        "title": "Liquid Example",
-        "body": "\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n<blockquote><p>&#8220;Lorem ipsum dolor sit amet&#8221;</p></blockquote>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>",
+        "date": "Sun Jun 30 00:00:00 UTC 2013",
         "year": "2013",
-        "date": "Sat Jul 13 00:00:00 UTC 2013",
-        "month": "07",
-        "mixture_date": "2013-07-13T00:00:00Z",
+        "body": "\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>"
+      },
+      "/blog/awesome-example": {
+        "ticks": 1372550400.0,
         "published": false,
-        "mixture_month_year": "07/2013",
+        "month": "06",
+        "title": "Eros, ananke, play (it ain't all bad)",
         "tags": [
           "Design",
           "Rationale"
         ],
-        "slug": "/article/liquid-example"
-      },
-      "/article/brooklyn-bash": {
-        "ticks": 1378512000.0,
-        "title": "Wanderlust",
-        "body": "\n<p>This is a small series of adventure films that I've shot using a GoPro. These are short (&gt;2min), sloppily edited, and very fun to make. <!-- They also help me to remember and reflect. --></p>\n\n<blockquote>\n  <p>Wanderlust is a strong desire for or impulse to wander or travel and explore the world.</p>\n</blockquote>\n\n<!-- \"The term originates from the German words wandern (to hike) and Lust (desire). The term wandern, frequently misused as a false friend, does in fact not mean 'to wander', but 'to hike.'\" -->\n\n<hr class=\"hr\" />\n\n<h3>Jazz Fest</h3>\n\n<p>A short film from my first taste of New Orleans. Never have I experienced a culture so rich in America.</p>\n\n<div class=\"embed-container\" style=\"margin-top:50px; margin-bottom:50px;\"><iframe src=\"https://player.vimeo.com/video/74780306?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe>\n</div>\n<p>Special thanks to John, Leah, and Jay for making this trip possible.</p>\n\n<p><strong>Music</strong>: \"<a href=\"http://www.youtube.com/watch?v=-Sf8R-90Kdw\">The Survivors</a>\" by Dan Romer, Benh Zeitlin<br />\n<strong>Font</strong>: <a href=\"http://losttype.com/font/?name=carton\">Carton</a> by Nick McCosker</p>\n\n<hr class=\"hr\" />\n\n<h3>Brooklyn bash</h3>\n\n<p>Another short video I shot with my friends in Brooklyn on a GoPro. This one is a bit more Sunlust than Wanderlust.</p>\n\n<blockquote>\n  <p>\"Somehow in the city it's summer in the city. <br />\n&nbsp;&nbsp;Somewhere in the city it's summer in the city.\"</p>\n</blockquote>\n\n<div class=\"embed-container\" style=\"margin-top:50px;\"><iframe src=\"https://player.vimeo.com/video/73988353?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></div>\n<p>Special thanks to <a href=\"http://www.elliesunakawa.com/\">Ellie</a> for offering her beautiful rooftop for the occasion.</p>\n\n<p><strong>Music</strong>: \"<a href=\"http://youtube.com/watch?v=xnQaDvGTq8M\">Summer in the City</a>\" by Freedom Fry<br />\n<strong>Font</strong>: <a href=\"http://losttype.com/font/?name=carton\">Carton</a> by Nick McCosker</p>\n",
+        "mixture_date": "2013-06-30T00:00:00Z",
+        "slug": "/blog/awesome-example",
+        "mixture_month_year": "06/2013",
+        "date": "Sun Jun 30 00:00:00 UTC 2013",
         "year": "2013",
-        "date": "Sat Sep 07 00:00:00 UTC 2013",
-        "month": "09",
-        "mixture_date": "2013-09-07T00:00:00Z",
+        "body": "\n\n<p>\n\tIn addressing the purpose of life, Sigmund Freud famously said \"Work and love, love and work - that's all there is.\" With all respect to Freud, I disagree. He left out play.<super><a href=\"http://www.psychologytoday.com/blog/the-good-life/201004/parsing-positive-psychology-work-love-and-play\" target=\"_blank\">1</a></super></p>\n<blockquote>Love and nessesity. <p>&#8220;Two-fold foundation of society: the compulsion to work, which was created by external necessity, and the power of love...&#8221; 'Civilization and Its Discontents' (1930) (S.E. XXI.101)</p></blockquote>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>"
+      },
+      "/blog/things": {
+        "ticks": 1372550400.0,
         "published": false,
-        "mixture_month_year": "09/2013",
+        "month": "06",
+        "title": "Things Suck",
+        "tags": [
+          "Design",
+          "Essay"
+        ],
+        "mixture_date": "2013-06-30T00:00:00Z",
+        "slug": "/blog/things",
+        "mixture_month_year": "06/2013",
+        "date": "Sun Jun 30 00:00:00 UTC 2013",
+        "year": "2013",
+        "body": "\n<blockquote><p>&#8220;It is not until we've lost everything that we're free to do anything. &ndash;Fight Club&#8220;</p></blockquote>\n\n<blockquote>\n  <p>Everyone is looking for something at your age: a calling, a significant other, a reason you&#8217;re here. &mdash;Gram</p>\n</blockquote>\n\n<p>Grammie always is blunt and now is no exception. It&#8217;s dinner time. I&#8217;m sitting next to her at the table and as the mother of 7 kids I can feel her wisdom wash over me.</p>\n"
+      },
+      "/blog/markdown-example": {
+        "ticks": 1370908800.0,
+        "published": false,
+        "month": "06",
+        "title": "An example Markdown post",
+        "tags": [
+          "Example",
+          "Markdown"
+        ],
+        "mixture_date": "2013-06-11T00:00:00Z",
+        "slug": "/blog/markdown-example",
+        "mixture_month_year": "06/2013",
+        "date": "Tue Jun 11 00:00:00 UTC 2013",
+        "year": "2013",
+        "body": "\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n\n<blockquote>\n  <p>&#8220;Lorem ipsum dolor sit amet&#8221;</p>\n</blockquote>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n\n<ol>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ol>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n\n<p><a href=\"http://docs.mixture.io\">http://docs.mixture.io</a></p>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<ul>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ul>\n"
+      },
+      "/blog/haml-example": {
+        "ticks": 1370995200.0,
+        "published": false,
+        "month": "06",
+        "title": "An example HAML post",
+        "tags": [
+          "Example",
+          "Haml"
+        ],
+        "mixture_date": "2013-06-12T00:00:00Z",
+        "slug": "/blog/haml-example",
+        "mixture_month_year": "06/2013",
+        "date": "Wed Jun 12 00:00:00 UTC 2013",
+        "year": "2013",
+        "body": "<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.\n</p>\n<blockquote>\n  <p>\n    &#8220;Lorem ipsum dolor sit amet&#8221;\n  </p>\n</blockquote>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.\n</p>\n<ol>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n</ol>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy\n</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;</pre>\n<p>\n  <a href='http://docs.mixture.io'>\n    http://docs.mixture.io\n  </a>\n</p>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy\n</p>\n<ul>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n</ul>\n"
+      },
+      "/blog/about-the-redesign": {
+        "ticks": 1373673600.0,
+        "published": false,
+        "month": "07",
+        "title": "the redesign",
+        "tags": [
+          "Design",
+          "Rationale"
+        ],
+        "mixture_date": "2013-07-13T00:00:00Z",
+        "slug": "/blog/about-the-redesign",
+        "mixture_month_year": "07/2013",
+        "date": "Sat Jul 13 00:00:00 UTC 2013",
+        "year": "2013",
+        "body": "\n<blockquote>\n  <p>&#8220;Art is never finished, only abandoned.&#8221; &mdash;Leonardo da Vinci</p>\n</blockquote>\n\n"
+      },
+      "/blog/liquid-example": {
+        "ticks": 1373673600.0,
+        "published": false,
+        "month": "07",
+        "title": "Liquid Example",
+        "tags": [
+          "Design",
+          "Rationale"
+        ],
+        "mixture_date": "2013-07-13T00:00:00Z",
+        "slug": "/blog/liquid-example",
+        "mixture_month_year": "07/2013",
+        "date": "Sat Jul 13 00:00:00 UTC 2013",
+        "year": "2013",
+        "body": "\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n<blockquote><p>&#8220;Lorem ipsum dolor sit amet&#8221;</p></blockquote>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>"
+      },
+      "/blog/brooklyn-bash": {
+        "ticks": 1378512000.0,
+        "published": false,
+        "month": "09",
+        "title": "Wanderlust",
         "tags": [
           "film",
           "GoPro"
         ],
-        "slug": "/article/brooklyn-bash"
+        "mixture_date": "2013-09-07T00:00:00Z",
+        "slug": "/blog/brooklyn-bash",
+        "mixture_month_year": "09/2013",
+        "date": "Sat Sep 07 00:00:00 UTC 2013",
+        "year": "2013",
+        "body": "\n<p>This is a small series of adventure films that I&#8217;ve shot using a GoPro. These are short (&gt;2min), sloppily edited, and very fun to make. <!-- They also help me to remember and reflect. --></p>\n\n<blockquote>\n  <p>Wanderlust is a strong desire for or impulse to wander or travel and explore the world.</p>\n</blockquote>\n\n<!-- \"The term originates from the German words wandern (to hike) and Lust (desire). The term wandern, frequently misused as a false friend, does in fact not mean 'to wander', but 'to hike.'\" -->\n\n<hr class=\"hr\" />\n\n<h3>Jazz Fest</h3>\n\n<p>A short film from my first taste of New Orleans. Never have I experienced a culture so rich in America.</p>\n\n<div class=\"embed-container\" style=\"margin-top:50px; margin-bottom:50px;\"><iframe src=\"https://player.vimeo.com/video/74780306?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe>\n</div>\n<p>Special thanks to John, Leah, and Jay for making this trip possible.</p>\n\n<p><strong>Music</strong>: &#8220;<a href=\"http://www.youtube.com/watch?v=-Sf8R-90Kdw\">The Survivors</a>&#8221; by Dan Romer, Benh Zeitlin<br /><br />\n<strong>Font</strong>: <a href=\"http://losttype.com/font/?name=carton\">Carton</a> by Nick McCosker</p>\n\n<hr class=\"hr\" />\n\n<h3>Brooklyn bash</h3>\n\n<p>Another short video I shot with my friends in Brooklyn on a GoPro. This one is a bit more Sunlust than Wanderlust.</p>\n\n<blockquote>\n  <p>&#8220;Somehow in the city it&#8217;s summer in the city. <br /><br />\n&nbsp;&nbsp;Somewhere in the city it&#8217;s summer in the city.&#8221;</p>\n</blockquote>\n\n<div class=\"embed-container\" style=\"margin-top:50px;\"><iframe src=\"https://player.vimeo.com/video/73988353?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></div>\n<p>Special thanks to <a href=\"http://www.elliesunakawa.com/\">Ellie</a> for offering her beautiful rooftop for the occasion.</p>\n\n<p><strong>Music</strong>: &#8220;<a href=\"http://youtube.com/watch?v=xnQaDvGTq8M\">Summer in the City</a>&#8221; by Freedom Fry<br /><br />\n<strong>Font</strong>: <a href=\"http://losttype.com/font/?name=carton\">Carton</a> by Nick McCosker</p>\n"
+      },
+      "/blog/wanderlust": {
+        "ticks": 1378512000.0,
+        "published": true,
+        "month": "09",
+        "title": "Wanderlust",
+        "tags": [
+          "film",
+          "GoPro"
+        ],
+        "mixture_date": "2013-09-07T00:00:00Z",
+        "slug": "/blog/wanderlust",
+        "mixture_month_year": "09/2013",
+        "date": "Sat Sep 07 00:00:00 UTC 2013",
+        "year": "2013",
+        "body": "\n<p>This is a small series of adventure films that I&#8217;ve shot using a GoPro. These are short (&gt;2min), sloppily edited, and very fun to make. <!-- They also help me to remember and reflect. --></p>\n\n<blockquote>\n  <p>Wanderlust is a strong desire for or impulse to wander or travel and explore the world.</p>\n</blockquote>\n\n<!-- \"The term originates from the German words wandern (to hike) and Lust (desire). The term wandern, frequently misused as a false friend, does in fact not mean 'to wander', but 'to hike.'\" -->\n\n<hr class=\"hr\" />\n\n<h3>Jazz Fest</h3>\n\n<p>A short film from my first taste of New Orleans. Never have I experienced a culture so rich in America.</p>\n\n<div class=\"embed-container\" style=\"margin-top:50px; margin-bottom:50px;\"><iframe src=\"https://player.vimeo.com/video/74780306?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe>\n</div>\n<p>Special thanks to John, Leah, and Jay for making this trip possible.</p>\n\n<p><strong>Music</strong>: &#8220;<a href=\"http://www.youtube.com/watch?v=-Sf8R-90Kdw\">The Survivors</a>&#8221; by Dan Romer, Benh Zeitlin<br /><br />\n<strong>Font</strong>: <a href=\"http://losttype.com/font/?name=carton\">Carton</a> by Nick McCosker</p>\n\n<hr class=\"hr\" />\n\n<h3>Brooklyn bash</h3>\n\n<p>Another short video I shot with my friends in Brooklyn on a GoPro. This one is a bit more Sunlust than Wanderlust.</p>\n\n<blockquote>\n  <p>&#8220;Somehow in the city it&#8217;s summer in the city. <br /><br />\n&nbsp;&nbsp;Somewhere in the city it&#8217;s summer in the city.&#8221;</p>\n</blockquote>\n\n<div class=\"embed-container\" style=\"margin-top:50px;\"><iframe src=\"https://player.vimeo.com/video/73988353?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></div>\n<p>Special thanks to <a href=\"http://www.elliesunakawa.com/\">Ellie</a> for offering her beautiful rooftop for the occasion.</p>\n\n<p><strong>Music</strong>: &#8220;<a href=\"http://youtube.com/watch?v=xnQaDvGTq8M\">Summer in the City</a>&#8221; by Freedom Fry<br /><br />\n<strong>Font</strong>: <a href=\"http://losttype.com/font/?name=carton\">Carton</a> by Nick McCosker</p>\n"
       }
     }
   }

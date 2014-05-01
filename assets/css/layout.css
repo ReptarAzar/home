@@ -1,11 +1,11 @@
-@import url(//fonts.googleapis.com/css?family=Lato:300,400,700,400italic|Merriweather:400,700);
 /*
  * Setup
  */
 /*
  * Settings
  */
-/* 
+@import url(//fonts.googleapis.com/css?family=Lato:300,400,700,400italic|Merriweather:400,700);
+/*
  * Mixins // Credit to Harry Roberts & inuit.css for these simple Mixins
  *
  * Font size
@@ -18,12 +18,12 @@
  * Extend the clearfix class with Sass to avoid the `.cf` class appearing over
  * and over in your markup.
  */
-.cf {
+.cf, article .portfolio-items {
   zoom: 1; }
-  .cf:before, .cf:after {
+  .cf:before, article .portfolio-items:before, .cf:after, article .portfolio-items:after {
     content: " ";
     display: table; }
-  .cf:after {
+  .cf:after, article .portfolio-items:after {
     clear: both; }
 
 /*
@@ -40,7 +40,7 @@
   background-color: rgba(249, 249, 249, 0.8); }
 .header-wrapper .page-head .menu-btn .burger-bar {
   background-color: #444;
-  text-shadow: rgba(0, 0, 0, 0) 0 0 0; }
+  text-shadow: transparent 0 0 0; }
 
 .page-head {
   position: fixed;
@@ -255,7 +255,7 @@
     .index-wrap .all-shapes blockquote {
       display: block;
       position: relative;
-      z-index: 100;
+      z-index: 1;
       color: #fca659;
       padding: 30px 20px; }
       @media all and (max-width: 720px) {
@@ -276,31 +276,25 @@
           animation: flash ease 2s 4s 2 alternate;
           -webkit-animation: flash ease 2s 4s 2 alternate;
           -moz-animation: flash ease 2s 4s 2 alternate;
-          -o-animation: flash ease 2s 4s 2 alternate;
-          @keyframes flash {
-            0% {
-              opacity: 0; }
-
-            100% {
-              opacity: 1; } }
-
-          @-webkit-keyframes flash {
-            0% {
-              opacity: 0; }
-
-            100% {
-              opacity: 1; } }
-
-          @-moz-keyframes flash {
-            0% {
-              opacity: 0; }
-
-            100% {
-              opacity: 1; } }
- }
+          -o-animation: flash ease 2s 4s 2 alternate; }
           @media all and (max-width: 720px) {
             .index-wrap .all-shapes blockquote span.hint {
               visibility: hidden; } }
+@keyframes flash {
+  .index-wrap .all-shapes blockquote span.hint 0%  {
+    opacity: 0; }
+  .index-wrap .all-shapes blockquote span.hint 100%  {
+    opacity: 1; } }
+@-webkit-keyframes flash {
+  .index-wrap .all-shapes blockquote span.hint 0%  {
+    opacity: 0; }
+  .index-wrap .all-shapes blockquote span.hint 100%  {
+    opacity: 1; } }
+@-moz-keyframes flash {
+  .index-wrap .all-shapes blockquote span.hint 0%  {
+    opacity: 0; }
+  .index-wrap .all-shapes blockquote span.hint 100%  {
+    opacity: 1; } }
       .index-wrap .all-shapes blockquote::selection {
         background-color: transparent;
         /* Safari */
@@ -337,14 +331,14 @@
         width: 0;
         height: 0; }
         .index-wrap .all-shapes .shape .triangle.white {
-          z-index: 2;
+          z-index: 0;
           left: 210px;
           top: 0;
           border-left: 133.33333px solid transparent;
           border-right: 133.33333px solid transparent;
           border-bottom: 200px solid white; }
         .index-wrap .all-shapes .shape .triangle.orange {
-          z-index: 3;
+          z-index: 1;
           left: 220px;
           top: 10px;
           border-left: 133.33333px solid transparent;
@@ -357,14 +351,14 @@
         height: 200px;
         border-radius: 200px; }
         .index-wrap .all-shapes .shape .circle.white {
-          z-index: 4;
+          z-index: 0;
           /* x2 below moves the circle to the right plus the margins*/
           left: 460px;
           top: 0;
           border-radius: 200px;
           background-color: white; }
         .index-wrap .all-shapes .shape .circle.orange {
-          z-index: 5;
+          z-index: 1;
           left: 470px;
           top: 10px;
           border-radius: 200px;
@@ -384,7 +378,7 @@
       z-index: 2;
       padding: 0;
       color: #111111;
-      text-shadow: rgba(0, 0, 0, 0) 0 3px 0; }
+      text-shadow: transparent 0 3px 0; }
       .index-wrap .delightful p.make {
         padding-top: 200px; }
       .index-wrap .delightful p.playful {
@@ -456,12 +450,25 @@
   color: #888; }
 
 article {
-  margin-top: 3em; }
+  margin-top: 3em;
+  /*
+   * Portfolio
+   */ }
   article hr {
     width: 50%; }
   article.about p {
     margin: 0.6em 0 0;
     padding: 0; }
+  article .portfolio-items {
+    list-style: none; }
+    article .portfolio-items li {
+      float: left;
+      margin: .5em 0 0 .5em; }
+  article .cat {
+    margin: 1em 0 1.5em 0; }
+  article .category {
+    display: inline-block;
+    margin: 0 .5em; }
   article.resources h3 {
     border-bottom: #ccc solid 1px;
     clear: both;
@@ -522,6 +529,40 @@ ul, ol {
 
 blockquote {
   border-left: 5px solid #ccc; }
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+@-moz-keyframes fadein {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+@-o-keyframes fadein {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+.content {
+  -webkit-animation: fadein 1s 1;
+  /* Safari 4+ */
+  -moz-animation: fadein 1s 1;
+  /* Fx 5+ */
+  -o-animation: fadein 1s 1;
+  /* Opera 12+ */
+  animation: fadein 1s 1;
+  /* IE 10+ */ }
 
 .content .more {
   -webkit-border-radius: 3px;
