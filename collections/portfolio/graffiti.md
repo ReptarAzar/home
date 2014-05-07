@@ -1,6 +1,6 @@
 ---
 title: Graffiti
-category: [graffiti,art,photography]
+category: [Design,Code]
 published: true
 img: 1.jpg
 ---

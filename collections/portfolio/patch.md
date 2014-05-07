@@ -1,6 +1,6 @@
 ---
 title: Patch
-category: [art,photography]
+category: [Photography]
 published: true
 img: 7.jpg
 ---

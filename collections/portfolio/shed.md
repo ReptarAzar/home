@@ -1,6 +1,6 @@
 ---
-title: Shed
-category: [shed,art,photography]
+title: Trove
+category: [Design]
 published: true
 img: 9.jpg
 ---
