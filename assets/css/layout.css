@@ -18,13 +18,52 @@
  * Extend the clearfix class with Sass to avoid the `.cf` class appearing over
  * and over in your markup.
  */
-.cf, article .portfolio-items {
+.cf {
   zoom: 1; }
-  .cf:before, article .portfolio-items:before, .cf:after, article .portfolio-items:after {
+  .cf:before, .cf:after {
     content: " ";
     display: table; }
-  .cf:after, article .portfolio-items:after {
+  .cf:after {
     clear: both; }
+
+/*
+ * Notebook
+ */
+blockquote.index-quote {
+  margin: .8em 4em .8em 0; }
+  blockquote.index-quote b {
+    margin-left: 5px; }
+
+.notebook {
+  display: block;
+  height: 682px;
+  width: 541px;
+  margin: 100px auto;
+  background-image: url(../img/pad.png); }
+  .notebook form textarea {
+    height: 550px;
+    width: 410px;
+    border: transparent;
+    background: transparent;
+    outline: none;
+    position: relative;
+    top: 90px;
+    left: 70px; }
+  @media (max-width: 600px) {
+    .notebook {
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -ms-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      width: 320px;
+      height: 406px; }
+      .notebook form textarea {
+        height: 330px;
+        width: 247px;
+        top: 54px;
+        left: 40px;
+        font-size: 0.85em; } }
 
 /*
  * Header
@@ -34,7 +73,7 @@
   .index-header-wrapper .page-head {
     background-color: transparent; }
   .index-header-wrapper .page-head .menu-btn .burger-bar {
-    background-color: #f5f5f5; }
+    background-color: #444; }
 
 .header-wrapper .page-head {
   background-color: rgba(249, 249, 249, 0.8); }
@@ -463,12 +502,55 @@ article {
     list-style: none; }
     article .portfolio-items li {
       float: left;
-      margin: .5em 0 0 .5em; }
+      margin: 0 0 20px;
+      padding: 0;
+      width: 100%;
+      height: 300px;
+      border: 5px solid #eee;
+      -webkit-transition: 0.2s border-color ease-in-out;
+      -moz-transition: 0.2s border-color ease-in-out;
+      -ms-transition: 0.2s border-color ease-in-out;
+      -o-transition: 0.2s border-color ease-in-out;
+      transition: 0.2s border-color ease-in-out; }
+      article .portfolio-items li:hover {
+        border-color: #ddd; }
+        article .portfolio-items li:hover a {
+          text-decoration: none; }
+      article .portfolio-items li a {
+        width: 100%;
+        border: none;
+        outline: none;
+        display: block;
+        padding-top: 120px;
+        height: 290px;
+        background-color: #eee;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: .05em;
+        font-size: 1.25em;
+        color: white; }
   article .cat {
     margin: 1em 0 1.5em 0; }
   article .category {
     display: inline-block;
-    margin: 0 .5em; }
+    margin: 0 1em 0 0;
+    text-transform: capitalize;
+    color: #ccc; }
+    article .category:hover .cat-count {
+      color: #ccc;
+      -webkit-transition: color 0.2s ease-in-out;
+      -moz-transition: color 0.2s ease-in-out;
+      -ms-transition: color 0.2s ease-in-out;
+      -o-transition: color 0.2s ease-in-out;
+      transition: color 0.2s ease-in-out; }
+    article .category .cat-count {
+      color: transparent;
+      -webkit-transition: color 0.2s ease-in-out;
+      -moz-transition: color 0.2s ease-in-out;
+      -ms-transition: color 0.2s ease-in-out;
+      -o-transition: color 0.2s ease-in-out;
+      transition: color 0.2s ease-in-out; }
   article.resources h3 {
     border-bottom: #ccc solid 1px;
     clear: both;
@@ -656,4 +738,5 @@ h3 {
    * Mobile
    */
   .wrapper {
-    padding: 0; } }
+    padding: 0;
+    overflow: hidden; } }

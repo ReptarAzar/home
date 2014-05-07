@@ -582,9 +582,9 @@ pre {
     padding: 0;
     margin: 0 .5em; }
     .page-foot > a span {
-      text-decoration: underline; }
-    .page-foot > a:hover span {
       text-decoration: none; }
+      .page-foot > a span :hover {
+        text-decoration: underline; }
 
 /*
  * SVG Icons

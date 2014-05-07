@@ -10,14 +10,26 @@
   "preprocessorLocations": "assets",
   "preprocessorScriptOutput": "assets/js",
   "preprocessorStyleOutput": "assets/css",
-  "projectDescription": "Another day, another design.",
-  "projectName": "anger",
+  "projectDescription": "If you push in, something will pop out the other side.",
+  "projectName": "Home",
   "publishedId": "4750",
   "remoteDebugPort": 0,
   "routes": [
-   { "route": "blog/page-:page", "template": "blog", "redirect": null },
-   { "route": "blog/date/:month/:year", "template": "blog", "redirect": null },
-   { "route": "portfolio/category/:category", "template": "portfolio", "redirect": null }
+    {
+      "redirect": null,
+      "route": "blog/page-:page",
+      "template": "blog"
+    },
+    {
+      "redirect": null,
+      "route": "blog/date/:month/:year",
+      "template": "blog"
+    },
+    {
+      "redirect": null,
+      "route": "portfolio/category/:category",
+      "template": "portfolio"
+    }
   ],
   "serverHostname": null,
   "serverPort": null,
