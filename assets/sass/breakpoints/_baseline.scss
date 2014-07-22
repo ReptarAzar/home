@@ -46,7 +46,7 @@ a{
  * Content
  */
 .content{
-    padding:20px;
+    padding:20px 0;
     max-width:650px;
     margin:0 auto;
 
@@ -244,11 +244,9 @@ pre{
         padding:0;
         margin:0 .5em;
 
-        span{
-            text-decoration:none;
-            :hover {
-                text-decoration: underline;
-            }
+
+        &:hover{
+            text-decoration: underline;
         }
 
     }

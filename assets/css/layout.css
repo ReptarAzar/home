@@ -111,9 +111,9 @@ blockquote.index-quote {
     float: right;
     position: absolute;
     top: 0;
-    right: 10px;
+    right: 6px;
     border: none;
-    padding: 8px 11px 11px;
+    padding: 8px 11px 11px 58px;
     margin: 6px 0;
     z-index: 2;
     background: transparent no-repeat 0 0;
@@ -128,13 +128,22 @@ blockquote.index-quote {
       -webkit-transition: all 0.2s ease-in-out; }
       .page-head .menu-btn:hover .burger-bar {
         background-color: #555; }
+    .page-head .menu-btn .menu-label {
+      position: absolute;
+      right: 40px;
+      top: 11px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .1em;
+      color: #aaa;
+      text-transform: uppercase; }
     .page-head .menu-btn .burger-bar {
       z-index: 6;
       display: block;
       width: 20px;
       height: 3px;
       margin-top: 3px;
-      background-color: #f5f5f5;
+      background-color: #444;
       -webkit-border-radius: 3px;
       -moz-border-radius: 3px;
       border-radius: 3px;
@@ -492,6 +501,9 @@ article {
   margin-top: 3em;
   /*
    * Portfolio
+   */
+  /*
+   * Trove
    */ }
   article hr {
     width: 50%; }
@@ -551,6 +563,48 @@ article {
       -ms-transition: color 0.2s ease-in-out;
       -o-transition: color 0.2s ease-in-out;
       transition: color 0.2s ease-in-out; }
+  article .poster-frame {
+    position: relative;
+    cursor: pointer;
+    margin: 20px 0; }
+    article .poster-frame .poster-img {
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-border-radius: 3px;
+      border-radius: 3px; }
+    article .poster-frame .button-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    article .poster-frame .btn-video {
+      display: block;
+      position: relative;
+      top: 45%;
+      margin: 0 auto;
+      width: 240px;
+      padding: 7px 15px 8px;
+      background-color: #000;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 4px;
+      border: 1px solid #fff;
+      color: #fff;
+      font-size: 20px; }
+      article .poster-frame .btn-video:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        cursor: pointer; }
+      article .poster-frame .btn-video .play-triangle {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-left: 8px solid white;
+        margin: 0 7px 0 0;
+        position: relative;
+        top: 0; }
   article.resources h3 {
     border-bottom: #ccc solid 1px;
     clear: both;
