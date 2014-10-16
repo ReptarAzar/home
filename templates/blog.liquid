@@ -1,7 +1,7 @@
 {% layout "page" %}
 {% block content %}
 	<!-- Display a list of blog items paged (2 per page), but allow queries by route month and year (see mixture.json for routes) order desc -->
-	{% collection "blog" by 2 query 'month={{ mixture.route.month }}&year={{ mixture.route.year }}' order desc %}
+	{% collection "blog" by 5 query 'month={{ mixture.route.month }}&year={{ mixture.route.year }}' order desc %}
 		<ul class="blog-items">{% include "blog/article" with collection.items %}</ul>
 		<!-- Example paging based on the collection data -->
 		<div class="paging">

@@ -1,63 +1,43 @@
 /*
- * Notebook
+ * Alternate Layouts
  */
-blockquote.index-quote {
-    margin: .8em 4em .8em 0;
-    b {
-        margin-left: 5px;
+// Dark
+.dark {
+    background: #232323;
+}
+.content, .page-foot {
+    max-width: 600px;
+    padding: 0;
+}
+.page-foot {
+    border-top-color: #ddd;
+    margin-bottom: 30px;
+
+    a,>span {
+        color: #888 !important;
     }
 }
-.notebook {
-    display: block;
-    height: 682px;
-    width: 541px;
-    margin: 100px auto;
-    background-image: url(../img/pad.png);
+.type-experiment {
+    margin: 40px 0 0;
+    border-radius: 4px;
+    @include vendor(animation, fadein 1.5s 1);
 
-    form {
-        textarea {
-            height: 550px;
-            width: 410px;
-            border: transparent;
-            background: transparent;
-            outline: none;
-            position: relative;
-            top: 90px;
-            left: 70px;
-        }
+    @media (max-width: 620px) {
+            border-radius: 0;
     }
-
-    @media screen and (max-width: 600px) {
-        @include vendor(background-size,cover);
-        width: 320px;
-        height: 406px;
-
-        form {
-            textarea {
-                height: 330px;
-                width: 247px;
-                top: 54px;
-                left: 40px;
-                font-size: 0.85em;
-            }
-        }
-    }
-
 }
 
 /*
  * Header
  */
-
- .index-header-wrapper {
-    overflow:hidden;
+.index-wrapper {
     .page-head{
         background-color:transparent;
     }
     .page-head .menu-btn .burger-bar{
         background-color: #444;
     }
- }
+}
  .header-wrapper {
     .page-head{
         background-color:rgba(249, 249, 249, 0.8);
@@ -170,8 +150,9 @@ blockquote.index-quote {
             top: 0;
             right: 0;
             width: 100%;
-            background-color: #232323;
-            padding:40px 20px 60px;
+            background-color: #252525;
+            padding: 30px 20px 50px;
+            border-bottom: 2px solid #202020;
 
         }
 
@@ -193,17 +174,24 @@ blockquote.index-quote {
                         &.latest{
                             text-transform: uppercase;
                             color: $orange;
+                            @include font-size(9px);
+                            letter-spacing: 1px;
+                            font-weight: 600;
+
                         }
+                    }
+                    a {
+                        @include font-size(15px);
                     }
                 }
 
                 &.page-links {
-                    padding-top: 10px;
+                    padding: 10px 0;
                     a{
                         text-shadow:rgba(0,0,0,0.50) 0 3px 0;
                         padding:0 5px;
                         color: $tan;
-                        @include font-size(24px);
+                        @include font-size(27px);
 
                     }
                 }
@@ -211,7 +199,7 @@ blockquote.index-quote {
                     a{
                         padding:0 5px;
                         color: $teal;
-                        @include font-size(12px);
+                        @include font-size(15px);
                     }
                 }
 
@@ -238,362 +226,147 @@ blockquote.index-quote {
     right:auto;
 }
 
-.mantra{
-    overflow: hidden;
-    width:100%;
-    position:relative;
-    padding:0;
-    margin:0;
-    top:0;
-    left:0;
-    @media all and (max-width: 760px){
-        &>* {
-            transform:scale(.7,.7);
-            -ms-transform:scale(.7,.7); /* IE 9 */
-            -webkit-transform:scale(.7,.7); /* Safari and Chrome */
-            // top:-10px;
-            // position: relative;
-        }
-    }
-    p{
-        font-size: 24px;
-        font-weight: 300;
-        min-width:250px;
-        padding-top:360px;
-        line-height: 1.2em;
-        width: 50%;
-        margin: 0 auto;
-        color:$white;
-        text-shadow:rgba(0,0,0,0.20) 0 3px 0;
-    }
-}
+/*
+ * Home Page
+ */
 
 
-.index-wrap{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
+.index-wrapper {
 
-    .perception{
+    .portrait {
+        display: block;
+        position: fixed;
+        float: left;
+        width: 27%;
         height:100%;
-        background-color:$teal;
-        // text-transform: uppercase;
-        p{
-            width: 100%;
-            padding: 0;
-            left: 25%;
-            position: relative;
-            top: 150px;
-            z-index: 1;
-            @media all and (max-width: 760px){
-                width: 100%;
-                left: 0;
-                top: 50px;
-            }
-        }
-        .perception-svg{
-            display:block;
-            position: relative;
-            top: 240px;
-            left: 25%;
-            z-index: 0;
-            @media all and (max-width: 760px){
-                left: 0;
-                top: 150px;
-            }
-        }
-    }
-    .dahl{
-        height:100%;
-        background-color:$orange;
-        p {
-            padding:0;
-            color:$orange;
-            text-transform: none;
-        }
-        .inspiration {
-            display: block;
-            padding-top:200px;
-            @media all and (max-width: 760px){
-                padding-top:100px;
-            }
-            color:$white;
-            text-transform: none;
-        }
-        .byline {
-            display: block;
-            text-transform: none;
-        }
+        @include vendor(transition, .2s max-height ease-in-out);
+        // opacity: .85;
+        border-right: 10px solid #fff;
+
+        @include vendor(background-size,cover);
+        background: #fff url(/assets/img/me-lg.jpg) no-repeat top center;
+
+
     }
 
-    $shape-size: 200px;
-
-    .dahl2 {
-      background-color: $orange;
-      height:100%;
-      font-family: 'Palatino', Georgia, serif;
-      font-style: italic;
-      line-height: 1.5em;
-      padding-top: 50px;
-          blockquote {
-            border:none;
-          }
-      }
-
-
-    .all-shapes {
-      position:relative;
-      display:block;
-      margin: 50px auto;
-      max-width: 600px;
-      height: ($shape-size);
-
-      blockquote {
-        display:block;
-        position: relative;
-        z-index: 1;
-        color: $orange;
-        padding: 30px 20px;
-
-        @media all and (max-width: 720px) {
-            color: #111;
+    .index-content {
+        margin-left: 27%;
+        @media (min-width: 2390px) {
+            border-left: 0px solid #FFF;
+        }
+        background: #232323;
+        min-height: 100% !important;
+        padding: 30px;
+        float: left;
+        width: 73%;
+        > * {
+            @include vendor(animation, fadein 1.5s 1);
         }
 
-        span {
-          color:#f00;
-          display:block;
 
-          &.hint {
-            opacity:0;
-            display:block;
-            width:165px;
-            background-color:$white;
-            font-family: helvetica, sans-serif;
-            font-style:normal;
-            color:$orange;
-            font-size:12px;
+        @media (max-width: 520px) {
+            padding: 15px;
+        }
 
-            @media all and (max-width: 720px) {
-                visibility: hidden;
+
+        .hi {
+            text-transform: uppercase;
+            font-weight: 600;
+            color: #09b7aa;
+            border-bottom: 2px solid #09b7aa;
+            width: 75px;
+
+            margin-top: 40%;
+        }
+
+        h2, h3 {
+            font-family: Merriweather;
+            color: #FFF;
+            max-width: 700px;
+
+        }
+        h2 {
+            font-size: 32px;
+            line-height: 38px;
+            margin-top: 10%;
+
+            @media (max-width: 520px) {
+                font-size: 20px !important;
+                line-height: 26px !important;
             }
 
-
-            animation:flash ease 2s 4s 2 alternate;
-            -webkit-animation:flash ease 2s 4s 2 alternate; // Safari
-            -moz-animation:flash ease 2s 4s 2 alternate; // Zilla
-            -o-animation:flash ease 2s 4s 2 alternate; // Opera
-
-              @keyframes flash {
-                0% {opacity:0;}
-                100% {opacity:1;}
-              }
-
-              @-webkit-keyframes flash {
-                0% {opacity:0;}
-                100% {opacity:1;}
-              }
-
-              @-moz-keyframes flash {
-                0% {opacity:0;}
-                100% {opacity:1;}
-              }
-            }
-          }
-
-        &::selection {
-          background-color: transparent; /* Safari */
-          color: #f00;
         }
-        &::-moz-selection {
-            background-color: transparent; /* Firefox */
-            color: #f00;
-          }
+        h3 {
+            font-size: 24px;
+            line-height: 30px;
+            color: #fff;
 
-        }
-
-      .shape {
-        display:block;
-        width: 200px;
-        float:left;
-        .square {
-            width: $shape-size;
-            height:$shape-size;
-            position: absolute;
-            display:block;
-            &.white {
-              z-index: 0;
-              background-color: #fff;
-              left:0;
-              top:0;
-              }
-            &.orange {
-              z-index: 1;
-              background-color: $orange;
-              left:10px;
-              top:10px;
-              }
-
-            } /*.square*/
-
-            .triangle {
-              position: absolute;
-              display:block;
-              width: 0;
-              height: 0;
-
-              &.white {
-                z-index:0;
-                left:($shape-size + 10);
-                top:0;
-                border-left: ($shape-size * 2 / 3) solid transparent;
-                border-right: ($shape-size * 2 / 3) solid transparent;
-                border-bottom: ($shape-size * 2 / 2) solid $white;
-              }
-              &.orange {
-                z-index: 1;
-                // 20 is the shape spacing (make varible?)
-                left:($shape-size + 20);
-                top:10px;
-                border-left: ($shape-size * 2 / 3) solid transparent;
-                border-right: ($shape-size * 2 / 3) solid transparent;
-                border-bottom: ($shape-size * 2 / 2) solid $orange;
-              }
-            } /*.triangle*/
-
-            .circle {
-              position: absolute;
-              display:block;
-              width: $shape-size;
-              height: $shape-size;
-              border-radius: $shape-size;
-
-              &.white {
-                z-index:0;
-                /* x2 below moves the circle to the right plus the margins*/
-                left:($shape-size * 2 + 60);
-                top:0;
-                border-radius: $shape-size;
-                background-color: $white;
-
-              }
-              &.orange {
-                z-index: 1;
-                left:($shape-size * 2 + 70);
-                top:10px;
-
-                border-radius: $shape-size;
-                background-color: $orange;
-
-              }
-            } /*.circle*/
-
-      } /*.shape*/
-    } /*.all-shapes*/
-
-
-
-    .delightful{
-        height:100%;
-
-        background:$tan url(../../assets/img/tinker.png) 50% 30px no-repeat;
-        background-size: 480px 480px;
-        img {
-            position: absolute;
-            right:12%;
-            top:35px;
-            min-width: 480px;
-            height: 480px;
-            z-index: 1;
-        }
-        p {
-            z-index: 2;
-            padding:0;
-            color:$black;
-            text-shadow: rgba(0,0,0,0) 0 3px 0;
-            &.make {
-                padding-top:200px;
-            }
-            &.playful {
-                padding-top:140px;
-                font-size: 13px;
-                text-transform: none;
-
-            }
-        }
-        .delightful-svg {
-            display:block;
-            position: absolute;
-            top: 14%;
-            right: 15%;
-            z-index: 0;
-        }
-    }
-    .dinosaur {
-        .dale {
-            font-family: "Merriweather";
-            width: 240px;
-            color: #222;
-            font-size: 12px;
-            line-height: 16px;
-            text-shadow: none;
-            text-align:justify;
-            text-justify:inter-word;
-        }
-    }
-
-    .dent{
-        height:100%;
-        background-color:$dark;
-    }
-    .do-well-good{
-        height:100%;
-        background-color:$almostWhite;
-        width:100%;
-
-        .circles{
-            position: absolute;
-            left: 40%;
-            top: 15%;
-            @media all and (max-width: 400px){
-                top: 15%;
+            @media (max-width: 520px) {
+                font-size: 16px !important;
+                line-height: 22px !important;
             }
 
-            .good-circle, .well-circle{
-                position: absolute;
-                width: 340px;
-                height: 340px;
-                border-radius: 340px;
-                display: block;
-                border-radius: 340px;
-                background-color: rgba(68, 68, 68, 0.1);
+            a {
+                color: #fff;
+                border-bottom: 3px solid #444;
+                // padding-bottom: 2px;
+                @include vendor(transition, .2s all ease-in-out);
+                &:hover {
+                    border-bottom-color: #aaa;
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+
+        }
+
+        .projects {
+            list-style: none;
+            margin-top: 50px;
+            max-width: 810px;
+
+            li {
                 float: left;
+                height: 200px;
+                width: 100%;
+                margin: 10px 10px 0 0;
+                padding: 2px 5px;
+                border-radius: 6px;
+                opacity: 1;
+                background: rgba(0,0,0,.05) url(/assets/img/no-image.png) no-repeat 10px 10px;
+                text-indent: 25px;
+                border: 1px solid #1f1f1f;
+                &.first {
+                    max-width: 800px;
+                }
+                &.second, &.third {
+                    max-width: 395px;
+                    @media (max-width: 1400px) {
+                      max-width: 800px;
+                    }
+                }
+                &.fourth, &.fifth, &.sixth {
+                    max-width: 260px;
+                    @media (max-width: 1400px) {
+                      max-width: 800px;
+                    }
+                }
             }
-            .well-circle{
-                left: -250px;
-            }
-            .good-circle{
-                left: 20px;
-            }
-            p {
-                color:$black;
-                position: absolute;
-                left:-66px;
-                width: 200px;
-                top:-244px;
-                font-size: 16px;
-                text-align: center;
-                padding-top:400px;
-            }
+        } // .projects
+
+        .footer {
+            font-size: .85em;
+            display: block;
+            padding-top: 20px;
+            clear: both;
+            position: absolute;
+            bottom: 20px;
         }
-    }
+
+    } // .index-content
+
 }
 
-.refresh {
-    position: absolute;
-    right: 50px;
-    bottom: 0;
-}
 
 
 /*

@@ -1,11 +1,24 @@
 {% layout "index" %}
 {% block content %}
 
-	<blockquote class="index-quote">The first page is for friends, everyone knows that. <b> —Caitlin</b></blockquote>
-	<div class="notebook">
-		<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
-		<form id="pad-form" method="post" action="https://script.google.com/macros/s/AKfycbw_foXAgq0bVdc56C5q-BhEfEsmUN7jqF_XmXeJJgBM_1t4nmg/exec" target="hidden_iframe">
-			<textarea name="message" placeholder="Add something clever, then press enter." autofocus="autofocus" onkeydown='if (event.keyCode == 13) { this.form.submit(); alert("Awesome! Thank you."); window.setTimeout(function(){location.reload()},500); return false; }'></textarea>
-		</form>
-	</div>
+<div class="portrait"></div>
+
+<div class="index-content">
+	<div class="hi">hi there,</div>
+	<h2>I'm <span data-typer-targets="an Interaction Designer,a User Interface Designer,a User Experience Designer,a Product Designer,an after-hours coder,an amateur runner,an aspiring humanitarian, a tinkerer, a dreamer">an Interaction Designer</span>.</h2>
+
+	<h3>My interests include <a href="http://www.wired.com/2014/01/its-time-to-take-mesh-networks-seriously-and-not-just-for-the-reasons-you-think/">mesh networks</a>, <a href="type-experiments">type experiments</a>, and <a href="https://www.flickr.com/photos/reptarazar">photojournalism</a>.</h3>
+
+{% comment %}	<ul class="projects">
+		<li class="first">projects</li>
+		<li class="second">are</li>
+		<li class="third">coming</li>
+		<li class="fourth">wicked</li>
+		<li class="fifth">soon</li>
+		<li class="sixth">... I promise :)</li>
+	</ul>{% endcomment %}
+
+<p class="footer">&copy; Azar</p>
+</div>
+
 {% endblock %}

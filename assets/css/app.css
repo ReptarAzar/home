@@ -374,7 +374,7 @@ html {
   font-weight: normal;
   line-height: 1.53333;
   color: #333333;
-  background-color: #f9f9f9;
+  background-color: #F9F9F9;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: none; }
 
@@ -468,7 +468,7 @@ blockquote {
   .content .more:hover {
     background-color: #09b7aa;
     text-decoration: none;
-    color: white; }
+    color: #fff; }
 
 .paging {
   margin-top: 4em;

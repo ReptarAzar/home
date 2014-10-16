@@ -1,10 +1,10 @@
 {
   "convertHtml": {
-    "relativePath": false
+    "relativePaths": false
   },
   "customRubyPath": null,
   "debug": false,
-  "domain": "beta.christopherazar.com",
+  "domain": "christopherazar.com",
   "followLeader": true,
   "lintScripts": false,
   "modelSource": null,

@@ -1,64 +1,79 @@
 {
   "portfolio": {
+    "collection": {
+      "/portfolio/wapo-labs": {
+        "title": "WaPo Labs",
+        "category": [
+          "Design"
+        ],
+        "published": false,
+        "img": "7.jpg",
+        "date": "2013-06-05 11:02:08 UTC",
+        "slug": "/portfolio/wapo-labs",
+        "body": "\n<p>The Labs Brand<br />\n-Logo<br />\n-Website Design + Code</p>\n\n<p>Social Reader<br />\n-Web App UI/UX<br />\n-Widgets</p>\n\n<p>App Factory<br />\n-NAIAS<br />\n-Cherrry Blossom Festival</p>\n\n<p><img src=\"/assets/img/portfolio/7.jpg\" alt=\"alt\" /></p>\n\n<p>This is portfolio item number <strong>7</strong></p>\n",
+        "month": "06",
+        "year": "2013",
+        "ticks": 1370430128.0,
+        "mixture_month_year": "06/2013",
+        "mixture_date": "2013-06-05T04:02:08-07:00"
+      },
+      "/portfolio/little-tinker": {
+        "body": "\n<p><img src=\"/assets/img/portfolio/9.jpg\" alt=\"alt\" /></p>\n\n<p>Little Tinker<br />\n- 4sq Gumball Rocket<br />\n&#8211;Design, 3d rendering/printing/electronics<br />\n- DrinkUp<br />\n- Brand, Marketing, RedBull Comp<br />\n- Keynote Pitch</p>\n\n",
+        "date": "2013-06-05 11:02:08 UTC",
+        "title": "Little Tinker",
+        "slug": "/portfolio/little-tinker",
+        "category": [
+          "Design"
+        ],
+        "img": "9.jpg",
+        "published": true,
+        "month": "06",
+        "year": "2013",
+        "ticks": 1370430128.0,
+        "mixture_month_year": "06/2013",
+        "mixture_date": "2013-06-05T07:02:08-04:00"
+      },
+      "/portfolio/trove": {
+        "body": "\n<p>Trove is a <em>__</em> . (Include the text created for the resumé.)</p>\n\n<div class=\"poster-frame\" data-iframe-src=\"//player.vimeo.com/video/84638326?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=5d536b&amp;amp;autoplay=1\">\n    <img class=\"poster-img\" src=\"/assets/img/portfolio/trove/vid-bg.jpg\" />\n    <div class=\"button-container\">\n        <button class=\"btn-video\">\n            <span class=\"play-triangle\"></span>\n            Watch a quick demo\n        </button>\n    </div>\n</div>\n\n<h3>Things to include in here</h3>\n\n<p>-BIG OLD VIDEO BANNER<br />\n- Web App UX/UI<br />\n- Email, Widgets, Splash, Bookmarklet, About Pages design/code<br />\n- Prototyping of elements (code samples)<br />\n- Some acclaim for Trove (NYTimes Bits Blog etc)</p>\n\n<p>Case Studies Feature Creation<br />\n  - UX to Mock to Prototype</p>\n\n<p>High res stuff<br />\n  - SR to Trove screenshots<br />\n  - Web app design work<br />\n  - Bookmarklet<br />\n  - Icon Font<br />\n  - Splash Page<br />\n  - Tumblr<br />\n  - pick button animated+interactive</p>\n\n<!-- ![alt Screenshot of the blah](image.png \"Title Text\") -->\n\n",
+        "date": "2014-05-08 19:01:51 UTC",
+        "title": "Trove",
+        "slug": "/portfolio/trove",
+        "category": [
+          "Design",
+          "Code"
+        ],
+        "img": "1.jpg",
+        "published": true,
+        "month": "05",
+        "year": "2014",
+        "ticks": 1399575711.0,
+        "mixture_month_year": "05/2014",
+        "mixture_date": "2014-05-08T15:01:51-04:00"
+      },
+      "/portfolio/bench": {
+        "title": "Type Experiments",
+        "category": [
+          "Type"
+        ],
+        "published": false,
+        "img": "8.jpg",
+        "special": [
+          "test"
+        ],
+        "date": "2014-04-30 23:13:36 UTC",
+        "slug": "/portfolio/bench",
+        "body": "\n<h1>hello</h1>\n\n<p><img src=\"/assets/img/portfolio/8.jpg\" alt=\"alt\" /></p>\n",
+        "month": "04",
+        "year": "2014",
+        "ticks": 1398899616.0,
+        "mixture_month_year": "04/2014",
+        "mixture_date": "2014-04-30T16:13:36-07:00"
+      }
+    },
     "index": {
-      "transliterated-category": {
-        "design": [
-          "/portfolio/bench",
-          "/portfolio/trove",
-          "/portfolio/wapo-labs",
-          "/portfolio/little-tinker"
-        ],
-        "code": [
-          "/portfolio/bench",
-          "/portfolio/trove"
-        ]
-      },
-      "mixture_month_year": {
-        "06/2013": [
-          "/portfolio/wapo-labs",
-          "/portfolio/little-tinker"
-        ],
-        "04/2014": [
-          "/portfolio/bench"
-        ],
-        "05/2014": [
-          "/portfolio/trove"
-        ]
-      },
-      "transliterated-img": {
-        "1jpg": [
-          "/portfolio/trove"
-        ],
-        "9jpg": [
-          "/portfolio/little-tinker"
-        ],
-        "7jpg": [
-          "/portfolio/wapo-labs"
-        ],
-        "8jpg": [
-          "/portfolio/bench"
-        ]
-      },
-      "transliterated-special": {
-        "test": [
-          "/portfolio/bench"
-        ]
-      },
-      "mixture_date": {
-        "2014-04-30t19:13:36-04:00": [
-          "/portfolio/bench"
-        ],
-        "2014-05-08t15:01:51-04:00": [
-          "/portfolio/trove"
-        ],
-        "2013-06-05t07:02:08-04:00": [
-          "/portfolio/wapo-labs",
-          "/portfolio/little-tinker"
-        ]
-      },
       "title": {
-        "personal design work": [
-          "/portfolio/bench"
+        "wapo labs": [
+          "/portfolio/wapo-labs"
         ],
         "little tinker": [
           "/portfolio/little-tinker"
@@ -66,80 +81,53 @@
         "trove": [
           "/portfolio/trove"
         ],
-        "wapo labs": [
-          "/portfolio/wapo-labs"
-        ]
-      },
-      "year": {
-        "2013": [
-          "/portfolio/wapo-labs",
-          "/portfolio/little-tinker"
-        ],
-        "2014": [
-          "/portfolio/bench",
-          "/portfolio/trove"
-        ]
-      },
-      "ticks": {
-        "1399575711.0": [
-          "/portfolio/trove"
-        ],
-        "1370430128.0": [
-          "/portfolio/wapo-labs",
-          "/portfolio/little-tinker"
-        ],
-        "1398899616.0": [
+        "type experiments": [
           "/portfolio/bench"
         ]
       },
-      "special": {
-        "test": [
-          "/portfolio/bench"
-        ]
-      },
-      "transliterated-slug": {
-        "/portfolio/bench": [
-          "/portfolio/bench"
-        ],
-        "/portfolio/wapo-labs": [
+      "transliterated-title": {
+        "wapo-labs": [
           "/portfolio/wapo-labs"
         ],
-        "/portfolio/trove": [
+        "little-tinker": [
+          "/portfolio/little-tinker"
+        ],
+        "trove": [
           "/portfolio/trove"
         ],
-        "/portfolio/little-tinker": [
-          "/portfolio/little-tinker"
-        ]
-      },
-      "slug": {
-        "/portfolio/bench": [
+        "type-experiments": [
           "/portfolio/bench"
-        ],
-        "/portfolio/wapo-labs": [
-          "/portfolio/wapo-labs"
-        ],
-        "/portfolio/trove": [
-          "/portfolio/trove"
-        ],
-        "/portfolio/little-tinker": [
-          "/portfolio/little-tinker"
         ]
       },
       "category": {
         "design": [
-          "/portfolio/bench",
-          "/portfolio/trove",
           "/portfolio/wapo-labs",
-          "/portfolio/little-tinker"
+          "/portfolio/little-tinker",
+          "/portfolio/trove"
         ],
         "code": [
-          "/portfolio/bench",
           "/portfolio/trove"
+        ],
+        "type": [
+          "/portfolio/bench"
+        ]
+      },
+      "transliterated-category": {
+        "design": [
+          "/portfolio/wapo-labs",
+          "/portfolio/little-tinker",
+          "/portfolio/trove"
+        ],
+        "code": [
+          "/portfolio/trove"
+        ],
+        "type": [
+          "/portfolio/bench"
         ]
       },
       "img": {
-        "8.jpg": [
-          "/portfolio/bench"
+        "7.jpg": [
+          "/portfolio/wapo-labs"
         ],
         "9.jpg": [
           "/portfolio/little-tinker"
@@ -147,8 +135,50 @@
         "1.jpg": [
           "/portfolio/trove"
         ],
-        "7.jpg": [
+        "8.jpg": [
+          "/portfolio/bench"
+        ]
+      },
+      "transliterated-img": {
+        "7jpg": [
           "/portfolio/wapo-labs"
+        ],
+        "9jpg": [
+          "/portfolio/little-tinker"
+        ],
+        "1jpg": [
+          "/portfolio/trove"
+        ],
+        "8jpg": [
+          "/portfolio/bench"
+        ]
+      },
+      "slug": {
+        "/portfolio/wapo-labs": [
+          "/portfolio/wapo-labs"
+        ],
+        "/portfolio/little-tinker": [
+          "/portfolio/little-tinker"
+        ],
+        "/portfolio/trove": [
+          "/portfolio/trove"
+        ],
+        "/portfolio/bench": [
+          "/portfolio/bench"
+        ]
+      },
+      "transliterated-slug": {
+        "/portfolio/wapo-labs": [
+          "/portfolio/wapo-labs"
+        ],
+        "/portfolio/little-tinker": [
+          "/portfolio/little-tinker"
+        ],
+        "/portfolio/trove": [
+          "/portfolio/trove"
+        ],
+        "/portfolio/bench": [
+          "/portfolio/bench"
         ]
       },
       "month": {
@@ -163,129 +193,160 @@
           "/portfolio/bench"
         ]
       },
-      "transliterated-title": {
-        "little-tinker": [
+      "year": {
+        "2013": [
+          "/portfolio/wapo-labs",
           "/portfolio/little-tinker"
         ],
-        "wapo-labs": [
-          "/portfolio/wapo-labs"
-        ],
-        "trove": [
-          "/portfolio/trove"
-        ],
-        "personal-design-work": [
+        "2014": [
+          "/portfolio/trove",
           "/portfolio/bench"
         ]
-      }
-    },
-    "collection": {
-      "/portfolio/bench": {
-        "mixture_month_year": "04/2014",
-        "body": "\n<p><img src=\"/assets/img/portfolio/8.jpg\" alt=\"alt\" /></p>\n\n<p>This is portfolio item number <strong>8</strong></p>\n\n<ul>\n  <li>Syracuse Housing Authority Website and Architecture</li>\n  <li>Woma Design Website</li>\n  <li>Personal/Print Design (Carle font, political cartoon)</li>\n  <li>Photo/Multimedia work (Danny Carr washer image, Travel Pics)</li>\n</ul>\n",
-        "mixture_date": "2014-04-30T19:13:36-04:00",
-        "date": "Wed Apr 30 23:13:36 UTC 2014",
-        "ticks": 1398899616.0,
-        "year": "2014",
-        "title": "Personal Design Work",
-        "slug": "/portfolio/bench",
-        "special": [
-          "test"
-        ],
-        "category": [
-          "Design",
-          "Code"
-        ],
-        "month": "04",
-        "img": "8.jpg",
-        "published": true
       },
-      "/portfolio/trove": {
-        "mixture_month_year": "05/2014",
-        "body": "\n<p>Trove is a <em>__</em> . (Include the text created for the resumé.)</p>\n\n<div class=\"poster-frame\" data-iframe-src=\"//player.vimeo.com/video/84638326?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=5d536b&amp;amp;autoplay=1\">\n    <img class=\"poster-img\" src=\"/assets/img/portfolio/trove/vid-bg.jpg\" />\n    <div class=\"button-container\">\n        <button class=\"btn-video\">\n            <span class=\"play-triangle\"></span>\n            Watch a quick demo\n        </button>\n    </div>\n</div>\n\n<h3>Things to include in here</h3>\n\n<p>-BIG OLD VIDEO BANNER<br />\n- Web App UX/UI<br />\n- Email, Widgets, Splash, Bookmarklet, About Pages design/code<br />\n- Prototyping of elements (code samples)<br />\n- Some acclaim for Trove (NYTimes Bits Blog etc)</p>\n\n<p>Case Studies Feature Creation<br />\n  - UX to Mock to Prototype</p>\n\n<p>High res stuff<br />\n  - SR to Trove screenshots<br />\n  - Web app design work<br />\n  - Bookmarklet<br />\n  - Icon Font<br />\n  - Splash Page<br />\n  - Tumblr<br />\n  - pick button animated+interactive</p>\n\n<!-- ![alt Screenshot of the blah](image.png \"Title Text\") -->\n\n",
-        "mixture_date": "2014-05-08T15:01:51-04:00",
-        "date": "Thu May 08 19:01:51 UTC 2014",
-        "ticks": 1399575711.0,
-        "year": "2014",
-        "title": "Trove",
-        "slug": "/portfolio/trove",
-        "category": [
-          "Design",
-          "Code"
+      "ticks": {
+        "1370430128.0": [
+          "/portfolio/wapo-labs",
+          "/portfolio/little-tinker"
         ],
-        "month": "05",
-        "img": "1.jpg",
-        "published": true
+        "1399575711.0": [
+          "/portfolio/trove"
+        ],
+        "1398899616.0": [
+          "/portfolio/bench"
+        ]
       },
-      "/portfolio/wapo-labs": {
-        "mixture_month_year": "06/2013",
-        "body": "\n<p>The Labs Brand<br />\n-Logo<br />\n-Website Design + Code</p>\n\n<p>Social Reader<br />\n-Web App UI/UX<br />\n-Widgets</p>\n\n<p>App Factory<br />\n-NAIAS<br />\n-Cherrry Blossom Festival</p>\n\n<p><img src=\"/assets/img/portfolio/7.jpg\" alt=\"alt\" /></p>\n\n<p>This is portfolio item number <strong>7</strong></p>\n",
-        "mixture_date": "2013-06-05T07:02:08-04:00",
-        "date": "Wed Jun 05 11:02:08 UTC 2013",
-        "ticks": 1370430128.0,
-        "year": "2013",
-        "title": "WaPo Labs",
-        "slug": "/portfolio/wapo-labs",
-        "category": [
-          "Design"
+      "mixture_month_year": {
+        "06/2013": [
+          "/portfolio/wapo-labs",
+          "/portfolio/little-tinker"
         ],
-        "month": "06",
-        "img": "7.jpg",
-        "published": true
+        "05/2014": [
+          "/portfolio/trove"
+        ],
+        "04/2014": [
+          "/portfolio/bench"
+        ]
       },
-      "/portfolio/little-tinker": {
-        "mixture_month_year": "06/2013",
-        "body": "\n<p><img src=\"/assets/img/portfolio/9.jpg\" alt=\"alt\" /></p>\n\n<p>Little Tinker<br />\n- 4sq Gumball Rocket<br />\n&#8211;Design, 3d rendering/printing/electronics<br />\n- DrinkUp<br />\n- Brand, Marketing, RedBull Comp<br />\n- Keynote Pitch</p>\n\n",
-        "mixture_date": "2013-06-05T07:02:08-04:00",
-        "date": "Wed Jun 05 11:02:08 UTC 2013",
-        "ticks": 1370430128.0,
-        "year": "2013",
-        "title": "Little Tinker",
-        "slug": "/portfolio/little-tinker",
-        "category": [
-          "Design"
+      "mixture_date": {
+        "2013-06-05t04:02:08-07:00": [
+          "/portfolio/wapo-labs"
         ],
-        "month": "06",
-        "img": "9.jpg",
-        "published": true
+        "2013-06-05t07:02:08-04:00": [
+          "/portfolio/little-tinker"
+        ],
+        "2014-05-08t15:01:51-04:00": [
+          "/portfolio/trove"
+        ],
+        "2014-04-30t16:13:36-07:00": [
+          "/portfolio/bench"
+        ]
+      },
+      "special": {
+        "test": [
+          "/portfolio/bench"
+        ]
+      },
+      "transliterated-special": {
+        "test": [
+          "/portfolio/bench"
+        ]
       }
     }
   },
   "blog": {
-    "index": {
-      "mixture_month_year": {
-        "09/2013": [
-          "/blog/wanderlust",
-          "/blog/getting-started"
-        ]
+    "collection": {
+      "/blog/getting-started": {
+        "body": "\n<p>It&#8217;s been said a hundred times in a hundred ways by every blog everywhere, but I&#8217;ll repeat it again: <i>getting started is the hardest part</i>.</p>\n\n<p><img src=\"/assets/img/panic.jpg\" alt=\"Creativity\" /><br />\n<span class=\"caption\"><small>&copy; Bill Waterson</small> &middot; <small><a href=\"http://web.mit.edu/manoli/mood/www/calvin-full.html\">The full strip</a></small> &middot; <small><a href=\"http://pbs.twimg.com/media/BJBveBbCQAAaiPW.jpg:large\">En Español</a></small></span></p>\n\n<p>This difficulty getting moving is universal and old as fuck. Three centuries ago Sir Isaac Newton described the phenomena in his first law of motion:</p>\n\n<blockquote>\n  <p>In every material universe, the motion of a particle in a preferential reference frame Φ is determined by the action of forces whose total vanished for all times when and only when the velocity of the particle is constant in Φ. That is, a particle initially at rest or in uniform motion in the preferential frame Φ continues in that state unless compelled by forces to change it.<sup><a href=\"#1\">1</a></sup></p>\n</blockquote>\n\n<p>In other words:</p>\n\n<blockquote>\n  <p>An object that is at rest will stay at rest unless an external force acts upon it. <sup><a href=\"#2\">2</a></sup></p>\n</blockquote>\n\n<p>Why write this? Well frankly, getting this blog and (and site redesign) has been wicked hard and needed somewhere to start. Why not explore why getting going has been especially hard to actually <i>do</i> since started working in the &#8216;real world.&#8217; The recipe for success was all there. I have more time than I did in college. I&#8217;m more skilled and have access to more talent and resources in DC than I ever did in Syracuse. Why so hard?</p>\n\n<p>A few things, it&#8217;s excuses and distractions. Common excuses include: I&#8217;m too tired/old/busy for this. Common distractions include: happy hours/ brunch/ girls/ facebook/ tumblr/ reddit/ ect. Additionally, making money has made it easier to push a personal site and personal work lower and lower in the list of priorities. Despite always having personal projects that were supplemental and nourishing in addition to my professional work, in some ways being financially comfortable removed the necessity for personal work and I became quickly complacent.</p>\n\n<p>For us, the creators and the creatives, how can we introduce/find that &#8220;external force&#8221; that Newton describes? Simply put: actively seek out inspiration. Inspiration (like confidence) can manifest in many ways, but inspiration is often the nudge that gets the process going. Music, art, compatriots/ co-founders/ friends/ collaborators, deadlines are all forcing functions for inspiration. Later on in the strip above, Hobbes suggests that Calvin &#8220;try to not think about the end result too much and just have fun with the process of creating.&#8221; That sounds pretty good too.</p>\n\n<p>A few reminders to self when I need to <i>get going</i>: <a href=\"http://justinjackson.ca/jfdi.html\">j.f.d.i.</a>, buddy up, push through the <a href=\"http://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice.html\">paradox of choice</a>, and get some <a href=\"http://www.goodfuckingdesignadvice.com/advice/45/\">honest ego-busting advice</a>.</p>\n\n<!-- In the words of Woody Allen,\n\n>  -->\n\n<hr class=\"hr\" />\n\n<h4>Footnotes</h4>\n<p><span id=\"1\">1</span> &mdash; Beatty, Millard F. (2006). <a href=\"http://books.google.com/books?id=wr2QOBqOBakC&amp;lpg=PP1&amp;pg=PA24&amp;hl=en#v=onepage&amp;q&amp;f=false\">Principles of engineering mechanics Volume 2 of Principles of Engineering Mechanics: Dynamics-The Analysis of Motion,.</a> Springer. p. 24. ISBN <a href=\"http://www.amazon.com/Principles-Engineering-Mechanics-Dynamics-Mathematical/dp/0387237046\">0-387-23704-6</a>.</p>\n\n<p><span id=\"2\">2</span> &mdash; <a href=\"http://en.wikipedia.org/wiki/Newton's_laws_of_motion#Newton.27s_first_law\">Newton&#8217;s first law of motion.</a> on wikipedia (yeah, I know.)</p>\n",
+        "date": "2013-09-01 21:50:00 UTC",
+        "title": "Getting started",
+        "slug": "/blog/getting-started",
+        "tags": [
+          "Design",
+          "Rationale"
+        ],
+        "published": true,
+        "month": "09",
+        "year": "2013",
+        "ticks": 1378072200.0,
+        "mixture_month_year": "09/2013",
+        "mixture_date": "2013-09-01T21:50:00Z"
       },
-      "mixture_date": {
-        "2013-09-01t21:50:00z": [
+      "/blog/wanderlust": {
+        "body": "\n<p>This is a small series of adventure films that I&#8217;ve shot using a GoPro. These are short (&gt;2min), sloppily edited, and very fun to make. <!-- They also help me to remember and reflect. --></p>\n\n<blockquote>\n  <p>Wanderlust is a strong desire for or impulse to wander or travel and explore the world.</p>\n</blockquote>\n\n<!-- \"The term originates from the German words wandern (to hike) and Lust (desire). The term wandern, frequently misused as a false friend, does in fact not mean 'to wander', but 'to hike.'\" -->\n\n<hr class=\"hr\" />\n\n<h3>Jazz Fest</h3>\n\n<p>A short film from my first taste of New Orleans. Never have I experienced a culture so rich in America.</p>\n\n<div class=\"embed-container\" style=\"margin-top:50px; margin-bottom:50px;\"><iframe src=\"https://player.vimeo.com/video/74780306?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe>\n</div>\n<p>Special thanks to John, Leah, and Jay for making this trip possible.</p>\n\n<p><strong>Music</strong>: &#8220;<a href=\"http://www.youtube.com/watch?v=-Sf8R-90Kdw\">The Survivors</a>&#8221; by Dan Romer, Benh Zeitlin<br /><br />\n<strong>Font</strong>: <a href=\"http://losttype.com/font/?name=carton\">Carton</a> by Nick McCosker</p>\n\n<hr class=\"hr\" />\n\n<h3>Brooklyn bash</h3>\n\n<p>Another short video I shot with my friends in Brooklyn on a GoPro. This one is a bit more Sunlust than Wanderlust.</p>\n\n<blockquote>\n  <p>&#8220;Somehow in the city it&#8217;s summer in the city. <br /><br />\n&nbsp;&nbsp;Somewhere in the city it&#8217;s summer in the city.&#8221;</p>\n</blockquote>\n\n<div class=\"embed-container\" style=\"margin-top:50px;\"><iframe src=\"https://player.vimeo.com/video/73988353?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></div>\n<p>Special thanks to <a href=\"http://www.elliesunakawa.com/\">Ellie</a> for offering her beautiful rooftop for the occasion.</p>\n\n<p><strong>Music</strong>: &#8220;<a href=\"http://youtube.com/watch?v=xnQaDvGTq8M\">Summer in the City</a>&#8221; by Freedom Fry<br /><br />\n<strong>Font</strong>: <a href=\"http://losttype.com/font/?name=carton\">Carton</a> by Nick McCosker</p>\n",
+        "date": "2013-09-07 00:00:00 UTC",
+        "title": "Wanderlust",
+        "slug": "/blog/wanderlust",
+        "tags": [
+          "film",
+          "GoPro"
+        ],
+        "published": true,
+        "month": "09",
+        "year": "2013",
+        "ticks": 1378512000.0,
+        "mixture_month_year": "09/2013",
+        "mixture_date": "2013-09-07T00:00:00Z"
+      },
+      "/blog/mesh": {
+        "title": "Into the Mesh",
+        "date": "2014-10-15 13:50:00 UTC",
+        "published": false,
+        "tags": [
+          "Tinker",
+          "Humanitarian"
+        ],
+        "slug": "/blog/mesh",
+        "body": "\n<p>Mesh networks.. more on that later.</p>\n\n<p>Something for a while has been telling me that <strong>it’s time to help</strong>. Friends and colleauges work in Liberia on Ebola. A move to San Francisco, the fertile crecent of inspiration. And a little article by Ella about doing what we must. Service has been a big part of my life and I want that piece back, but I wasn’t sure where to apply myself.</p>\n\n<p><img src=\"/assets/img/why.png\" alt=\"Creativity\" /><br />\n<span class=\"caption\"><small>Quote and illustration from</small> <small><a href=\"https://medium.com/@elleluna/the-crossroads-of-should-and-must-90c75eb7c5b0\">this article</a> by Elle Luna</small></span></p>\n\n<p>So mesh networks.. I recently stared doing <a href=\"https://docs.google.com/a/wapolabs.com/document/d/1RFi6BzqTo-7Iu1tUMB9qt25wNLssDYGma4jfoTeP5ls/edit\">some research</a> on what they are, applications, and potential. In short a mesh network is a network without any of the things we hate about the web, ISPs like Comcast and the NSA tapping our every action, and a few amazing potential like helping people without ISPs in foreign countries talk to each other or in the event of a natural disaster (hypothetically let’s say a large earthquake in California) people could get in touch even if cell towers go out.</p>\n\n<p>My next question is now what? Do I go elsewhere?</p>\n",
+        "month": "10",
+        "year": "2014",
+        "ticks": 1413381000.0,
+        "mixture_month_year": "10/2014",
+        "mixture_date": "2014-10-15T13:50:00Z"
+      }
+    },
+    "index": {
+      "title": {
+        "getting started": [
           "/blog/getting-started"
         ],
-        "2013-09-07t00:00:00z": [
-          "/blog/wanderlust"
-        ]
-      },
-      "title": {
         "wanderlust": [
           "/blog/wanderlust"
         ],
-        "getting started": [
-          "/blog/getting-started"
+        "into the mesh": [
+          "/blog/mesh"
         ]
       },
-      "year": {
-        "2013": [
-          "/blog/wanderlust",
-          "/blog/getting-started"
-        ]
-      },
-      "ticks": {
-        "1378072200.0": [
+      "transliterated-title": {
+        "getting-started": [
           "/blog/getting-started"
         ],
-        "1378512000.0": [
+        "wanderlust": [
           "/blog/wanderlust"
+        ],
+        "into-the-mesh": [
+          "/blog/mesh"
+        ]
+      },
+      "slug": {
+        "/blog/getting-started": [
+          "/blog/getting-started"
+        ],
+        "/blog/wanderlust": [
+          "/blog/wanderlust"
+        ],
+        "/blog/mesh": [
+          "/blog/mesh"
+        ]
+      },
+      "transliterated-slug": {
+        "/blog/getting-started": [
+          "/blog/getting-started"
+        ],
+        "/blog/wanderlust": [
+          "/blog/wanderlust"
+        ],
+        "/blog/mesh": [
+          "/blog/mesh"
         ]
       },
       "tags": {
@@ -295,27 +356,17 @@
         "rationale": [
           "/blog/getting-started"
         ],
+        "film": [
+          "/blog/wanderlust"
+        ],
         "gopro": [
           "/blog/wanderlust"
         ],
-        "film": [
-          "/blog/wanderlust"
-        ]
-      },
-      "transliterated-slug": {
-        "/blog/wanderlust": [
-          "/blog/wanderlust"
+        "tinker": [
+          "/blog/mesh"
         ],
-        "/blog/getting-started": [
-          "/blog/getting-started"
-        ]
-      },
-      "slug": {
-        "/blog/wanderlust": [
-          "/blog/wanderlust"
-        ],
-        "/blog/getting-started": [
-          "/blog/getting-started"
+        "humanitarian": [
+          "/blog/mesh"
         ]
       },
       "transliterated-tags": {
@@ -325,60 +376,67 @@
         "rationale": [
           "/blog/getting-started"
         ],
+        "film": [
+          "/blog/wanderlust"
+        ],
         "gopro": [
           "/blog/wanderlust"
         ],
-        "film": [
-          "/blog/wanderlust"
+        "tinker": [
+          "/blog/mesh"
+        ],
+        "humanitarian": [
+          "/blog/mesh"
         ]
       },
       "month": {
         "09": [
-          "/blog/wanderlust",
-          "/blog/getting-started"
-        ]
-      },
-      "transliterated-title": {
-        "wanderlust": [
+          "/blog/getting-started",
           "/blog/wanderlust"
         ],
-        "getting-started": [
-          "/blog/getting-started"
+        "10": [
+          "/blog/mesh"
         ]
-      }
-    },
-    "collection": {
-      "/blog/wanderlust": {
-        "mixture_month_year": "09/2013",
-        "body": "\n<p>This is a small series of adventure films that I&#8217;ve shot using a GoPro. These are short (&gt;2min), sloppily edited, and very fun to make. <!-- They also help me to remember and reflect. --></p>\n\n<blockquote>\n  <p>Wanderlust is a strong desire for or impulse to wander or travel and explore the world.</p>\n</blockquote>\n\n<!-- \"The term originates from the German words wandern (to hike) and Lust (desire). The term wandern, frequently misused as a false friend, does in fact not mean 'to wander', but 'to hike.'\" -->\n\n<hr class=\"hr\" />\n\n<h3>Jazz Fest</h3>\n\n<p>A short film from my first taste of New Orleans. Never have I experienced a culture so rich in America.</p>\n\n<div class=\"embed-container\" style=\"margin-top:50px; margin-bottom:50px;\"><iframe src=\"https://player.vimeo.com/video/74780306?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe>\n</div>\n<p>Special thanks to John, Leah, and Jay for making this trip possible.</p>\n\n<p><strong>Music</strong>: &#8220;<a href=\"http://www.youtube.com/watch?v=-Sf8R-90Kdw\">The Survivors</a>&#8221; by Dan Romer, Benh Zeitlin<br /><br />\n<strong>Font</strong>: <a href=\"http://losttype.com/font/?name=carton\">Carton</a> by Nick McCosker</p>\n\n<hr class=\"hr\" />\n\n<h3>Brooklyn bash</h3>\n\n<p>Another short video I shot with my friends in Brooklyn on a GoPro. This one is a bit more Sunlust than Wanderlust.</p>\n\n<blockquote>\n  <p>&#8220;Somehow in the city it&#8217;s summer in the city. <br /><br />\n&nbsp;&nbsp;Somewhere in the city it&#8217;s summer in the city.&#8221;</p>\n</blockquote>\n\n<div class=\"embed-container\" style=\"margin-top:50px;\"><iframe src=\"https://player.vimeo.com/video/73988353?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></div>\n<p>Special thanks to <a href=\"http://www.elliesunakawa.com/\">Ellie</a> for offering her beautiful rooftop for the occasion.</p>\n\n<p><strong>Music</strong>: &#8220;<a href=\"http://youtube.com/watch?v=xnQaDvGTq8M\">Summer in the City</a>&#8221; by Freedom Fry<br /><br />\n<strong>Font</strong>: <a href=\"http://losttype.com/font/?name=carton\">Carton</a> by Nick McCosker</p>\n",
-        "mixture_date": "2013-09-07T00:00:00Z",
-        "date": "Sat Sep 07 00:00:00 UTC 2013",
-        "ticks": 1378512000.0,
-        "year": "2013",
-        "title": "Wanderlust",
-        "slug": "/blog/wanderlust",
-        "tags": [
-          "film",
-          "GoPro"
-        ],
-        "month": "09",
-        "published": true
       },
-      "/blog/getting-started": {
-        "mixture_month_year": "09/2013",
-        "body": "\n<p>It&#8217;s been said a hundred times in a hundred ways by every blog everywhere, but I&#8217;ll repeat it again: <i>getting started is the hardest part</i>.</p>\n\n<p><img src=\"/assets/img/panic.jpg\" alt=\"Creativity\" /><br />\n<span class=\"caption\"><small>&copy; Bill Waterson</small> &middot; <small><a href=\"http://web.mit.edu/manoli/mood/www/calvin-full.html\">The full strip</a></small> &middot; <small><a href=\"http://pbs.twimg.com/media/BJBveBbCQAAaiPW.jpg:large\">En Español</a></small></span></p>\n\n<p>This difficulty getting moving is universal and old as fuck. Three centuries ago Sir Isaac Newton described the phenomena in his first law of motion:</p>\n\n<blockquote>\n  <p>In every material universe, the motion of a particle in a preferential reference frame Φ is determined by the action of forces whose total vanished for all times when and only when the velocity of the particle is constant in Φ. That is, a particle initially at rest or in uniform motion in the preferential frame Φ continues in that state unless compelled by forces to change it.<sup><a href=\"#1\">1</a></sup></p>\n</blockquote>\n\n<p>In other words:</p>\n\n<blockquote>\n  <p>An object that is at rest will stay at rest unless an external force acts upon it. <sup><a href=\"#2\">2</a></sup></p>\n</blockquote>\n\n<p>Why write this? Well frankly, getting this blog and (and site redesign) has been wicked hard and needed somewhere to start. Why not explore why getting going has been especially hard to actually <i>do</i> since started working in the &#8216;real world.&#8217; The recipe for success was all there. I have more time than I did in college. I&#8217;m more skilled and have access to more talent and resources in DC than I ever did in Syracuse. Why so hard?</p>\n\n<p>A few things, it&#8217;s excuses and distractions. Common excuses include: I&#8217;m too tired/old/busy for this. Common distractions include: happy hours/ brunch/ girls/ facebook/ tumblr/ reddit/ ect. Additionally, making money has made it easier to push a personal site and personal work lower and lower in the list of priorities. Despite always having personal projects that were supplemental and nourishing in addition to my professional work, in some ways being financially comfortable removed the necessity for personal work and I became quickly complacent.</p>\n\n<p>For us, the creators and the creatives, how can we introduce/find that &#8220;external force&#8221; that Newton describes? Simply put: actively seek out inspiration. Inspiration (like confidence) can manifest in many ways, but inspiration is often the nudge that gets the process going. Music, art, compatriots/ co-founders/ friends/ collaborators, deadlines are all forcing functions for inspiration. Later on in the strip above, Hobbes suggests that Calvin &#8220;try to not think about the end result too much and just have fun with the process of creating.&#8221; That sounds pretty good too.</p>\n\n<p>A few reminders to self when I need to <i>get going</i>: <a href=\"http://justinjackson.ca/jfdi.html\">j.f.d.i.</a>, buddy up, push through the <a href=\"http://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice.html\">paradox of choice</a>, and get some <a href=\"http://www.goodfuckingdesignadvice.com/advice/45/\">honest ego-busting advice</a>.</p>\n\n<!-- In the words of Woody Allen,\n\n>  -->\n\n<hr class=\"hr\" />\n\n<h4>Footnotes</h4>\n<p><span id=\"1\">1</span> &mdash; Beatty, Millard F. (2006). <a href=\"http://books.google.com/books?id=wr2QOBqOBakC&amp;lpg=PP1&amp;pg=PA24&amp;hl=en#v=onepage&amp;q&amp;f=false\">Principles of engineering mechanics Volume 2 of Principles of Engineering Mechanics: Dynamics-The Analysis of Motion,.</a> Springer. p. 24. ISBN <a href=\"http://www.amazon.com/Principles-Engineering-Mechanics-Dynamics-Mathematical/dp/0387237046\">0-387-23704-6</a>.</p>\n\n<p><span id=\"2\">2</span> &mdash; <a href=\"http://en.wikipedia.org/wiki/Newton's_laws_of_motion#Newton.27s_first_law\">Newton&#8217;s first law of motion.</a> on wikipedia (yeah, I know.)</p>\n",
-        "mixture_date": "2013-09-01T21:50:00Z",
-        "date": "Sun Sep 01 21:50:00 UTC 2013",
-        "ticks": 1378072200.0,
-        "year": "2013",
-        "title": "Getting started",
-        "slug": "/blog/getting-started",
-        "tags": [
-          "Design",
-          "Rationale"
+      "year": {
+        "2013": [
+          "/blog/getting-started",
+          "/blog/wanderlust"
         ],
-        "month": "09",
-        "published": true
+        "2014": [
+          "/blog/mesh"
+        ]
+      },
+      "ticks": {
+        "1378072200.0": [
+          "/blog/getting-started"
+        ],
+        "1378512000.0": [
+          "/blog/wanderlust"
+        ],
+        "1413381000.0": [
+          "/blog/mesh"
+        ]
+      },
+      "mixture_month_year": {
+        "09/2013": [
+          "/blog/getting-started",
+          "/blog/wanderlust"
+        ],
+        "10/2014": [
+          "/blog/mesh"
+        ]
+      },
+      "mixture_date": {
+        "2013-09-01t21:50:00z": [
+          "/blog/getting-started"
+        ],
+        "2013-09-07t00:00:00z": [
+          "/blog/wanderlust"
+        ],
+        "2014-10-15t13:50:00z": [
+          "/blog/mesh"
+        ]
       }
     }
   }
